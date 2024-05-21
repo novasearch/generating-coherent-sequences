@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_blank">
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Generating Coherent Sequences of Visual Illustrations for Real-World Manual Tasks">
+  <meta name="keywords" content="Image Generation, AI, ACL">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Generating Coherent Sequences of Visual Illustrations for Real-World Manual Tasks</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Generating Coherent Sequences of Visual Illustrations for Real-World Manual Tasks</h1>
+          <h5 class="subtitle is-5 publication-awards"><a href="https://2024.aclweb.org/" target="_blank">ACL 2024</a></h5>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+                <a href="https://jbordalo.github.io/" style="color:#008AD7;font-weight:normal;">João Bordalo<sup>1</sup></a>,
+            </span>
+            <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=g_lRa2YAAAAJ&hl=en" style="color:#008AD7;font-weight:normal;">Vasco Ramos<sup>1</sup></a>,
+            </span>
+            <span class="author-block">
+                <a href="https://www.linkedin.com/in/rjcvalerio/?originalSubdomain=pt" style="color:#008AD7;font-weight:normal;">Rodrigo Valério<sup>1</sup></a>,
+            </span>
+            <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=8PGsLVkAAAAJ" style="color:#008AD7;font-weight:normal;">Diogo Glória-Silva<sup>1</sup></a>,
+            </span>
+            <span class="author-block">
+                <a href="https://yonatanbitton.github.io/" style="color:#008AD7;font-weight:normal;">Yonatan Bitton<sup>2</sup></a>,
+            </span>
+            <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=GMVxiYgAAAAJ" style="color:#008AD7;font-weight:normal;">Michal Yarom<sup>2</sup></a>,
+            </span>
+            <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=0qzwtZAAAAAJ" style="color:#008AD7;font-weight:normal;">Idan Szpektor<sup>2</sup></a>,
+            </span>
+            <span class="author-block">
+                <a href="http://ctp.di.fct.unl.pt/~jmag/" style="color:#008AD7;font-weight:normal;">Joao Magalhaes<sup>1</sup></a>
+            </span>
+        </div>
+
+        <div class="is-size-5 publication-authors">
+          <span class="author-block"><sup>1</sup>Universidade NOVA de Lisboa,</span>
+          <span class="author-block"><sup>2</sup>Google Research</span>
+        </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2405.10122"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2405.10122"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link.
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/novasearch/generating-coherent-sequences"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link.
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+                -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        Our model integrates a Latent Diffusion Model (LDM) with an LLM that rewrites sequences of steps into image generation prompts.
+        We then generate coherent sequences of images through a sequence conditioned reverse diffusion process.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Multistep instructions, such as recipes and how-to guides, greatly benefit from visual aids,
+            such
+            as a series of images that accompany the instruction steps. While Large Language Models
+            (LLMs) have become adept at generating coherent textual steps, Large Vision/Language
+            Models (LVLMs) are less capable of generating accompanying image sequences. The most
+            challenging aspect is that each generated image needs to adhere to the relevant textual step
+            instruction, as well as be visually consistent with
+            earlier images in the sequence.</p>
+            <p>To address this problem, we propose an approach for
+            generating consistent image sequences,
+            which integrates a Latent Diffusion Model (LDM) with an LLM to transform the sequence into a
+            caption to maintain the semantic coherence of the
+            sequence. In addition, to maintain the visual coherence of the image sequence, we introduce
+            a copy mechanism to initialise reverse diffusion
+            processes with a latent vector iteration from a previously generated image from a relevant
+            step. Both strategies will condition the reverse
+            diffusion process on the sequence of instruction
+            steps and tie the contents of the current image
+            to previous instruction steps and corresponding
+            images.</p>
+            <p>Experiments show that the proposed
+            approach is preferred by humans in 46.6% of
+            the cases against 26.6% for the second best
+            method. In addition, automatic metrics showed
+            that the proposed method maintains semantic
+            coherence and visual consistency across the
+            sequence of visual illustrations.</p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <h3>Coming soon.</h3>
+        <!--
+
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        -->
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Architecture. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Model Architecture</h2>
+        <img src="static/images/architecture.png" alt="Model Architecture">
+      </div>
+    </div>
+    <!--/ Architecture. -->
+
+    <!-- Examples. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-max-desktop">
+        <h2 class="title is-3">Examples</h2>
+        <p class="subtitle is-6">(click on an image to enlarge)</p>
+        <br>
+      <h4 class="subtitle is-4">Recipes</h4>
+      <div class="container example-container carousel">
+        <a href="static/images/recipe-sequences/visual_coherence_0.png" target="_blank">
+          <img src="static/images/recipe-sequences/visual_coherence_0.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/recipe-sequences/visual_coherence_2.png" target="_blank">
+          <img src="static/images/recipe-sequences/visual_coherence_2.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/recipe-sequences/visual_coherence_3.png" target="_blank">
+          <img src="static/images/recipe-sequences/visual_coherence_3.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/recipe-sequences/visual_coherence_10.png" target="_blank">
+          <img src="static/images/recipe-sequences/visual_coherence_10.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/recipe-sequences/visual_coherence_15.png" target="_blank">
+          <img src="static/images/recipe-sequences/visual_coherence_15.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/recipe-sequences/visual_coherence_24.png" target="_blank">
+          <img src="static/images/recipe-sequences/visual_coherence_24.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/recipe-sequences/visual_coherence_28.png" target="_blank">
+          <img src="static/images/recipe-sequences/visual_coherence_28.png" alt="Example Generation">
+        </a>
+      </div>
+      <br>
+      <h4 class="subtitle is-4">Manual Tasks</h4>
+      <div class="container example-container carousel">
+        <a href="static/images/task-sequences/wikihow_paint.png" target="_blank">
+          <img src="static/images/task-sequences/wikihow_paint.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/task-sequences/wikihow_clean_stone.png" target="_blank">
+          <img src="static/images/task-sequences/wikihow_clean_stone.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/task-sequences/wikihow_clean_surface.png" target="_blank">
+          <img src="static/images/task-sequences/wikihow_clean_surface.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/task-sequences/wikihow_map_task.png" target="_blank">
+          <img src="static/images/task-sequences/wikihow_map_task.png" alt="Example Generation">
+        </a>
+        <hr>
+        <a href="static/images/task-sequences/wikihow_wood.png" target="_blank">
+          <img src="static/images/task-sequences/wikihow_wood.png" alt="Example Generation">
+        </a>
+      </div>
+      </div>
+    </div>
+    <!--/ Examples. -->
+
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <img height="500px" width="600px" src="static/images/auto_eval_results.png" alt="Automatic Evaluation">
+      </div>
+    </div>
+    <!--/ Results. -->
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{bordalo2024generating,
+      title={Generating Coherent Sequences of Visual Illustrations for Real-World Manual Tasks}, 
+      author={João Bordalo and Vasco Ramos and Rodrigo Valério and Diogo Glória-Silva and Yonatan Bitton and Michal Yarom and Idan Szpektor and Joao Magalhaes},
+      year={2024},
+      eprint={2405.10122},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}</code></pre>
+  </div>
+</section>
+
+<section>
+  
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <h1 class="is-1">Acknowledgments</h1>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is adapted from <a href="https://nerfies.github.io/">Nerfies</a>, licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <div class="logo-container">
+      <img class="logo" src="static/images/nova-lincs-full.png" alt="NOVA LINCS">
+      <img class="logo" src="static/images/google-research-full.png" alt="Google Research">
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
