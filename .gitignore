@@ -1,0 +1,10 @@
+src/.env
+src/__pycache__/
+src/logs/
+*/results
+src/PlanGPT/models/
+src/PlanGPT/data/
+src/PlanGPT/wandb/
+src/llm-caption-finetuning/old/
+src/coherence-annotations/plots/
+src/generation/keys.json

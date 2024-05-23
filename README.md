@@ -4,7 +4,21 @@ This is the official repository for Generating Coherent Sequences of Visual Illu
 
 ## Code Structure
 
-Code coming soon
+`coherence-annotations/` - code for AMT and analysis
+
+`gen-images/` - code for generating images given prompt files
+
+`generation/` - main code for generation with the latents
+
+`LAVIS/` - code for captioning, requires cloning InstructBLIP, see `LAVIS/README.md`
+
+`llm-caption-finetuning/` - files and scripts for creating the training data and code for automatic metric
+
+`notebooks/` - useful notebooks
+
+`PlanGPT/` - code for training
+
+`recipe-filtering-analysis/` - code for filtering and analysing recipes
 
 ## Citation
 If you find this work useful, please cite using the following BibTeX:
