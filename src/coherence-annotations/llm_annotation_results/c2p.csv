@@ -1,0 +1,611 @@
+Id,Input,Prompt,"Rating:
+-1: Errors in the generation or in the input
+0: Prompt doesn't describe the current step
+1: Prompt describes the current step, but some context is missing in the input/output
+2: Prompt is a poor description of the current step, and is in accordance with the context
+3: Prompt is a good description of the current step, and is in accordance with the context
+4: Prompt is a very good description of the current step, and is in accordance with the context","Note (optional)
+A: copy problem
+B: step has too many actions
+C: good prompt DESPITE step with too many actions
+D: prompt has hallucinations"
+122,"Step 1: Cook the Elbow Macaroni according to the package instruction.
+Step 2: Inside a cup, mix together the Mayonnaise, and Curry Powder.
+",a cup of mayonnaise and curry powder is being mixed together inside a cup,4,
+163,"Step 1: A wide pan or wok is on the stove with vegetable oil in it, and it's heating up. The next step is to add garlic, bell pepper, string beans, green cabbage, red bird's eye chili pepper, cooking wine, and canned boneless, skinless salmon
+Step 2: Here is where you now add the White Rice along with the Dark Soy Sauce and stir. The heat should still be on medium-high.
+Step 3: Top with the Scallion. Try to maintain a high heat and don’t cover the pot/pan and any time. As soon as the rice heats though, the salmon fried rice is done and ready to
+","In the image, there is a bowl of salmon fried rice on a table. The bowl has white rice, dark soy sauce, scallions, and salmon in it.",4,
+20,"Step 1: Blanch Bone-In, Skin-On Chicken Leg in salted water, discard water, cover the leg with Chicken Stock. Season with Kosher Salt, Fresh Ginger, Garlic, Togarashi Chili and Furikake. Simmer for 45 minutes to 1 hour.
+Step 2: about halfway through the cooking process, 20 to 30 minutes, add Coconut Milk and Thai® Sweet Chili Sauce to the soup.
+",A bowl of soup with chicken in it is being cooked on a stove,0,B
+76,"Step 1: In a fry pan, add Vegetable Oil, Garlic, Fresh Ginger and Ground Pork. Fry until meat is browned.
+Step 2: Add Soy Sauce, Oyster Sauce and Lime Juice. Stir to combine.
+Step 3: Add Water Chestnuts and Scallion. Fry for another 2 minutes.
+","a frying pan with vegetable oil, garlic, ginger, ground pork, soy sauce, oyster sauce, lime juice, water chestnuts, and scallions",4,
+77,"Step 1: Cook the Elbow Macaroni according to the package instruction.
+",the elbow macaroni is cooking in a pot on the stove,4,
+69,"Step 1: Finely chop garlic. Peel and dice onion and carrots.
+",the person is chopping onions and carrots on a cutting board,4,
+98,"Step 1: a wooden cutting board with ingredients for a salad including avocado, crab meat, and grapes
+Step 2: Dress all ingredients except the arugula with one fourth cup dressing, dress the arugula seperately with two tablespoon dressing.
+Step 3: Plate the arugula first. Combine the rest of the ingredients, and add on top.
+","A plate of salad with avocado, crab meat, and grapes on top",4,
+194,"Step 1: Chop Mushroom.
+Step 2: Sauté the mushrooms, Garlic, and Onion in Oil for a couple of seconds until softened.
+Step 3: Add Chicken Stock, Bay Leaf, Fresh Rosemary, and Salt and Pepper into the pot and simmer over medium high heat for 10 minutes.
+",A person is cooking mushrooms in a pot on a stove,1,prompt lacks details
+143,"Step 1: Add Water, Fresh Ginger, and Chicken Bouillon Powder. Stir and mix well.
+Step 2: Simmer for 10 minutes.
+Step 3: Add Fish Fillet, Tomato, Evaporated Milk, and Choy Sum. Mix well.
+","a bowl of soup with chicken, tomatoes, and fish in it",1,prompt lacks details
+175,"Step 1: Chop cilantro. Peel cucumber, halve lengthwise, scoop out seeds with a spoon, and cut into slices. Peel red onion, cut in half, and thinly slice. Peel and finely chop garlic cloves. Finely slice or cut chili pepper with scissors or knife. Set aside.
+Step 2: Peel and devein shrimp, add to a frying pan, and sauté in vegetable oil over medium-high heat with salt and pepper. Cook for approx. 2 – 4 min., until shrimp turn pink, then remove from heat and set aside.
+",A person is cooking shrimp in a frying pan with vegetable oil over medium-high heat,4,C
+188,"Step 1: Preheat oven to 200°C/390°F. Halve, deseed, and roughly cut the Hokkaido pumpkin. Transfer to a baking sheet and bake in the oven for approx. 30 min., or until softened.
+Step 2: Remove baked pumpkin from the oven and transfer to a bowl to cool down. Blend into a smooth pumpkin puree and measure out 200g/7 oz. Set this aside.
+Step 3: Reduce oven temperature to 175°C/350°F. Chop walnuts and set aside. Add flour, ground cinnamon, nutmeg, cloves, cardamom, baking powder, baking soda, and salt to a bowl and stir to combine.
+",A woman is chopping walnuts on a wooden cutting board with a knife,3,C
+179,"Step 1: Place the Garlic in a bowl with the Salt and Ground Black Pepper, mash or grate with two forks.
+","a bowl of garlic, salt, and ground black pepper is being mashed or grated with two forks",4,
+132,"Step 1: A woman is stirring a bowl of cranberries, almonds, peanuts, coconut flakes, oats, puffed wheat, and lime juice
+Step 2: Transfer breakfast bar mixture to a parchment-lined baking dish and smooth top with a spatula. Place in preheated oven and bake at 130°C/270°F for approx. 45 – 50 min. until golden. Remove from oven and let cool for approx. 10 min.
+Step 3: Cut breakfast bars into rectangular pieces.
+",A woman is cutting a piece of a breakfast bar on a wooden cutting board with a knife,4,
+95,"Step 1: Core and chop the Apple. Put half of the organic apples in a food processor with the Dates, Ground Flaxseed, Salt, Ground Cinnamon, and Vanilla Powder. Process until well blended.
+Step 2: Add rest of organic apples to the mixture. Add Raisins, and mix well. Place into dessert dishes, and sprinkle with Ground Cinnamon, chopped Walnut, and Unsweetened Shredded Coconut.
+Step 3: Serve, and
+",a bowl of apple cobbler with a spoon in it,-1,
+23,"Step 1: In a large bowl place in Cheerios®, Unsalted Peanuts and Raisins. Combine the ingredients and set aside.
+Step 2: In a saucepan over medium heat, add Honey, Brown Sugar and Creamy Peanut Butter. Keep stiring for 2-3 minutes but do not let it burn. Turn heat off.
+Step 3: Pour the honey mixture over the cheerio mix and stir through really well. Place into a square cake tin lined with baking paper.
+","In a saucepan over medium heat, add Honey, Brown Sugar and Creamy Peanut Butter. Keep stiring for 2-3 minutes but do not let it burn. Turn heat off.",2,
+46,"Step 1: A person is adding chicken breasts to a large saucepan that has already been filled with other ingredients such as lemongrass, chili, garlic, ginger, chicken stock, coconut milk, sesame oil, and soy sauce
+Step 2: Trim ends of bok choy, then halve. Heat sesame oil in large frying pan over medium-high heat. Sear bok choy for approx. 4 min. Add soy sauce and a ladle of poaching liquid from saucepan and let stew.
+Step 3: Right before serving, foam sauce with a hand blender. Serve chicken breasts with rice, bok choy, and sauce. Garnish with cilantro.
+","A person is cooking chicken breasts in a large frying pan over medium-high heat. They are adding soy sauce and a ladle of poaching liquid from a saucepan to the chicken breasts. They are then going to serve the chicken breasts with rice, bok choy, and a foam sauce.",0,prompts too long should be discarded.
+12,"Step 1: Thinly slice endive. Roughly chop parsley. Cut celery crosswise into half-moons.
+Step 2: In a large saucepan, cook the lobster in salted boiling water for approx. 7 – 9 min. When the lobster is finished, it will separate from the shell. Dice into medium sized pieces.
+Step 3: In a large bowl, beat together egg yolk and half of the mustard. Slowly add a steady stream of oil while whisking constantly until a mayonnaise-like consistency is formed.
+","In a large saucepan, cook the lobster in salted boiling water for approx. 7 – 9 min. When the lobster is finished, it will separate from the shell. Dice into medium sized pieces. In a large bowl, beat together egg yolk and half of the mustard. Slowly add a steady strea",0,prompts too long should be discarded.
+22,"Step 1: Bring a pot of water to boil. Salt generously and cook Egg Noodles according to package directions. Before you drain, reserve 1 cup of the pasta water.
+Step 2: In a wide frying pan melt Butter. Once melted, add the Ground Black Pepper and about 1/2 cup of the pasta water (reserve the other half).
+Step 3: Once the pasta water is boiling, slowly add the Pecorino Romano Cheese and Parmesan Cheese, stirring continuously until it’s all mixed in. Add a bit more pasta water if the mixture seems too dry - you want the noodles to be coated in the sauce without too much clumping or extra liquid.
+","In a wide frying pan, melt butter and add ground black pepper and 1/2 cup of pasta water. Once the pasta water is boiling, slowly add the Pecorino Romano Cheese and Parmesan Cheese, stirring continuously until it's all mixed in. Add a bit more pasta water if th",0,prompts too long should be discarded.
+82,"Step 1: In the image, a person is putting meat balls into a pot of boiling water using a spoon.
+Step 2: The egg white will cause a white foam to appear on the surface. Remove with a skimmer.
+Step 3: Now add radish and glass noodles and bring to a boil. Then, simmer for approx. 4 - 5 min. Season with sesame oil and salt. Top with freshly chopped cilantro to serve.
+",A person is adding radish and glass noodles to a pot of boiling water,3,B
+100,"Step 1: Heat a medium saucepan over medium heat and add Olive Oil. Swirl pan till oil coats the bottom.
+Step 2: Once the oil is hot but not sizzling, gently crack the Egg into the pan.
+Step 3: Cook until white is set and yolk is slightly runny, approximately 4-5 minutes.
+",A person is cooking an egg in a pan on a stove top,1,
+118,"Step 1: In the image, a person is cooking chili in a large pot. They are using a spoon to drain some of the oil out of the pot and then return the meat to the pot. The person then adds salsa and chili seasoning to the pot and simmers it for about 15 minutes until the meat is nearly fully cooked
+Step 2: Drain the Canned Red Kidney Beans and add them to the pot. Simmer the chili for 10 more minutes without the lid on.
+Step 3: Serve chili in bowls. Top with Cheddar Cheese and Sour Cream.
+","In the image, a person is serving chili in bowls. They top the chili with Cheddar Cheese and Sour Cream.",4,
+90,"Step 1: A large, non-stick frying pan with mushrooms, garlic, and thyme being cooked in it
+Step 2: Stir in the Full-Fat Coconut Milk and season with Salt and Ground Black Pepper, then simmer for 2 minutes.
+Step 3: Remove the mushrooms from the heat and serve on the Bread.
+",a bowl of mushrooms and bread on a table,3,
+48,"Step 1: Add Apple Juice, Low-Fat Strawberry Greek Yogurt, Pineapple, a peeled Orange, and Fresh Strawberry to the blender.
+Step 2: Add Ice and secure lid.
+Step 3: Blend until smooth.
+","a blender with a lid on top is being used to blend ice, strawberries, and pineapple",4,
+93,"Step 1: Add Rice Milk and Coconut Water in the jar.
+Step 2: Add Fresh Papaya, Mango, Fresh Cilantro, Dates, and Ice into the jug.
+","a white bowl filled with fresh papaya, mango, cilantro, dates, and ice",-1,
+198,"Step 1: Chop the Watermelon and slice the Fresh Strawberry.
+",the watermelon and strawberry are being chopped on a cutting board,4,
+167,"Step 1: A person is whisking eggs, vegetable stock, unsweetened soy milk, light soy sauce, and sesame oil into a large measuring jar
+Step 2: Steam it for about 20 minutes until firm to touch.
+Step 3: You may garnish with some Chinese Chives and sliced large Chili Pepper. Serve this delicious savory custard with rice.
+",A bowl of steaming hot savory custard is being served on a white plate with chili pepper and chives garnishing it,4,
+96,"Step 1: Cut onion into thin strips.
+Step 2: Preheat oven to 220°C/420°F. Next, on a work surface sprinkled with flour, roll out pizza dough until flat.
+Step 3: In a grease-free frying pan, toast pine nuts over medium-low heat, stirring often, for approx. 2 - 3 min. until golden brown and fragrant.
+","In a grease-free frying pan, toast pine nuts over medium-low heat, stirring often, for approx. 2 - 3 min. until golden brown and fragrant",-1,A
+176,"Step 1: Take a saucepan over medium heat with Vegetable Oil, and Yellow Onion, Garlic into it and stir for 2 to 3 minutes. Then add some Curry Paste and stir it through for about a minute. Then add Ground Beef, Potato, mix it up and cook for 8 to 10 minutes. Once is finished, set aside for 30 minutes to cool off.
+Step 2: Take Puff Pastry and use a large cookie cutter to cut pastry circles. Take a circle and wet the edge using water. Put 1 teaspoonful of mixture in the center, fold in half and pinch the edge together. Continue with the rest.
+Step 3: Put some vegetable oil in a wok, heat up the oil to 170 degree C (340 degrees F). Put the curry puffs into the oil and let it fried for 3 to 4 minutes. Transfer them to a tray lined up with some kitchen paper to get rid of the excess oil.
+","In the image, a person is cooking curry puffs in a wok. They are using a large cookie cutter to cut circles out of puff pastry and then wetting the edges with water before filling them with a teaspoonful of mixture and folding them in half before pinching the edges together.",0,prompts too long should be discarded.
+87,"Step 1: Preheat the oven to 180°C/370°F. Peel and dice onion. Drain and rinse canned beans. In a frying pan, heat olive oil and sauté diced onion. Add ground beef and fry for approx. 1 – 2 min. Add chili powder, paprika powder, ground cumin, Cayenne pepper, dried oregano, and sugar and season with pepper and salt. Mix well and fry for another 2 – 3 min. Stir in pinto beans, black beans, and tomato paste, then remove frying pan from heat.
+",A person is stirring a pot of beans with a wooden spoon,2,
+141,"Step 1: Chop the pork belly, zucchini, white cabbage, and onion into small pieces. Slice the cucumber into thin matchsticks. Peel and finely mince ginger.
+",a woman is chopping vegetables on a cutting board with a knife,2,
+168,"Step 1: A man is putting a lid on top of a pot that has chicken and vegetables in it
+Step 2: Remove chicken drumsticks from the pot. Set aside and allow to cool. In the meantime, add the egg noodles to the pot and cook, covered, for approx. 10 min.
+Step 3: Once chicken drumsticks are cool enough to handle, remove the skin and discard. Remove the meat from the bone and cut into bite-sized pieces. Add the chicken back into the pot. Serve the soup with a sprinkle of parsley and season with salt and pepper to taste.
+",A man is stirring a pot of soup with a wooden spoon,2,B
+113,"Step 1: Wash the Mushroom and pat dry with paper towel. Place mushroom slices in a large bowl or suitable jar.
+",a woman is washing mushrooms in a sink with soap and water,3,
+97,"Step 1: In the image, a person is making a cardamom bun. They are rolling out the dough into a large rectangle and spreading it with a mixture of butter, brown sugar, and ground cardamom. They then fold the dough in half and roll it out again before cutting it into strips.
+Step 2: To form a bun, twirl a dough strip into a twist. Wrap the dough twist around your index finger and middle finger in a figure eight. Once you have a third of the length left, wrap around the middle in the opposite direction to form a band and thread the end through the center from above, as if tying a knot, and tuck in. Gently press the bun together and place on a parchment-lined baking sheet. Repeat until dough is used up and bake in preheated oven at 200°C/390°F, for approx. 20 min. The tops of the buns should be lightly browned but not crunchy.
+Step 3: To make the syrup, grind cardamom pods in a mortar and pestle. Heat sugar, vanilla extract, ground cardamom pods, and water in a saucepan over medium-low heat until dissolved. As soon as the buns are out of the oven, brush with syrup. Dust with extra cane sugar and ground cardamom, if desired.
+","In the image, a person is making a cardamom bun. They are twirling a dough strip into a twist and wrapping it around their index finger and middle finger in a figure eight. Once they have a third of the length left, they wrap around the middle in the opposite direction to form a band and thread the",2,B
+78,"Step 1: A person is holding a bowl with tomatoes, garlic, onion, and sun-dried tomatoes in it
+Step 2: Add pasta to boiling salted water in a pot. Cook according to package instructions until al dente , then drain.  Add tomato sauce and cooked pasta to a large frying pan and toss to coat. Season with salt and pepper to taste. Serve pasta with fresh basil on top.
+Step 3: You can find plenty more tasty, quick recipes in Sebastian's cookbook 'Fit Mix' (ZS Verlag)!
+","In the image, there is a large frying pan on a stove with tomato sauce and cooked pasta in it. There is also a bowl of tomatoes, garlic, onion, and sun-dried tomatoes next to the frying pan.",3,
+186,"Step 1: a mixture of brown sugar, butter, eggs, vanilla extract, all-purpose flour, oats, baking soda, and salt in a white bowl
+Step 2: Spread 2/3 of the dough into a 9x9 inch greased baking dish.
+Step 3: In the microwave, melt Chocolate Chips by microwaving for 30 seconds and stirring. When chips are melted, add Sweetened Condensed Milk.
+",A white bowl filled with chocolate chips and sweetened condensed milk is being heated in the microwave,4,
+154,"Step 1: Put Canned Chickpeas, Tahini, Lemon Juice, Garlic, Water and Kosher Salt into the bowl of a food processor.
+Step 2: Process for 30 seconds. Scrape down the sides of the bowl. Process 30 seconds longer.
+","a food processor is filled with canned chickpeas, tahini, lemon juice, garlic, water, and kosher salt",3,
+34,"Step 1: Place quinoa in sieve and run under cold water. Add fresh water to a saucepan, add quinoa and stock cube, and cook according to package instructions. Set aside.
+",quinoa is being cooked in a saucepan with water and stock cube,4,
+162,"Step 1: To make the mooncake skin, combine Old Fashioned Rolled Oats, Multigrain Flour, Water, and Vegetable Oil together in a boil. Knead well to form a dough and divide in 10-12 small balls.
+",A person is kneading dough on a wooden table with a rolling pin,3,D
+107,"Step 1: Finely chop garlic. Peel and dice onion and carrots.
+Step 2: Heat some vegetable oil in a large frying pan and sauté onions, garlic, and carrots. Add ground beef and cook over medium-high heat until meat is browned, approx. 6 - 10 min. While cooking, break into pieces with a cooking spoon. Season with salt and pepper.
+",A person is cooking ground beef in a large frying pan on a stove,2,
+66,"Step 1: In the image, a pot of meat is being cooked on a stove with vegetable oil and brown sugar added to it.
+Step 2: Pour in the Coconut Milk bring it up to a boil again then reduce to a simmer. Place the lid back on and braise for an hour and half.
+Step 3: Stir the mixture then put the lid back on and cook for another 30 minutes. After that, turn off the stove and add in the Scallion and Culantro Leaves. Serve with yams or any other roots and
+","In the image, a pot of coconut milk is being cooked on a stove with vegetable oil and brown sugar added to it. The mixture is then poured into a pot and brought up to a boil again before being reduced to a simmer. The lid is then put back on and the mixture is cooked for an hour and",-1,A
+55,"Step 1: A woman in a white apron is holding a red plastic spoon and stirring a bowl of ingredients that include ground beef, onions, garlic, pine nuts, mustard, egg, marjoram, parsley, breadcrumbs, paprika, salt, and pepper
+Step 2: Stuff halved peppers with ground beef mixture and sauté in a frying pan for approx. 2 – 3 min. on all sides.
+Step 3: Remove peppers from frying pan and sauté the remaining half of onions until golden brown. Add tomato paste and deglaze pan with red wine. Allow to reduce.
+",A woman is cooking peppers in a frying pan with ground beef mixture and sautéing the remaining half of onions until golden brown,3,
+151,"Step 1: In the image, there is a tray with two bowls on it. One bowl has some breadcrumbs in it, and the other bowl has some spice mix in it. On top of the breadcrumbs, there is a piece of boneless, skinless chicken breast that has been cut into bite-sized pieces.
+Step 2: For deep frying bring the Coconut Oil up to a medium heat and fry the chicken for 8-9 minutes or until golden brown and cooked through. For Air frying place in the air fryer and drizzle some coconut oil over the top, air fry for 8-9 minutes at 350 degrees F (180 degrees C) turning once.
+Step 3: Drain excess oil on a paper towel then serve immediately.
+","In the image, there is a bowl of chicken that has been cooked in a deep fryer. There is also a bowl of coconut oil next to the chicken.",2,
+112,"Step 1: Peel and chop onion and garlic. Cut sundried tomatoes into small pieces. Thinly slice zucchini lengthwise with a vegetable peeler.
+",a woman is chopping onions and garlic on a wooden cutting board,2,
+67,"Step 1: Combine Bell Pepper, Red Onion, Zucchini, Cucumber, Corn, Low-Sodium Black Beans, Jalapeño Pepper and Fresh Cilantro. Toss to combine.
+Step 2: In a small bowl, combine Garlic, zest and 2 Tbsp juice of the Lime, Dijon Mustard, Ground Cumin, Olive Oil, Kosher Saltand Ground Black Pepper. Whisk until emulsified (combined).
+","A small bowl of ingredients including garlic, zest, lime juice, mustard, cumin, olive oil, kosher salt, and black pepper",4,
+60,"Step 1: In a pot over medium-high heat, add Olive Oil and the Onion. Saute until nice and translucent. Add the Garlic, Celery, and Carrot. Mix and cook for 5-7 minutes or until the veggies are nice and soft.
+Step 2: Add the Dried Basil, and Dried Parsley. Mix. Add the Vegetable Broth, Water, Lentils, and Canned Crushed Tomatoes. Bring to a boil.
+Step 3: Lower the heat and cover the soup until the lentils are tender, about 20 minutes. Halfway during the cooking, add Salt and Ground Black Pepper.
+",A pot of soup is being cooked on a stove with a wooden spoon in it,2,
+25,"Step 1: Preheat oven to 180°C/350°F. In a bowl, mix flour, baking soda, and salt.
+Step 2: In another bowl, beat soft butter, brown sugar, and vanilla sugar until fluffy and pale.
+","A person is beating a bowl of butter, brown sugar, and vanilla sugar with a whisk",4,
+189,"Step 1: Preheat oven to 180°C
+Step 2: Melt the butter and the black chocolate in a saucepan over a very low heat
+",a saucepan with butter and black chocolate in it being heated on a stove,4,
+57,"Step 1: Boil potatoes in salted water until tender. Transfer them to ice bath to chill for a few minutes, then drain and pat dry. Halve or quarter potatoes (depending on size) and place in a large bowl.
+",A woman is cutting potatoes on a cutting board with a knife,3,
+124,"Step 1: Season the All-Purpose Spice Rub with Pork Burger Patty.
+","the spices on the counter include cumin, paprika, garlic powder, and cayenne pepper",0,
+117,"Step 1: Cut the ciabatta lengthwise and drizzle with olive oil. Roast in a hot pan, oiled side down, for approx. 3 - 5 minutes.
+Step 2: Meanwhile, cut mozzarella and tomato into thin slices. Cut antipasti (e.g. artichoke hearts, grilled peppers) into bite-sized pieces and heat briefly in a pan.
+","A woman is cutting mozzarella and tomato into thin slices on a cutting board. She then cuts antipasti (e.g. artichoke hearts, grilled peppers) into bite-sized pieces and heats them briefly in a pan.",2,A
+183,"Step 1: Heat the Olive Oil in a pot and add the Onion and Garlic. Sauté until the onions are cooked.
+",a pot with a wooden spoon in it that has onions and garlic in it,4,
+6,"Step 1: A man is chopping vegetables on a cutting board, including a carrot, onions, garlic, ginger, lemongrass, celery root, and green chili pepper. He will sauté one-fifth of the celery root, half the onions, garlic, lemongrass, ginger, and carrot in
+Step 2: Meanwhile, add the remaining celery root and remaining onion to a pot. Sauté with some of the butter and salt. Deglaze with white sine and simmer, covered, until the celery root is very soft. Add the cream and bring to a boil, then purée everything in a blender with the remaining butter. For serving, if you wish, transfer the purée to a piping bag with a small, round decorating tip.
+Step 3: Cut the cooked, slightly cooled duck in half and remove the backbone. Strain the broth into a clean pot and cook it over high heat until it thickens and becomes a sauce. Set up another pot with oil and fry the duck halves in it until crispy. Drain on a paper towel-lined plate.
+",A man is cooking duck in a pot on a stove. He is adding butter to the pot and stirring it with a spoon. He then adds some salt to the pot and simmers it until the celery root is very soft. He then adds cream to the pot and brings it to a boil before puréeing everything in a bl,2,B
+155,"Step 1: Melt the 70% Dark Chocolate and Unsalted Butter in a bowl over boiling water. When melted set aside to cool down.
+Step 2: In a pot, add the Milk, Granulated Sugar, and Vanilla Extract and leave to warm up in medium heat until the milk starts to froth.
+Step 3: Add the chocolate, Egg and Corn Starch mix constantly for approximately 8 minutes until the chocolate has thickened. Set aside to cool down.
+","In a pot, add the milk, granulated sugar, and vanilla extract and leave to warm up in medium heat until the milk starts to froth",0,A
+191,"Step 1: Wash potatoes and cut into bite-sized pieces. Add to a pot, add salt, and cover with water. Bring to a boil, lower heat, and leave to simmer for approx. 15 min. In the meantime, roughly chop rosemary and parsley, dice onion, and slice sun-dried tomatoes into strips. Drain beans.
+Step 2: Preheat oven to 190°C/275°F. Add breadcrumbs, rosemary, parsley, onion, sun-dried tomatoes, and drained beans to a bowl and mix to combine. Set aside. Once potatoes have cooked, mash with a potato masher until mostly smooth with some small lumps.
+Step 3: Line a baking sheet with parchment paper. Add mashed potatoes and breadcrumb mixture to a food processor and process until well incorporated. Mixture should be sticky. Form mixture into 6 patties using your hands and add to prepared baking sheet. Season each patty with red pepper flakes, salt, and pepper. Transfer to preheated oven and bake at 190°C/275°F for approx. 15 min., flipping halfway through. Remove from oven and let cool for approx. 5 min.
+",A person is using a food processor to mash potatoes and breadcrumbs together,2,B
+103,"Step 1: Slice the French Baguette into 6 1-inch thick slices. Coarsely chop the Fresh Spinach. Set aside.
+",a person is slicing a french baguette into 6 1-inch thick slices,4,A
+4,"Step 1: a person is whisking a bowl of egg yolks, sugar, lemon zest, quark, and salt
+Step 2: Now carefully fold in the beaten egg whites into the quark mixture. Do not mix with too much force, it might reduce the airiness.
+Step 3: Prepare the baking tins with butter and sugar and then fill with the mixture.
+",A person is preparing a quark mixture in a bowl with a whisk,0,
+153,"Step 1: A chef is adding milk to a bowl of cooked quinoa
+Step 2: Top quinoa with toasted pumpkin seeds and sesame seeds.
+Step 3: Add finely diced dates, apple, and peach together with the sliced banana and mixed berries.
+",A bowl of quinoa is topped with toasted pumpkin seeds and sesame seeds,0,A
+52,"Step 1: A plate of boneless, skinless chicken breast has been sprinkled with a half a packet of taco seasoning and mixed together. The other half of the taco seasoning is shaken over the chicken and mixed to coat evenly before being placed on top of the pepper and onion mix
+Step 2: Cover the dish and put it in the Panasonic Microwave Oven for 10 minutes on high.
+Step 3: Serve chicken and veggies in the Small Corn Tortilla topped with Shredded Cheese and other toppings of choice. Cooking results may vary depending on microwave oven used.
+",A small corn tortilla is filled with chicken and vegetables and topped with shredded cheese and other toppings of choice,4,
+11,"Step 1: Peel and thinly slice garlic. Mince parsley. Zest and juice lemon. Season scallops with salt on both sides.
+Step 2: Add some oil to a frying pan over medium-high heat. Pat scallops dry and add to the pan. Fry until golden brown, approx. 4 min. Flip and add some butter. Once scallops are cooked through, remove from the pan.
+Step 3: In another large frying pan set over low heat, melt butter. Add garlic and let cook until butter starts to brown, approx. 10 min.
+","A person is cooking scallops in a frying pan over medium-high heat. They add some oil to the pan and then pat the scallops dry before adding them to the pan. They then flip the scallops and add some butter to the pan. Once the scallops are cooked through, they are removed from the pan",2,
+56,"Step 1: Dice up Beet and Avocado. Dress them with Lemon Juice, Olive Oil, Salt and Pepper.
+","a bowl of diced beets and avocados with lemon juice, olive oil, salt, and pepper",4,
+122,"Step 1: Cook the Elbow Macaroni according to the package instruction.
+Step 2: Inside a cup, mix together the Mayonnaise, and Curry Powder.
+",a cup of mayonnaise and curry powder is being mixed together inside a cup,4,
+163,"Step 1: A wide pan or wok is on the stove with vegetable oil in it, and it's heating up. The next step is to add garlic, bell pepper, string beans, green cabbage, red bird's eye chili pepper, cooking wine, and canned boneless, skinless salmon
+Step 2: Here is where you now add the White Rice along with the Dark Soy Sauce and stir. The heat should still be on medium-high.
+Step 3: Top with the Scallion. Try to maintain a high heat and don’t cover the pot/pan and any time. As soon as the rice heats though, the salmon fried rice is done and ready to
+","In the image, there is a bowl of salmon fried rice on a table. The bowl has white rice, dark soy sauce, scallions, and salmon in it.",2,
+20,"Step 1: Blanch Bone-In, Skin-On Chicken Leg in salted water, discard water, cover the leg with Chicken Stock. Season with Kosher Salt, Fresh Ginger, Garlic, Togarashi Chili and Furikake. Simmer for 45 minutes to 1 hour.
+Step 2: about halfway through the cooking process, 20 to 30 minutes, add Coconut Milk and Thai® Sweet Chili Sauce to the soup.
+",A bowl of soup with chicken in it is being cooked on a stove,2,
+76,"Step 1: In a fry pan, add Vegetable Oil, Garlic, Fresh Ginger and Ground Pork. Fry until meat is browned.
+Step 2: Add Soy Sauce, Oyster Sauce and Lime Juice. Stir to combine.
+Step 3: Add Water Chestnuts and Scallion. Fry for another 2 minutes.
+","a frying pan with vegetable oil, garlic, ginger, ground pork, soy sauce, oyster sauce, lime juice, water chestnuts, and scallions",4,
+77,"Step 1: Cook the Elbow Macaroni according to the package instruction.
+",the elbow macaroni is cooking in a pot on the stove,4,
+69,"Step 1: Finely chop garlic. Peel and dice onion and carrots.
+",the person is chopping onions and carrots on a cutting board,4,
+98,"Step 1: a wooden cutting board with ingredients for a salad including avocado, crab meat, and grapes
+Step 2: Dress all ingredients except the arugula with one fourth cup dressing, dress the arugula seperately with two tablespoon dressing.
+Step 3: Plate the arugula first. Combine the rest of the ingredients, and add on top.
+","A plate of salad with avocado, crab meat, and grapes on top",3,
+194,"Step 1: Chop Mushroom.
+Step 2: Sauté the mushrooms, Garlic, and Onion in Oil for a couple of seconds until softened.
+Step 3: Add Chicken Stock, Bay Leaf, Fresh Rosemary, and Salt and Pepper into the pot and simmer over medium high heat for 10 minutes.
+",A person is cooking mushrooms in a pot on a stove,2,
+143,"Step 1: Add Water, Fresh Ginger, and Chicken Bouillon Powder. Stir and mix well.
+Step 2: Simmer for 10 minutes.
+Step 3: Add Fish Fillet, Tomato, Evaporated Milk, and Choy Sum. Mix well.
+","a bowl of soup with chicken, tomatoes, and fish in it",3,
+175,"Step 1: Chop cilantro. Peel cucumber, halve lengthwise, scoop out seeds with a spoon, and cut into slices. Peel red onion, cut in half, and thinly slice. Peel and finely chop garlic cloves. Finely slice or cut chili pepper with scissors or knife. Set aside.
+Step 2: Peel and devein shrimp, add to a frying pan, and sauté in vegetable oil over medium-high heat with salt and pepper. Cook for approx. 2 – 4 min., until shrimp turn pink, then remove from heat and set aside.
+",A person is cooking shrimp in a frying pan with vegetable oil over medium-high heat,3,
+188,"Step 1: Preheat oven to 200°C/390°F. Halve, deseed, and roughly cut the Hokkaido pumpkin. Transfer to a baking sheet and bake in the oven for approx. 30 min., or until softened.
+Step 2: Remove baked pumpkin from the oven and transfer to a bowl to cool down. Blend into a smooth pumpkin puree and measure out 200g/7 oz. Set this aside.
+Step 3: Reduce oven temperature to 175°C/350°F. Chop walnuts and set aside. Add flour, ground cinnamon, nutmeg, cloves, cardamom, baking powder, baking soda, and salt to a bowl and stir to combine.
+",A woman is chopping walnuts on a wooden cutting board with a knife,3,
+179,"Step 1: Place the Garlic in a bowl with the Salt and Ground Black Pepper, mash or grate with two forks.
+","a bowl of garlic, salt, and ground black pepper is being mashed or grated with two forks",4,
+132,"Step 1: A woman is stirring a bowl of cranberries, almonds, peanuts, coconut flakes, oats, puffed wheat, and lime juice
+Step 2: Transfer breakfast bar mixture to a parchment-lined baking dish and smooth top with a spatula. Place in preheated oven and bake at 130°C/270°F for approx. 45 – 50 min. until golden. Remove from oven and let cool for approx. 10 min.
+Step 3: Cut breakfast bars into rectangular pieces.
+",A woman is cutting a piece of a breakfast bar on a wooden cutting board with a knife,4,
+95,"Step 1: Core and chop the Apple. Put half of the organic apples in a food processor with the Dates, Ground Flaxseed, Salt, Ground Cinnamon, and Vanilla Powder. Process until well blended.
+Step 2: Add rest of organic apples to the mixture. Add Raisins, and mix well. Place into dessert dishes, and sprinkle with Ground Cinnamon, chopped Walnut, and Unsweetened Shredded Coconut.
+Step 3: Serve, and
+",a bowl of apple cobbler with a spoon in it,-1,
+23,"Step 1: In a large bowl place in Cheerios®, Unsalted Peanuts and Raisins. Combine the ingredients and set aside.
+Step 2: In a saucepan over medium heat, add Honey, Brown Sugar and Creamy Peanut Butter. Keep stiring for 2-3 minutes but do not let it burn. Turn heat off.
+Step 3: Pour the honey mixture over the cheerio mix and stir through really well. Place into a square cake tin lined with baking paper.
+","In a saucepan over medium heat, add Honey, Brown Sugar and Creamy Peanut Butter. Keep stiring for 2-3 minutes but do not let it burn. Turn heat off.",0,A
+46,"Step 1: A person is adding chicken breasts to a large saucepan that has already been filled with other ingredients such as lemongrass, chili, garlic, ginger, chicken stock, coconut milk, sesame oil, and soy sauce
+Step 2: Trim ends of bok choy, then halve. Heat sesame oil in large frying pan over medium-high heat. Sear bok choy for approx. 4 min. Add soy sauce and a ladle of poaching liquid from saucepan and let stew.
+Step 3: Right before serving, foam sauce with a hand blender. Serve chicken breasts with rice, bok choy, and sauce. Garnish with cilantro.
+","A person is cooking chicken breasts in a large frying pan over medium-high heat. They are adding soy sauce and a ladle of poaching liquid from a saucepan to the chicken breasts. They are then going to serve the chicken breasts with rice, bok choy, and a foam sauce.",2,B
+12,"Step 1: Thinly slice endive. Roughly chop parsley. Cut celery crosswise into half-moons.
+Step 2: In a large saucepan, cook the lobster in salted boiling water for approx. 7 – 9 min. When the lobster is finished, it will separate from the shell. Dice into medium sized pieces.
+Step 3: In a large bowl, beat together egg yolk and half of the mustard. Slowly add a steady stream of oil while whisking constantly until a mayonnaise-like consistency is formed.
+","In a large saucepan, cook the lobster in salted boiling water for approx. 7 – 9 min. When the lobster is finished, it will separate from the shell. Dice into medium sized pieces. In a large bowl, beat together egg yolk and half of the mustard. Slowly add a steady strea",2,A
+22,"Step 1: Bring a pot of water to boil. Salt generously and cook Egg Noodles according to package directions. Before you drain, reserve 1 cup of the pasta water.
+Step 2: In a wide frying pan melt Butter. Once melted, add the Ground Black Pepper and about 1/2 cup of the pasta water (reserve the other half).
+Step 3: Once the pasta water is boiling, slowly add the Pecorino Romano Cheese and Parmesan Cheese, stirring continuously until it’s all mixed in. Add a bit more pasta water if the mixture seems too dry - you want the noodles to be coated in the sauce without too much clumping or extra liquid.
+","In a wide frying pan, melt butter and add ground black pepper and 1/2 cup of pasta water. Once the pasta water is boiling, slowly add the Pecorino Romano Cheese and Parmesan Cheese, stirring continuously until it's all mixed in. Add a bit more pasta water if th",2,A
+82,"Step 1: In the image, a person is putting meat balls into a pot of boiling water using a spoon.
+Step 2: The egg white will cause a white foam to appear on the surface. Remove with a skimmer.
+Step 3: Now add radish and glass noodles and bring to a boil. Then, simmer for approx. 4 - 5 min. Season with sesame oil and salt. Top with freshly chopped cilantro to serve.
+",A person is adding radish and glass noodles to a pot of boiling water,3,
+100,"Step 1: Heat a medium saucepan over medium heat and add Olive Oil. Swirl pan till oil coats the bottom.
+Step 2: Once the oil is hot but not sizzling, gently crack the Egg into the pan.
+Step 3: Cook until white is set and yolk is slightly runny, approximately 4-5 minutes.
+",A person is cooking an egg in a pan on a stove top,3,
+118,"Step 1: In the image, a person is cooking chili in a large pot. They are using a spoon to drain some of the oil out of the pot and then return the meat to the pot. The person then adds salsa and chili seasoning to the pot and simmers it for about 15 minutes until the meat is nearly fully cooked
+Step 2: Drain the Canned Red Kidney Beans and add them to the pot. Simmer the chili for 10 more minutes without the lid on.
+Step 3: Serve chili in bowls. Top with Cheddar Cheese and Sour Cream.
+","In the image, a person is serving chili in bowls. They top the chili with Cheddar Cheese and Sour Cream.",4,
+90,"Step 1: A large, non-stick frying pan with mushrooms, garlic, and thyme being cooked in it
+Step 2: Stir in the Full-Fat Coconut Milk and season with Salt and Ground Black Pepper, then simmer for 2 minutes.
+Step 3: Remove the mushrooms from the heat and serve on the Bread.
+",a bowl of mushrooms and bread on a table,3,
+48,"Step 1: Add Apple Juice, Low-Fat Strawberry Greek Yogurt, Pineapple, a peeled Orange, and Fresh Strawberry to the blender.
+Step 2: Add Ice and secure lid.
+Step 3: Blend until smooth.
+","a blender with a lid on top is being used to blend ice, strawberries, and pineapple",3,
+93,"Step 1: Add Rice Milk and Coconut Water in the jar.
+Step 2: Add Fresh Papaya, Mango, Fresh Cilantro, Dates, and Ice into the jug.
+","a white bowl filled with fresh papaya, mango, cilantro, dates, and ice",2,
+198,"Step 1: Chop the Watermelon and slice the Fresh Strawberry.
+",the watermelon and strawberry are being chopped on a cutting board,4,
+167,"Step 1: A person is whisking eggs, vegetable stock, unsweetened soy milk, light soy sauce, and sesame oil into a large measuring jar
+Step 2: Steam it for about 20 minutes until firm to touch.
+Step 3: You may garnish with some Chinese Chives and sliced large Chili Pepper. Serve this delicious savory custard with rice.
+",A bowl of steaming hot savory custard is being served on a white plate with chili pepper and chives garnishing it,3,
+96,"Step 1: Cut onion into thin strips.
+Step 2: Preheat oven to 220°C/420°F. Next, on a work surface sprinkled with flour, roll out pizza dough until flat.
+Step 3: In a grease-free frying pan, toast pine nuts over medium-low heat, stirring often, for approx. 2 - 3 min. until golden brown and fragrant.
+","In a grease-free frying pan, toast pine nuts over medium-low heat, stirring often, for approx. 2 - 3 min. until golden brown and fragrant",3,A
+176,"Step 1: Take a saucepan over medium heat with Vegetable Oil, and Yellow Onion, Garlic into it and stir for 2 to 3 minutes. Then add some Curry Paste and stir it through for about a minute. Then add Ground Beef, Potato, mix it up and cook for 8 to 10 minutes. Once is finished, set aside for 30 minutes to cool off.
+Step 2: Take Puff Pastry and use a large cookie cutter to cut pastry circles. Take a circle and wet the edge using water. Put 1 teaspoonful of mixture in the center, fold in half and pinch the edge together. Continue with the rest.
+Step 3: Put some vegetable oil in a wok, heat up the oil to 170 degree C (340 degrees F). Put the curry puffs into the oil and let it fried for 3 to 4 minutes. Transfer them to a tray lined up with some kitchen paper to get rid of the excess oil.
+","In the image, a person is cooking curry puffs in a wok. They are using a large cookie cutter to cut circles out of puff pastry and then wetting the edges with water before filling them with a teaspoonful of mixture and folding them in half before pinching the edges together.",0,
+87,"Step 1: Preheat the oven to 180°C/370°F. Peel and dice onion. Drain and rinse canned beans. In a frying pan, heat olive oil and sauté diced onion. Add ground beef and fry for approx. 1 – 2 min. Add chili powder, paprika powder, ground cumin, Cayenne pepper, dried oregano, and sugar and season with pepper and salt. Mix well and fry for another 2 – 3 min. Stir in pinto beans, black beans, and tomato paste, then remove frying pan from heat.
+",A person is stirring a pot of beans with a wooden spoon,2,B
+141,"Step 1: Chop the pork belly, zucchini, white cabbage, and onion into small pieces. Slice the cucumber into thin matchsticks. Peel and finely mince ginger.
+",a woman is chopping vegetables on a cutting board with a knife,2,
+168,"Step 1: A man is putting a lid on top of a pot that has chicken and vegetables in it
+Step 2: Remove chicken drumsticks from the pot. Set aside and allow to cool. In the meantime, add the egg noodles to the pot and cook, covered, for approx. 10 min.
+Step 3: Once chicken drumsticks are cool enough to handle, remove the skin and discard. Remove the meat from the bone and cut into bite-sized pieces. Add the chicken back into the pot. Serve the soup with a sprinkle of parsley and season with salt and pepper to taste.
+",A man is stirring a pot of soup with a wooden spoon,0,
+113,"Step 1: Wash the Mushroom and pat dry with paper towel. Place mushroom slices in a large bowl or suitable jar.
+",a woman is washing mushrooms in a sink with soap and water,3,D
+97,"Step 1: In the image, a person is making a cardamom bun. They are rolling out the dough into a large rectangle and spreading it with a mixture of butter, brown sugar, and ground cardamom. They then fold the dough in half and roll it out again before cutting it into strips.
+Step 2: To form a bun, twirl a dough strip into a twist. Wrap the dough twist around your index finger and middle finger in a figure eight. Once you have a third of the length left, wrap around the middle in the opposite direction to form a band and thread the end through the center from above, as if tying a knot, and tuck in. Gently press the bun together and place on a parchment-lined baking sheet. Repeat until dough is used up and bake in preheated oven at 200°C/390°F, for approx. 20 min. The tops of the buns should be lightly browned but not crunchy.
+Step 3: To make the syrup, grind cardamom pods in a mortar and pestle. Heat sugar, vanilla extract, ground cardamom pods, and water in a saucepan over medium-low heat until dissolved. As soon as the buns are out of the oven, brush with syrup. Dust with extra cane sugar and ground cardamom, if desired.
+","In the image, a person is making a cardamom bun. They are twirling a dough strip into a twist and wrapping it around their index finger and middle finger in a figure eight. Once they have a third of the length left, they wrap around the middle in the opposite direction to form a band and thread the",0,
+78,"Step 1: A person is holding a bowl with tomatoes, garlic, onion, and sun-dried tomatoes in it
+Step 2: Add pasta to boiling salted water in a pot. Cook according to package instructions until al dente , then drain.  Add tomato sauce and cooked pasta to a large frying pan and toss to coat. Season with salt and pepper to taste. Serve pasta with fresh basil on top.
+Step 3: You can find plenty more tasty, quick recipes in Sebastian's cookbook 'Fit Mix' (ZS Verlag)!
+","In the image, there is a large frying pan on a stove with tomato sauce and cooked pasta in it. There is also a bowl of tomatoes, garlic, onion, and sun-dried tomatoes next to the frying pan.",,
+186,"Step 1: a mixture of brown sugar, butter, eggs, vanilla extract, all-purpose flour, oats, baking soda, and salt in a white bowl
+Step 2: Spread 2/3 of the dough into a 9x9 inch greased baking dish.
+Step 3: In the microwave, melt Chocolate Chips by microwaving for 30 seconds and stirring. When chips are melted, add Sweetened Condensed Milk.
+",A white bowl filled with chocolate chips and sweetened condensed milk is being heated in the microwave,2,D
+154,"Step 1: Put Canned Chickpeas, Tahini, Lemon Juice, Garlic, Water and Kosher Salt into the bowl of a food processor.
+Step 2: Process for 30 seconds. Scrape down the sides of the bowl. Process 30 seconds longer.
+","a food processor is filled with canned chickpeas, tahini, lemon juice, garlic, water, and kosher salt",2,
+34,"Step 1: Place quinoa in sieve and run under cold water. Add fresh water to a saucepan, add quinoa and stock cube, and cook according to package instructions. Set aside.
+",quinoa is being cooked in a saucepan with water and stock cube,4,
+162,"Step 1: To make the mooncake skin, combine Old Fashioned Rolled Oats, Multigrain Flour, Water, and Vegetable Oil together in a boil. Knead well to form a dough and divide in 10-12 small balls.
+",A person is kneading dough on a wooden table with a rolling pin,1,
+107,"Step 1: Finely chop garlic. Peel and dice onion and carrots.
+Step 2: Heat some vegetable oil in a large frying pan and sauté onions, garlic, and carrots. Add ground beef and cook over medium-high heat until meat is browned, approx. 6 - 10 min. While cooking, break into pieces with a cooking spoon. Season with salt and pepper.
+",A person is cooking ground beef in a large frying pan on a stove,2,
+66,"Step 1: In the image, a pot of meat is being cooked on a stove with vegetable oil and brown sugar added to it.
+Step 2: Pour in the Coconut Milk bring it up to a boil again then reduce to a simmer. Place the lid back on and braise for an hour and half.
+Step 3: Stir the mixture then put the lid back on and cook for another 30 minutes. After that, turn off the stove and add in the Scallion and Culantro Leaves. Serve with yams or any other roots and
+","In the image, a pot of coconut milk is being cooked on a stove with vegetable oil and brown sugar added to it. The mixture is then poured into a pot and brought up to a boil again before being reduced to a simmer. The lid is then put back on and the mixture is cooked for an hour and",0,A
+55,"Step 1: A woman in a white apron is holding a red plastic spoon and stirring a bowl of ingredients that include ground beef, onions, garlic, pine nuts, mustard, egg, marjoram, parsley, breadcrumbs, paprika, salt, and pepper
+Step 2: Stuff halved peppers with ground beef mixture and sauté in a frying pan for approx. 2 – 3 min. on all sides.
+Step 3: Remove peppers from frying pan and sauté the remaining half of onions until golden brown. Add tomato paste and deglaze pan with red wine. Allow to reduce.
+",A woman is cooking peppers in a frying pan with ground beef mixture and sautéing the remaining half of onions until golden brown,0,
+151,"Step 1: In the image, there is a tray with two bowls on it. One bowl has some breadcrumbs in it, and the other bowl has some spice mix in it. On top of the breadcrumbs, there is a piece of boneless, skinless chicken breast that has been cut into bite-sized pieces.
+Step 2: For deep frying bring the Coconut Oil up to a medium heat and fry the chicken for 8-9 minutes or until golden brown and cooked through. For Air frying place in the air fryer and drizzle some coconut oil over the top, air fry for 8-9 minutes at 350 degrees F (180 degrees C) turning once.
+Step 3: Drain excess oil on a paper towel then serve immediately.
+","In the image, there is a bowl of chicken that has been cooked in a deep fryer. There is also a bowl of coconut oil next to the chicken.",1,D
+112,"Step 1: Peel and chop onion and garlic. Cut sundried tomatoes into small pieces. Thinly slice zucchini lengthwise with a vegetable peeler.
+",a woman is chopping onions and garlic on a wooden cutting board,2,
+67,"Step 1: Combine Bell Pepper, Red Onion, Zucchini, Cucumber, Corn, Low-Sodium Black Beans, Jalapeño Pepper and Fresh Cilantro. Toss to combine.
+Step 2: In a small bowl, combine Garlic, zest and 2 Tbsp juice of the Lime, Dijon Mustard, Ground Cumin, Olive Oil, Kosher Saltand Ground Black Pepper. Whisk until emulsified (combined).
+","A small bowl of ingredients including garlic, zest, lime juice, mustard, cumin, olive oil, kosher salt, and black pepper",3,
+60,"Step 1: In a pot over medium-high heat, add Olive Oil and the Onion. Saute until nice and translucent. Add the Garlic, Celery, and Carrot. Mix and cook for 5-7 minutes or until the veggies are nice and soft.
+Step 2: Add the Dried Basil, and Dried Parsley. Mix. Add the Vegetable Broth, Water, Lentils, and Canned Crushed Tomatoes. Bring to a boil.
+Step 3: Lower the heat and cover the soup until the lentils are tender, about 20 minutes. Halfway during the cooking, add Salt and Ground Black Pepper.
+",A pot of soup is being cooked on a stove with a wooden spoon in it,3,
+25,"Step 1: Preheat oven to 180°C/350°F. In a bowl, mix flour, baking soda, and salt.
+Step 2: In another bowl, beat soft butter, brown sugar, and vanilla sugar until fluffy and pale.
+","A person is beating a bowl of butter, brown sugar, and vanilla sugar with a whisk",4,
+189,"Step 1: Preheat oven to 180°C
+Step 2: Melt the butter and the black chocolate in a saucepan over a very low heat
+",a saucepan with butter and black chocolate in it being heated on a stove,4,
+57,"Step 1: Boil potatoes in salted water until tender. Transfer them to ice bath to chill for a few minutes, then drain and pat dry. Halve or quarter potatoes (depending on size) and place in a large bowl.
+",A woman is cutting potatoes on a cutting board with a knife,4,
+124,"Step 1: Season the All-Purpose Spice Rub with Pork Burger Patty.
+","the spices on the counter include cumin, paprika, garlic powder, and cayenne pepper",0,D
+117,"Step 1: Cut the ciabatta lengthwise and drizzle with olive oil. Roast in a hot pan, oiled side down, for approx. 3 - 5 minutes.
+Step 2: Meanwhile, cut mozzarella and tomato into thin slices. Cut antipasti (e.g. artichoke hearts, grilled peppers) into bite-sized pieces and heat briefly in a pan.
+","A woman is cutting mozzarella and tomato into thin slices on a cutting board. She then cuts antipasti (e.g. artichoke hearts, grilled peppers) into bite-sized pieces and heats them briefly in a pan.",3,
+183,"Step 1: Heat the Olive Oil in a pot and add the Onion and Garlic. Sauté until the onions are cooked.
+",a pot with a wooden spoon in it that has onions and garlic in it,4,
+6,"Step 1: A man is chopping vegetables on a cutting board, including a carrot, onions, garlic, ginger, lemongrass, celery root, and green chili pepper. He will sauté one-fifth of the celery root, half the onions, garlic, lemongrass, ginger, and carrot in
+Step 2: Meanwhile, add the remaining celery root and remaining onion to a pot. Sauté with some of the butter and salt. Deglaze with white sine and simmer, covered, until the celery root is very soft. Add the cream and bring to a boil, then purée everything in a blender with the remaining butter. For serving, if you wish, transfer the purée to a piping bag with a small, round decorating tip.
+Step 3: Cut the cooked, slightly cooled duck in half and remove the backbone. Strain the broth into a clean pot and cook it over high heat until it thickens and becomes a sauce. Set up another pot with oil and fry the duck halves in it until crispy. Drain on a paper towel-lined plate.
+",A man is cooking duck in a pot on a stove. He is adding butter to the pot and stirring it with a spoon. He then adds some salt to the pot and simmers it until the celery root is very soft. He then adds cream to the pot and brings it to a boil before puréeing everything in a bl,0,
+155,"Step 1: Melt the 70% Dark Chocolate and Unsalted Butter in a bowl over boiling water. When melted set aside to cool down.
+Step 2: In a pot, add the Milk, Granulated Sugar, and Vanilla Extract and leave to warm up in medium heat until the milk starts to froth.
+Step 3: Add the chocolate, Egg and Corn Starch mix constantly for approximately 8 minutes until the chocolate has thickened. Set aside to cool down.
+","In a pot, add the milk, granulated sugar, and vanilla extract and leave to warm up in medium heat until the milk starts to froth",0,A
+191,"Step 1: Wash potatoes and cut into bite-sized pieces. Add to a pot, add salt, and cover with water. Bring to a boil, lower heat, and leave to simmer for approx. 15 min. In the meantime, roughly chop rosemary and parsley, dice onion, and slice sun-dried tomatoes into strips. Drain beans.
+Step 2: Preheat oven to 190°C/275°F. Add breadcrumbs, rosemary, parsley, onion, sun-dried tomatoes, and drained beans to a bowl and mix to combine. Set aside. Once potatoes have cooked, mash with a potato masher until mostly smooth with some small lumps.
+Step 3: Line a baking sheet with parchment paper. Add mashed potatoes and breadcrumb mixture to a food processor and process until well incorporated. Mixture should be sticky. Form mixture into 6 patties using your hands and add to prepared baking sheet. Season each patty with red pepper flakes, salt, and pepper. Transfer to preheated oven and bake at 190°C/275°F for approx. 15 min., flipping halfway through. Remove from oven and let cool for approx. 5 min.
+",A person is using a food processor to mash potatoes and breadcrumbs together,0,
+103,"Step 1: Slice the French Baguette into 6 1-inch thick slices. Coarsely chop the Fresh Spinach. Set aside.
+",a person is slicing a french baguette into 6 1-inch thick slices,2,
+4,"Step 1: a person is whisking a bowl of egg yolks, sugar, lemon zest, quark, and salt
+Step 2: Now carefully fold in the beaten egg whites into the quark mixture. Do not mix with too much force, it might reduce the airiness.
+Step 3: Prepare the baking tins with butter and sugar and then fill with the mixture.
+",A person is preparing a quark mixture in a bowl with a whisk,0,
+153,"Step 1: A chef is adding milk to a bowl of cooked quinoa
+Step 2: Top quinoa with toasted pumpkin seeds and sesame seeds.
+Step 3: Add finely diced dates, apple, and peach together with the sliced banana and mixed berries.
+",A bowl of quinoa is topped with toasted pumpkin seeds and sesame seeds,0,
+52,"Step 1: A plate of boneless, skinless chicken breast has been sprinkled with a half a packet of taco seasoning and mixed together. The other half of the taco seasoning is shaken over the chicken and mixed to coat evenly before being placed on top of the pepper and onion mix
+Step 2: Cover the dish and put it in the Panasonic Microwave Oven for 10 minutes on high.
+Step 3: Serve chicken and veggies in the Small Corn Tortilla topped with Shredded Cheese and other toppings of choice. Cooking results may vary depending on microwave oven used.
+",A small corn tortilla is filled with chicken and vegetables and topped with shredded cheese and other toppings of choice,3,
+11,"Step 1: Peel and thinly slice garlic. Mince parsley. Zest and juice lemon. Season scallops with salt on both sides.
+Step 2: Add some oil to a frying pan over medium-high heat. Pat scallops dry and add to the pan. Fry until golden brown, approx. 4 min. Flip and add some butter. Once scallops are cooked through, remove from the pan.
+Step 3: In another large frying pan set over low heat, melt butter. Add garlic and let cook until butter starts to brown, approx. 10 min.
+","A person is cooking scallops in a frying pan over medium-high heat. They add some oil to the pan and then pat the scallops dry before adding them to the pan. They then flip the scallops and add some butter to the pan. Once the scallops are cooked through, they are removed from the pan",0,
+56,"Step 1: Dice up Beet and Avocado. Dress them with Lemon Juice, Olive Oil, Salt and Pepper.
+","a bowl of diced beets and avocados with lemon juice, olive oil, salt, and pepper",4,
+122,"Step 1: Cook the Elbow Macaroni according to the package instruction.
+Step 2: Inside a cup, mix together the Mayonnaise, and Curry Powder.
+",a cup of mayonnaise and curry powder is being mixed together inside a cup,4,
+163,"Step 1: A wide pan or wok is on the stove with vegetable oil in it, and it's heating up. The next step is to add garlic, bell pepper, string beans, green cabbage, red bird's eye chili pepper, cooking wine, and canned boneless, skinless salmon
+Step 2: Here is where you now add the White Rice along with the Dark Soy Sauce and stir. The heat should still be on medium-high.
+Step 3: Top with the Scallion. Try to maintain a high heat and don’t cover the pot/pan and any time. As soon as the rice heats though, the salmon fried rice is done and ready to
+","In the image, there is a bowl of salmon fried rice on a table. The bowl has white rice, dark soy sauce, scallions, and salmon in it.",3,C
+20,"Step 1: Blanch Bone-In, Skin-On Chicken Leg in salted water, discard water, cover the leg with Chicken Stock. Season with Kosher Salt, Fresh Ginger, Garlic, Togarashi Chili and Furikake. Simmer for 45 minutes to 1 hour.
+Step 2: about halfway through the cooking process, 20 to 30 minutes, add Coconut Milk and Thai® Sweet Chili Sauce to the soup.
+",A bowl of soup with chicken in it is being cooked on a stove,1,
+76,"Step 1: In a fry pan, add Vegetable Oil, Garlic, Fresh Ginger and Ground Pork. Fry until meat is browned.
+Step 2: Add Soy Sauce, Oyster Sauce and Lime Juice. Stir to combine.
+Step 3: Add Water Chestnuts and Scallion. Fry for another 2 minutes.
+","a frying pan with vegetable oil, garlic, ginger, ground pork, soy sauce, oyster sauce, lime juice, water chestnuts, and scallions",4,
+77,"Step 1: Cook the Elbow Macaroni according to the package instruction.
+",the elbow macaroni is cooking in a pot on the stove,4,
+69,"Step 1: Finely chop garlic. Peel and dice onion and carrots.
+",the person is chopping onions and carrots on a cutting board,4,
+98,"Step 1: a wooden cutting board with ingredients for a salad including avocado, crab meat, and grapes
+Step 2: Dress all ingredients except the arugula with one fourth cup dressing, dress the arugula seperately with two tablespoon dressing.
+Step 3: Plate the arugula first. Combine the rest of the ingredients, and add on top.
+","A plate of salad with avocado, crab meat, and grapes on top",2,
+194,"Step 1: Chop Mushroom.
+Step 2: Sauté the mushrooms, Garlic, and Onion in Oil for a couple of seconds until softened.
+Step 3: Add Chicken Stock, Bay Leaf, Fresh Rosemary, and Salt and Pepper into the pot and simmer over medium high heat for 10 minutes.
+",A person is cooking mushrooms in a pot on a stove,2,
+143,"Step 1: Add Water, Fresh Ginger, and Chicken Bouillon Powder. Stir and mix well.
+Step 2: Simmer for 10 minutes.
+Step 3: Add Fish Fillet, Tomato, Evaporated Milk, and Choy Sum. Mix well.
+","a bowl of soup with chicken, tomatoes, and fish in it",1,
+175,"Step 1: Chop cilantro. Peel cucumber, halve lengthwise, scoop out seeds with a spoon, and cut into slices. Peel red onion, cut in half, and thinly slice. Peel and finely chop garlic cloves. Finely slice or cut chili pepper with scissors or knife. Set aside.
+Step 2: Peel and devein shrimp, add to a frying pan, and sauté in vegetable oil over medium-high heat with salt and pepper. Cook for approx. 2 – 4 min., until shrimp turn pink, then remove from heat and set aside.
+",A person is cooking shrimp in a frying pan with vegetable oil over medium-high heat,4,
+188,"Step 1: Preheat oven to 200°C/390°F. Halve, deseed, and roughly cut the Hokkaido pumpkin. Transfer to a baking sheet and bake in the oven for approx. 30 min., or until softened.
+Step 2: Remove baked pumpkin from the oven and transfer to a bowl to cool down. Blend into a smooth pumpkin puree and measure out 200g/7 oz. Set this aside.
+Step 3: Reduce oven temperature to 175°C/350°F. Chop walnuts and set aside. Add flour, ground cinnamon, nutmeg, cloves, cardamom, baking powder, baking soda, and salt to a bowl and stir to combine.
+",A woman is chopping walnuts on a wooden cutting board with a knife,0,B
+179,"Step 1: Place the Garlic in a bowl with the Salt and Ground Black Pepper, mash or grate with two forks.
+","a bowl of garlic, salt, and ground black pepper is being mashed or grated with two forks",4,
+132,"Step 1: A woman is stirring a bowl of cranberries, almonds, peanuts, coconut flakes, oats, puffed wheat, and lime juice
+Step 2: Transfer breakfast bar mixture to a parchment-lined baking dish and smooth top with a spatula. Place in preheated oven and bake at 130°C/270°F for approx. 45 – 50 min. until golden. Remove from oven and let cool for approx. 10 min.
+Step 3: Cut breakfast bars into rectangular pieces.
+",A woman is cutting a piece of a breakfast bar on a wooden cutting board with a knife,1,
+95,"Step 1: Core and chop the Apple. Put half of the organic apples in a food processor with the Dates, Ground Flaxseed, Salt, Ground Cinnamon, and Vanilla Powder. Process until well blended.
+Step 2: Add rest of organic apples to the mixture. Add Raisins, and mix well. Place into dessert dishes, and sprinkle with Ground Cinnamon, chopped Walnut, and Unsweetened Shredded Coconut.
+Step 3: Serve, and
+",a bowl of apple cobbler with a spoon in it,-1,
+23,"Step 1: In a large bowl place in Cheerios®, Unsalted Peanuts and Raisins. Combine the ingredients and set aside.
+Step 2: In a saucepan over medium heat, add Honey, Brown Sugar and Creamy Peanut Butter. Keep stiring for 2-3 minutes but do not let it burn. Turn heat off.
+Step 3: Pour the honey mixture over the cheerio mix and stir through really well. Place into a square cake tin lined with baking paper.
+","In a saucepan over medium heat, add Honey, Brown Sugar and Creamy Peanut Butter. Keep stiring for 2-3 minutes but do not let it burn. Turn heat off.",1,
+46,"Step 1: A person is adding chicken breasts to a large saucepan that has already been filled with other ingredients such as lemongrass, chili, garlic, ginger, chicken stock, coconut milk, sesame oil, and soy sauce
+Step 2: Trim ends of bok choy, then halve. Heat sesame oil in large frying pan over medium-high heat. Sear bok choy for approx. 4 min. Add soy sauce and a ladle of poaching liquid from saucepan and let stew.
+Step 3: Right before serving, foam sauce with a hand blender. Serve chicken breasts with rice, bok choy, and sauce. Garnish with cilantro.
+","A person is cooking chicken breasts in a large frying pan over medium-high heat. They are adding soy sauce and a ladle of poaching liquid from a saucepan to the chicken breasts. They are then going to serve the chicken breasts with rice, bok choy, and a foam sauce.",1,B
+12,"Step 1: Thinly slice endive. Roughly chop parsley. Cut celery crosswise into half-moons.
+Step 2: In a large saucepan, cook the lobster in salted boiling water for approx. 7 – 9 min. When the lobster is finished, it will separate from the shell. Dice into medium sized pieces.
+Step 3: In a large bowl, beat together egg yolk and half of the mustard. Slowly add a steady stream of oil while whisking constantly until a mayonnaise-like consistency is formed.
+","In a large saucepan, cook the lobster in salted boiling water for approx. 7 – 9 min. When the lobster is finished, it will separate from the shell. Dice into medium sized pieces. In a large bowl, beat together egg yolk and half of the mustard. Slowly add a steady strea",0,A
+22,"Step 1: Bring a pot of water to boil. Salt generously and cook Egg Noodles according to package directions. Before you drain, reserve 1 cup of the pasta water.
+Step 2: In a wide frying pan melt Butter. Once melted, add the Ground Black Pepper and about 1/2 cup of the pasta water (reserve the other half).
+Step 3: Once the pasta water is boiling, slowly add the Pecorino Romano Cheese and Parmesan Cheese, stirring continuously until it’s all mixed in. Add a bit more pasta water if the mixture seems too dry - you want the noodles to be coated in the sauce without too much clumping or extra liquid.
+","In a wide frying pan, melt butter and add ground black pepper and 1/2 cup of pasta water. Once the pasta water is boiling, slowly add the Pecorino Romano Cheese and Parmesan Cheese, stirring continuously until it's all mixed in. Add a bit more pasta water if th",0,A
+82,"Step 1: In the image, a person is putting meat balls into a pot of boiling water using a spoon.
+Step 2: The egg white will cause a white foam to appear on the surface. Remove with a skimmer.
+Step 3: Now add radish and glass noodles and bring to a boil. Then, simmer for approx. 4 - 5 min. Season with sesame oil and salt. Top with freshly chopped cilantro to serve.
+",A person is adding radish and glass noodles to a pot of boiling water,2,
+100,"Step 1: Heat a medium saucepan over medium heat and add Olive Oil. Swirl pan till oil coats the bottom.
+Step 2: Once the oil is hot but not sizzling, gently crack the Egg into the pan.
+Step 3: Cook until white is set and yolk is slightly runny, approximately 4-5 minutes.
+",A person is cooking an egg in a pan on a stove top,4,
+118,"Step 1: In the image, a person is cooking chili in a large pot. They are using a spoon to drain some of the oil out of the pot and then return the meat to the pot. The person then adds salsa and chili seasoning to the pot and simmers it for about 15 minutes until the meat is nearly fully cooked
+Step 2: Drain the Canned Red Kidney Beans and add them to the pot. Simmer the chili for 10 more minutes without the lid on.
+Step 3: Serve chili in bowls. Top with Cheddar Cheese and Sour Cream.
+","In the image, a person is serving chili in bowls. They top the chili with Cheddar Cheese and Sour Cream.",3,
+90,"Step 1: A large, non-stick frying pan with mushrooms, garlic, and thyme being cooked in it
+Step 2: Stir in the Full-Fat Coconut Milk and season with Salt and Ground Black Pepper, then simmer for 2 minutes.
+Step 3: Remove the mushrooms from the heat and serve on the Bread.
+",a bowl of mushrooms and bread on a table,1,
+48,"Step 1: Add Apple Juice, Low-Fat Strawberry Greek Yogurt, Pineapple, a peeled Orange, and Fresh Strawberry to the blender.
+Step 2: Add Ice and secure lid.
+Step 3: Blend until smooth.
+","a blender with a lid on top is being used to blend ice, strawberries, and pineapple",2,
+93,"Step 1: Add Rice Milk and Coconut Water in the jar.
+Step 2: Add Fresh Papaya, Mango, Fresh Cilantro, Dates, and Ice into the jug.
+","a white bowl filled with fresh papaya, mango, cilantro, dates, and ice",2,D
+198,"Step 1: Chop the Watermelon and slice the Fresh Strawberry.
+",the watermelon and strawberry are being chopped on a cutting board,4,
+167,"Step 1: A person is whisking eggs, vegetable stock, unsweetened soy milk, light soy sauce, and sesame oil into a large measuring jar
+Step 2: Steam it for about 20 minutes until firm to touch.
+Step 3: You may garnish with some Chinese Chives and sliced large Chili Pepper. Serve this delicious savory custard with rice.
+",A bowl of steaming hot savory custard is being served on a white plate with chili pepper and chives garnishing it,3,
+96,"Step 1: Cut onion into thin strips.
+Step 2: Preheat oven to 220°C/420°F. Next, on a work surface sprinkled with flour, roll out pizza dough until flat.
+Step 3: In a grease-free frying pan, toast pine nuts over medium-low heat, stirring often, for approx. 2 - 3 min. until golden brown and fragrant.
+","In a grease-free frying pan, toast pine nuts over medium-low heat, stirring often, for approx. 2 - 3 min. until golden brown and fragrant",2,A
+176,"Step 1: Take a saucepan over medium heat with Vegetable Oil, and Yellow Onion, Garlic into it and stir for 2 to 3 minutes. Then add some Curry Paste and stir it through for about a minute. Then add Ground Beef, Potato, mix it up and cook for 8 to 10 minutes. Once is finished, set aside for 30 minutes to cool off.
+Step 2: Take Puff Pastry and use a large cookie cutter to cut pastry circles. Take a circle and wet the edge using water. Put 1 teaspoonful of mixture in the center, fold in half and pinch the edge together. Continue with the rest.
+Step 3: Put some vegetable oil in a wok, heat up the oil to 170 degree C (340 degrees F). Put the curry puffs into the oil and let it fried for 3 to 4 minutes. Transfer them to a tray lined up with some kitchen paper to get rid of the excess oil.
+","In the image, a person is cooking curry puffs in a wok. They are using a large cookie cutter to cut circles out of puff pastry and then wetting the edges with water before filling them with a teaspoonful of mixture and folding them in half before pinching the edges together.",0,B
+87,"Step 1: Preheat the oven to 180°C/370°F. Peel and dice onion. Drain and rinse canned beans. In a frying pan, heat olive oil and sauté diced onion. Add ground beef and fry for approx. 1 – 2 min. Add chili powder, paprika powder, ground cumin, Cayenne pepper, dried oregano, and sugar and season with pepper and salt. Mix well and fry for another 2 – 3 min. Stir in pinto beans, black beans, and tomato paste, then remove frying pan from heat.
+",A person is stirring a pot of beans with a wooden spoon,1,B
+141,"Step 1: Chop the pork belly, zucchini, white cabbage, and onion into small pieces. Slice the cucumber into thin matchsticks. Peel and finely mince ginger.
+",a woman is chopping vegetables on a cutting board with a knife,1,
+168,"Step 1: A man is putting a lid on top of a pot that has chicken and vegetables in it
+Step 2: Remove chicken drumsticks from the pot. Set aside and allow to cool. In the meantime, add the egg noodles to the pot and cook, covered, for approx. 10 min.
+Step 3: Once chicken drumsticks are cool enough to handle, remove the skin and discard. Remove the meat from the bone and cut into bite-sized pieces. Add the chicken back into the pot. Serve the soup with a sprinkle of parsley and season with salt and pepper to taste.
+",A man is stirring a pot of soup with a wooden spoon,0,B
+113,"Step 1: Wash the Mushroom and pat dry with paper towel. Place mushroom slices in a large bowl or suitable jar.
+",a woman is washing mushrooms in a sink with soap and water,0,
+97,"Step 1: In the image, a person is making a cardamom bun. They are rolling out the dough into a large rectangle and spreading it with a mixture of butter, brown sugar, and ground cardamom. They then fold the dough in half and roll it out again before cutting it into strips.
+Step 2: To form a bun, twirl a dough strip into a twist. Wrap the dough twist around your index finger and middle finger in a figure eight. Once you have a third of the length left, wrap around the middle in the opposite direction to form a band and thread the end through the center from above, as if tying a knot, and tuck in. Gently press the bun together and place on a parchment-lined baking sheet. Repeat until dough is used up and bake in preheated oven at 200°C/390°F, for approx. 20 min. The tops of the buns should be lightly browned but not crunchy.
+Step 3: To make the syrup, grind cardamom pods in a mortar and pestle. Heat sugar, vanilla extract, ground cardamom pods, and water in a saucepan over medium-low heat until dissolved. As soon as the buns are out of the oven, brush with syrup. Dust with extra cane sugar and ground cardamom, if desired.
+","In the image, a person is making a cardamom bun. They are twirling a dough strip into a twist and wrapping it around their index finger and middle finger in a figure eight. Once they have a third of the length left, they wrap around the middle in the opposite direction to form a band and thread the",-1,B
+78,"Step 1: A person is holding a bowl with tomatoes, garlic, onion, and sun-dried tomatoes in it
+Step 2: Add pasta to boiling salted water in a pot. Cook according to package instructions until al dente , then drain.  Add tomato sauce and cooked pasta to a large frying pan and toss to coat. Season with salt and pepper to taste. Serve pasta with fresh basil on top.
+Step 3: You can find plenty more tasty, quick recipes in Sebastian's cookbook 'Fit Mix' (ZS Verlag)!
+","In the image, there is a large frying pan on a stove with tomato sauce and cooked pasta in it. There is also a bowl of tomatoes, garlic, onion, and sun-dried tomatoes next to the frying pan.",2,
+186,"Step 1: a mixture of brown sugar, butter, eggs, vanilla extract, all-purpose flour, oats, baking soda, and salt in a white bowl
+Step 2: Spread 2/3 of the dough into a 9x9 inch greased baking dish.
+Step 3: In the microwave, melt Chocolate Chips by microwaving for 30 seconds and stirring. When chips are melted, add Sweetened Condensed Milk.
+",A white bowl filled with chocolate chips and sweetened condensed milk is being heated in the microwave,2,B
+154,"Step 1: Put Canned Chickpeas, Tahini, Lemon Juice, Garlic, Water and Kosher Salt into the bowl of a food processor.
+Step 2: Process for 30 seconds. Scrape down the sides of the bowl. Process 30 seconds longer.
+","a food processor is filled with canned chickpeas, tahini, lemon juice, garlic, water, and kosher salt",4,
+34,"Step 1: Place quinoa in sieve and run under cold water. Add fresh water to a saucepan, add quinoa and stock cube, and cook according to package instructions. Set aside.
+",quinoa is being cooked in a saucepan with water and stock cube,4,
+162,"Step 1: To make the mooncake skin, combine Old Fashioned Rolled Oats, Multigrain Flour, Water, and Vegetable Oil together in a boil. Knead well to form a dough and divide in 10-12 small balls.
+",A person is kneading dough on a wooden table with a rolling pin,3,
+107,"Step 1: Finely chop garlic. Peel and dice onion and carrots.
+Step 2: Heat some vegetable oil in a large frying pan and sauté onions, garlic, and carrots. Add ground beef and cook over medium-high heat until meat is browned, approx. 6 - 10 min. While cooking, break into pieces with a cooking spoon. Season with salt and pepper.
+",A person is cooking ground beef in a large frying pan on a stove,2,B
+66,"Step 1: In the image, a pot of meat is being cooked on a stove with vegetable oil and brown sugar added to it.
+Step 2: Pour in the Coconut Milk bring it up to a boil again then reduce to a simmer. Place the lid back on and braise for an hour and half.
+Step 3: Stir the mixture then put the lid back on and cook for another 30 minutes. After that, turn off the stove and add in the Scallion and Culantro Leaves. Serve with yams or any other roots and
+","In the image, a pot of coconut milk is being cooked on a stove with vegetable oil and brown sugar added to it. The mixture is then poured into a pot and brought up to a boil again before being reduced to a simmer. The lid is then put back on and the mixture is cooked for an hour and",2,B
+55,"Step 1: A woman in a white apron is holding a red plastic spoon and stirring a bowl of ingredients that include ground beef, onions, garlic, pine nuts, mustard, egg, marjoram, parsley, breadcrumbs, paprika, salt, and pepper
+Step 2: Stuff halved peppers with ground beef mixture and sauté in a frying pan for approx. 2 – 3 min. on all sides.
+Step 3: Remove peppers from frying pan and sauté the remaining half of onions until golden brown. Add tomato paste and deglaze pan with red wine. Allow to reduce.
+",A woman is cooking peppers in a frying pan with ground beef mixture and sautéing the remaining half of onions until golden brown,2,
+151,"Step 1: In the image, there is a tray with two bowls on it. One bowl has some breadcrumbs in it, and the other bowl has some spice mix in it. On top of the breadcrumbs, there is a piece of boneless, skinless chicken breast that has been cut into bite-sized pieces.
+Step 2: For deep frying bring the Coconut Oil up to a medium heat and fry the chicken for 8-9 minutes or until golden brown and cooked through. For Air frying place in the air fryer and drizzle some coconut oil over the top, air fry for 8-9 minutes at 350 degrees F (180 degrees C) turning once.
+Step 3: Drain excess oil on a paper towel then serve immediately.
+","In the image, there is a bowl of chicken that has been cooked in a deep fryer. There is also a bowl of coconut oil next to the chicken.",0,
+112,"Step 1: Peel and chop onion and garlic. Cut sundried tomatoes into small pieces. Thinly slice zucchini lengthwise with a vegetable peeler.
+",a woman is chopping onions and garlic on a wooden cutting board,3,
+67,"Step 1: Combine Bell Pepper, Red Onion, Zucchini, Cucumber, Corn, Low-Sodium Black Beans, Jalapeño Pepper and Fresh Cilantro. Toss to combine.
+Step 2: In a small bowl, combine Garlic, zest and 2 Tbsp juice of the Lime, Dijon Mustard, Ground Cumin, Olive Oil, Kosher Saltand Ground Black Pepper. Whisk until emulsified (combined).
+","A small bowl of ingredients including garlic, zest, lime juice, mustard, cumin, olive oil, kosher salt, and black pepper",4,
+60,"Step 1: In a pot over medium-high heat, add Olive Oil and the Onion. Saute until nice and translucent. Add the Garlic, Celery, and Carrot. Mix and cook for 5-7 minutes or until the veggies are nice and soft.
+Step 2: Add the Dried Basil, and Dried Parsley. Mix. Add the Vegetable Broth, Water, Lentils, and Canned Crushed Tomatoes. Bring to a boil.
+Step 3: Lower the heat and cover the soup until the lentils are tender, about 20 minutes. Halfway during the cooking, add Salt and Ground Black Pepper.
+",A pot of soup is being cooked on a stove with a wooden spoon in it,3,
+25,"Step 1: Preheat oven to 180°C/350°F. In a bowl, mix flour, baking soda, and salt.
+Step 2: In another bowl, beat soft butter, brown sugar, and vanilla sugar until fluffy and pale.
+","A person is beating a bowl of butter, brown sugar, and vanilla sugar with a whisk",4,
+189,"Step 1: Preheat oven to 180°C
+Step 2: Melt the butter and the black chocolate in a saucepan over a very low heat
+",a saucepan with butter and black chocolate in it being heated on a stove,4,
+57,"Step 1: Boil potatoes in salted water until tender. Transfer them to ice bath to chill for a few minutes, then drain and pat dry. Halve or quarter potatoes (depending on size) and place in a large bowl.
+",A woman is cutting potatoes on a cutting board with a knife,3,
+124,"Step 1: Season the All-Purpose Spice Rub with Pork Burger Patty.
+","the spices on the counter include cumin, paprika, garlic powder, and cayenne pepper",2,
+117,"Step 1: Cut the ciabatta lengthwise and drizzle with olive oil. Roast in a hot pan, oiled side down, for approx. 3 - 5 minutes.
+Step 2: Meanwhile, cut mozzarella and tomato into thin slices. Cut antipasti (e.g. artichoke hearts, grilled peppers) into bite-sized pieces and heat briefly in a pan.
+","A woman is cutting mozzarella and tomato into thin slices on a cutting board. She then cuts antipasti (e.g. artichoke hearts, grilled peppers) into bite-sized pieces and heats them briefly in a pan.",2,B
+183,"Step 1: Heat the Olive Oil in a pot and add the Onion and Garlic. Sauté until the onions are cooked.
+",a pot with a wooden spoon in it that has onions and garlic in it,4,
+6,"Step 1: A man is chopping vegetables on a cutting board, including a carrot, onions, garlic, ginger, lemongrass, celery root, and green chili pepper. He will sauté one-fifth of the celery root, half the onions, garlic, lemongrass, ginger, and carrot in
+Step 2: Meanwhile, add the remaining celery root and remaining onion to a pot. Sauté with some of the butter and salt. Deglaze with white sine and simmer, covered, until the celery root is very soft. Add the cream and bring to a boil, then purée everything in a blender with the remaining butter. For serving, if you wish, transfer the purée to a piping bag with a small, round decorating tip.
+Step 3: Cut the cooked, slightly cooled duck in half and remove the backbone. Strain the broth into a clean pot and cook it over high heat until it thickens and becomes a sauce. Set up another pot with oil and fry the duck halves in it until crispy. Drain on a paper towel-lined plate.
+",A man is cooking duck in a pot on a stove. He is adding butter to the pot and stirring it with a spoon. He then adds some salt to the pot and simmers it until the celery root is very soft. He then adds cream to the pot and brings it to a boil before puréeing everything in a bl,-1,
+155,"Step 1: Melt the 70% Dark Chocolate and Unsalted Butter in a bowl over boiling water. When melted set aside to cool down.
+Step 2: In a pot, add the Milk, Granulated Sugar, and Vanilla Extract and leave to warm up in medium heat until the milk starts to froth.
+Step 3: Add the chocolate, Egg and Corn Starch mix constantly for approximately 8 minutes until the chocolate has thickened. Set aside to cool down.
+","In a pot, add the milk, granulated sugar, and vanilla extract and leave to warm up in medium heat until the milk starts to froth",0,A
+191,"Step 1: Wash potatoes and cut into bite-sized pieces. Add to a pot, add salt, and cover with water. Bring to a boil, lower heat, and leave to simmer for approx. 15 min. In the meantime, roughly chop rosemary and parsley, dice onion, and slice sun-dried tomatoes into strips. Drain beans.
+Step 2: Preheat oven to 190°C/275°F. Add breadcrumbs, rosemary, parsley, onion, sun-dried tomatoes, and drained beans to a bowl and mix to combine. Set aside. Once potatoes have cooked, mash with a potato masher until mostly smooth with some small lumps.
+Step 3: Line a baking sheet with parchment paper. Add mashed potatoes and breadcrumb mixture to a food processor and process until well incorporated. Mixture should be sticky. Form mixture into 6 patties using your hands and add to prepared baking sheet. Season each patty with red pepper flakes, salt, and pepper. Transfer to preheated oven and bake at 190°C/275°F for approx. 15 min., flipping halfway through. Remove from oven and let cool for approx. 5 min.
+",A person is using a food processor to mash potatoes and breadcrumbs together,2,B
+103,"Step 1: Slice the French Baguette into 6 1-inch thick slices. Coarsely chop the Fresh Spinach. Set aside.
+",a person is slicing a french baguette into 6 1-inch thick slices,4,
+4,"Step 1: a person is whisking a bowl of egg yolks, sugar, lemon zest, quark, and salt
+Step 2: Now carefully fold in the beaten egg whites into the quark mixture. Do not mix with too much force, it might reduce the airiness.
+Step 3: Prepare the baking tins with butter and sugar and then fill with the mixture.
+",A person is preparing a quark mixture in a bowl with a whisk,0,
+153,"Step 1: A chef is adding milk to a bowl of cooked quinoa
+Step 2: Top quinoa with toasted pumpkin seeds and sesame seeds.
+Step 3: Add finely diced dates, apple, and peach together with the sliced banana and mixed berries.
+",A bowl of quinoa is topped with toasted pumpkin seeds and sesame seeds,0,
+52,"Step 1: A plate of boneless, skinless chicken breast has been sprinkled with a half a packet of taco seasoning and mixed together. The other half of the taco seasoning is shaken over the chicken and mixed to coat evenly before being placed on top of the pepper and onion mix
+Step 2: Cover the dish and put it in the Panasonic Microwave Oven for 10 minutes on high.
+Step 3: Serve chicken and veggies in the Small Corn Tortilla topped with Shredded Cheese and other toppings of choice. Cooking results may vary depending on microwave oven used.
+",A small corn tortilla is filled with chicken and vegetables and topped with shredded cheese and other toppings of choice,3,
+11,"Step 1: Peel and thinly slice garlic. Mince parsley. Zest and juice lemon. Season scallops with salt on both sides.
+Step 2: Add some oil to a frying pan over medium-high heat. Pat scallops dry and add to the pan. Fry until golden brown, approx. 4 min. Flip and add some butter. Once scallops are cooked through, remove from the pan.
+Step 3: In another large frying pan set over low heat, melt butter. Add garlic and let cook until butter starts to brown, approx. 10 min.
+","A person is cooking scallops in a frying pan over medium-high heat. They add some oil to the pan and then pat the scallops dry before adding them to the pan. They then flip the scallops and add some butter to the pan. Once the scallops are cooked through, they are removed from the pan",2,B
+56,"Step 1: Dice up Beet and Avocado. Dress them with Lemon Juice, Olive Oil, Salt and Pepper.
+","a bowl of diced beets and avocados with lemon juice, olive oil, salt, and pepper",4,

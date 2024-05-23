@@ -1,0 +1,193 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<div style="padding-left: 20px;">
+
+    <crowd-instructions link-text="View instructions" link-type="button">
+        <short-summary>
+            <h2>Information</h2>
+            <ol>
+                <li>A recipe contains a <b>sequence of steps</b>.</li>
+                <li>Each step has a <b>description</b> and an <b>image</b>.</li>
+                <li>Some steps are <b>directly connected</b> to the previous step.</li>
+                <li>When steps are <b>connected</b>, the properties of elements in the images should be maintained, i.e., A <b>blue</b> spoon remains <b>blue</b>, <b>cooked</b> beef remains <b>cooked</b>.</li>
+                <li>When the <b>element properties</b> in an image are maintained, with respect to the previous image, we say it is coherent.</li>
+                <li>When steps are <b>not connected</b>, we are not concerned with coherence.</li>
+            </ol>
+        </short-summary>
+
+        <detailed-instructions>
+            <h2>Instructions</h2>
+            <ol>
+                <li>You should annotate the description and image of the second step.</li>
+                <li><b>Not Coherent</b>: The properties of the elements of the current image do not follow those of the
+                    previous image.</li>
+                <li><b>Somewhat Coherent</b>: The properties of some elements of the current image follow those of the
+                    previous image but others do not.</li>
+                <li><b>Very Coherent</b>: Most element properties of the current image follow those of the previous
+                    image.</li>
+                <li><b>Step Descriptions Are Not Connected</b>: The steps are disconnected and do not have to be visually continuous.</li>
+                <li><b>There is a problem with the image</b>: If the image is all black or segmented.</li>
+            </ol>
+        </detailed-instructions>
+    </crowd-instructions>
+
+    <crowd-form answer-format="flatten-objects">
+        <div>
+            <div class="text-container">
+                <p id="text1">Step 1: ${previous_text}</p>
+            </div>
+            <div class="image-container">
+                <img class="image" id="image1"
+                    src="${image_url}"
+                    alt="Image 1">
+            </div>
+            <div class="button-container">
+                <div class="fake-button" id="previousBtn" onclick="showPrevious()">Previous Step</div>
+                <div class="fake-button" id="nextBtn" onclick="showNext()">Next Step</div>
+                <div class="hidden-button"></div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="crowd-input-container" style="flex: 10 0 min-content; width: 90%;">
+            <input type="hidden" name="image_id" value="${image_id}">
+            <input type="hidden" name="method" value="${method}">
+
+            <div>How coherent is the current image with the previous one?<br></div>
+            <crowd-radio-group>
+                <crowd-radio-button name="not_coherent" value="not_coherent">Not Coherent</crowd-radio-button>
+                <crowd-radio-button name="somewhat_coherent" value="somewhat_coherent">Somewhat
+                    Coherent</crowd-radio-button>
+                <crowd-radio-button name="very_coherent" value="very_coherent">Very Coherent</crowd-radio-button>
+                <br>
+                <crowd-radio-button name="not_apply" value="not_apply">Step Descriptions Are Not Connected</crowd-radio-button>
+            </crowd-radio-group>
+
+            <br>
+            <crowd-checkbox name="generation_error" style="margin-bottom: 10px">* There is a problem with the
+                image</crowd-checkbox>
+            <br>
+        </div>
+
+    </crowd-form>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: left;
+        }
+
+        .image {
+            width: 540px;
+            height: 540px;
+        }
+
+        .text-container {
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .button-container {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .fake-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .hidden-button {
+            height: 38px;
+        }
+    </style>
+
+    <script>
+        window.onload = function() {
+            document.querySelector('crowd-form').onsubmit = validateForm;
+        }
+
+        function validateForm(event) {
+            const radioButtons = document.querySelectorAll('crowd-radio-button');
+            const checkbox = document.querySelector('crowd-checkbox');
+            let radioButtonSelected = false;
+
+            radioButtons.forEach(radioButton => {
+                if (radioButton.checked) {
+                    radioButtonSelected = true;
+                }
+            });
+
+            if (!radioButtonSelected && !checkbox.checked) {
+                alert("Please select a coherence option or check the 'There is a problem with the image' checkbox.");
+                event.preventDefault();
+                return false;
+            }
+
+            return true;
+        }
+
+        const images = [
+            "https://www.thespruceeats.com/thmb/t1GBg-J9J12v4BXTFJmcYqIm2PM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tomahawk-rib-eye-steak-2313425-Hero-5b5725cb46e0fb0037e009ab.jpg",
+            "https://www.fromvalerieskitchen.com/wordpress/wp-content/uploads/2020/12/Deli-Style-Roast-Beef-8.jpg",
+        ];
+
+        const texts = [
+            "Step 1: Cook the beef, until it's brown.",
+            "Step 2: Cut the beef into slices.",
+        ];
+
+        let currentIndex = 0;
+        let enablePrevious = false; // Set this flag to true or false to enable or disable the previous button
+
+        function showImageAndText(index) {
+            const imageElement = document.getElementById("image1");
+            const textElement = document.getElementById("text1");
+
+            // Update the image and text based on the current index
+            imageElement.src = images[index];
+            textElement.innerText = texts[index];
+        }
+
+        function showNext() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImageAndText(currentIndex);
+            updateButtonVisibility();
+        }
+
+        function showPrevious() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImageAndText(currentIndex);
+            updateButtonVisibility();
+        }
+
+        function updateButtonVisibility() {
+            const previousBtn = document.getElementById("previousBtn");
+            const nextBtn = document.getElementById("nextBtn");
+
+            previousBtn.style.display = enablePrevious && currentIndex !== 0 ? "inline" : "none";
+            nextBtn.style.display = currentIndex === images.length - 1 ? "none" : "inline";
+        }
+
+        // Initial setup
+        showImageAndText(currentIndex);
+        updateButtonVisibility();
+    </script>
+
+</div>

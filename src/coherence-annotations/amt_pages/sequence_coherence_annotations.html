@@ -1,0 +1,238 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<div style="padding-left: 20px;">
+
+    <crowd-instructions link-text="View instructions" link-type="button">
+        <short-summary>
+            <h2>Information</h2>
+            <ol>
+                <li>A recipe contains a <b>sequence of steps</b>.</li>
+                <li>Each step has a <b>description</b> and an <b>image</b>.</li>
+                <li>Some steps are <b>directly connected</b> to the previous step.</li>
+                <li>When steps are <b>connected</b>, the properties of elements in the images should be maintained, i.e., A <b>blue</b> spoon remains <b>blue</b>, <b>cooked</b> beef remains <b>cooked</b>.</li>
+                <li>When the <b>element properties</b> in an image are maintained, with respect to the previous image, we say it is coherent.</li>
+                <li>When steps are <b>not connected</b>, we are not concerned with coherence.</li>
+            </ol>
+        </short-summary>
+
+        <detailed-instructions>
+            <h2>Instructions</h2>
+            <ol>
+                <li>You should annotate the description and image within the <span style="color: green">green</span> box.</li>
+                <li><b>Not Coherent</b>: The properties of the elements of the current image do not follow those of the
+                    previous image.</li>
+                <li><b>Somewhat Coherent</b>: The properties of some elements of the current image follow those of the
+                    previous image but others do not.</li>
+                <li><b>Very Coherent</b>: Most element properties of the current image follow those of the previous
+                    image.</li>
+                <li><b>Step Descriptions Are Not Connected</b>: The steps are disconnected and do not have to be visually continuous.</li>
+                <li><b>There is a problem with the image</b>: If the image is all black or segmented.</li>
+            </ol>
+
+            <div class="Examples">
+                <h3>Not Coherent</h3>
+                
+                <div class="example-image-container">
+                    <div class="wrapper">
+                        <p>Step 1: Turn the heat up to medium high and add the Jamaican Callaloo, Tomato, Scotch Bonnet Pepper, Fresh Thyme, and Sea Salt. After a couple minutes, add the Water and cook until tender.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/0_3.png">
+                    </div>
+                    <div class="wrapper">
+                        <p>Step 2: After about 10-12 minutes, taste for salt and adjust accordingly.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/0_4.png">
+                    </div>
+                </div>
+
+                <p class="justification"><b>Why?</b>  The pan changed materials. The shrimp disappeared from the pan.</p>
+
+
+                <h3>Somewhat Coherent</h3>
+
+                <div class="example-image-container">
+                    <div class="wrapper">
+                        <p>Step 1: Garnish it with fruit, Unsweetened Shredded Coconut and Walnut.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/1_5.png">
+                    </div>
+                    <div class="wrapper">
+                        <p>Step 2: Enjoy!</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/1_6.png">
+                    </div>
+                </div>
+
+                <p class="justification"><b>Why?</b> The main elements in the bowl are still present in the second image. The bowl is slightly different and we are missing the coconut from the first image.</p>
+
+
+                <h3>Very Coherent</h3>
+
+                <div class="example-image-container">
+                    <div class="wrapper">
+                        <p>Step 1: Add the Small Shrimp, stir well and cook for another 3 minutes.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/0_2.png">
+                    </div>
+                    <div class="wrapper">
+                        <p>Step 2: Turn the heat up to medium high and add the Jamaican Callaloo, Tomato, Scotch Bonnet Pepper, Fresh Thyme, and Sea Salt. After a couple minutes, add the Water and cook until tender.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/0_3.png">
+                    </div>
+                </div>
+
+                <p class="justification"><b>Why?</b> The pan used is very similar. The shrimp is slightly cooked. The sauce is very similar in both images. The vegetables in the first image are present in the second image.</p>
+                
+                <div class="example-image-container">
+                    <div class="wrapper">
+                        <p>Step 1: Add egg and sugar to a bowl and whisk until combined. Stir in honey and add lemon zest. Stir to combine until a smooth batter forms.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/original/3_2.png">
+                    </div>
+                    <div class="wrapper">
+                        <p>Step 2: Sieve flour and baking powder into the batter, then add melted butter and stir to combine. Cover bowl with plastic wrap and let rest in the fridge for at least 3 hrs.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/original/3_3.png">
+                    </div>
+                </div>
+
+                <p class="justification"><b>Why?</b> The elements of the first image are present in the second image. The bowl is the same as in the first image. The mixture inside the bowl looks the same. The lemon is zested.</p>
+
+                <h3>Step Descriptions Are Not Connected</h3>
+
+                <div class="example-image-container">
+                    <div class="wrapper">
+                        <p>Step 1: Melt butter in a small pot over medium heat.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/original/3_1.png">
+                    </div>
+                    <div class="wrapper">
+                        <p>Step 2: Add egg and sugar to a bowl and whisk until combined. Stir in honey and add lemon zest. Stir to combine until a smooth batter forms.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/original/3_2.png">
+                    </div>
+                </div>
+
+                <p class="justification"><b>Why?</b> In Step 2, the user is told to add egg and sugar to a new bowl. It is unrelated to the instructions in Step 1.</p>
+
+
+                <h3>There is a problem with the image</h3>
+
+                <div class="example-image-container">
+                    <div class="wrapper">
+                        <p>Step 1: After about 10-12 minutes, taste for salt and adjust accordingly.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/0_4.png">
+                    </div>
+                    <div class="wrapper">
+                        <p>Step 2: When the mixture has reached the desired texture, add juice of Lemon and turned up the heat to burn off the remaining liquid in the pan. Serve and enjoy.</p>
+                        <img src="https://coherence-annotation-images.s3.amazonaws.com/alpaca/0_5.png">
+                    </div>
+                </div>
+
+                <p class="justification"><b>Why?</b> The second image is segmented into a grid of four subimages.</p>
+            </div>
+
+        </detailed-instructions>
+
+    </crowd-instructions>
+
+    <crowd-form answer-format="flatten-objects">
+        <h1>${recipe_name}</h1>
+
+        <div style="display: flex">
+            <div class="step">
+                <p class="step-text"><strong>Step 1: ${previous_text}</strong></p>
+
+                <div class="image-container">
+                    <img src="${previous_image_url}"/>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <div class="step current-step">
+                    <p class="step-text"><strong>Step 2: ${text}</strong></p>
+
+                    <div class="image-container">
+                        <img src="${image_url}"/>
+                    </div>
+                </div>
+
+                <div class="crowd-input-container" style="flex: 10 0 min-content; width: 90%;">
+                    <input type="hidden" name="image_id" value="${image_id}">
+                    <input type="hidden" name="method" value="${method}">
+
+                    <div><b>Q</b>: How coherent is the image in the green box with respect to the previous image?<br></div>
+                    <crowd-radio-group>
+                        <crowd-radio-button name="not_coherent" value="not_coherent">Not Coherent</crowd-radio-button>
+                        <crowd-radio-button name="somewhat_coherent" value="somewhat_coherent">Somewhat
+                            Coherent</crowd-radio-button>
+                        <crowd-radio-button name="very_coherent" value="very_coherent">Very
+                            Coherent</crowd-radio-button>
+                        <br>
+                        <crowd-radio-button name="not_apply" value="not_apply">Step Descriptions Are Not Connected</crowd-radio-button>
+                    </crowd-radio-group>
+                    <br>
+                    <crowd-checkbox name="generation_error" style="margin-bottom: 10px">* There is a problem with the
+                        image</crowd-checkbox>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+    </crowd-form>
+</div>
+
+<style>
+    .step-text {
+        min-height: 60px
+    }
+    .image-container img {
+        width: 400px;
+        height: 400px;
+    }
+    .step {
+        padding: 3px;
+        width: 400px;
+        margin-right: 30px
+    }
+    .current-step {
+        border: 3px solid green;
+    }
+    .example-image-container {
+        display: flex;
+    }
+    .example-image-container img {
+        width: 270px;
+        height: 270px
+    }
+    .justification {
+        height: 80px;
+    }
+    .wrapper {
+        width: 400px;
+    }
+    .wrapper p {
+        min-height: 80px
+    }
+</style>
+
+<script>
+    window.onload = function() {
+        document.querySelector('crowd-form').onsubmit = validateForm;
+    }
+
+    function validateForm(event) {
+        const radioButtons = document.querySelectorAll('crowd-radio-button');
+        const checkbox = document.querySelector('crowd-checkbox');
+        let radioButtonSelected = false;
+
+        radioButtons.forEach(radioButton => {
+            if (radioButton.checked) {
+                radioButtonSelected = true;
+            }
+        });
+
+        if (!radioButtonSelected && !checkbox.checked) {
+            alert("Please select a coherence option or check the 'There is a problem with the image' checkbox.");
+            event.preventDefault();
+            return false;
+        }
+
+        return true;
+    }
+</script>

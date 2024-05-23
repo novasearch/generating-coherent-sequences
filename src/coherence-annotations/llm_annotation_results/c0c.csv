@@ -1,0 +1,641 @@
+Id,Input,Prompt,"Rating:
+-1: Errors in the generation or in the input
+0: Prompt doesn't describe the current step
+1: Prompt describes the current step, but some context is missing in the input/output
+2: Prompt is a poor description of the current step, and is in accordance with the context
+3: Prompt is a good description of the current step, and is in accordance with the context
+4: Prompt is a very good description of the current step, and is in accordance with the context","Note (optional)
+A: copy problem
+B: step has too many actions
+C: good prompt DESPITE step with too many actions
+D: prompt has hallucinations"
+17,"Step 1: Combine the Aperol, orange juice, and grapefruit juice in a shaker with ice.
+Step 2: Juice orange and grapefruit
+Step 3: Shake thoroughly, then strain into rocks glasses filled with ice. Top glasses with Prosecco.
+",a woman is pouring a drink into a glass that is sitting on a table,1,
+141,"Step 1: In a large saucepan, heat fish broth on medium heat. Add clams and cook on low heat for approx. 1 – 2 min. Remove from broth with a slotted spoon, reserve fish stock, and separate clams from shell. Set aside.
+Step 2: Chop parsley and dill. Dice potatoes, bacon, and celery into small cubes and set aside. Wash clams thoroughly.
+Step 3: In another large saucepan, melt butter and fry bacon on medium-high heat until browned, approx. 2 – 3 min. Add flour, stir to combine, and cook for approx. 1 min. Add cream, potatoes, celery, and fish stock and cook until warmed through. Add milk and cook for approx. 5 more min.
+",A person is stirring a pot of soup with a wooden spoon,1,
+5,"Step 1: Core and chop the Apple. Put half of the organic apples in a food processor with the Dates, Ground Flaxseed, Salt, Ground Cinnamon, and Vanilla Powder. Process until well blended.
+","Core and chop the apple. Put half of the organic apples in a food processor with the dates, ground flaxseed, salt, ground cinnamon, and vanilla powder. Process until well blended",3,A
+58,"Step 1: Stir herb mixture into Greek yogurt. Season again with lemon juice and salt and pepper to taste.
+Step 2: In a food processor, finely puree arugula, basil, almonds, Parmesan cheese, salt, and pepper.
+Step 3: In a large bowl, combine cooked pasta with yogurt-pesto. If the pasta seems too dry, add some of the previously saved pasta water. Serve with shavings of Parmesan cheese.
+","In a large bowl, a person is adding cooked pasta to a bowl of yogurt-pesto",4,
+74,"Step 1: Thinly slice the leek. Finely chop the chili pepper. Quarter the tomatoes, and dice the pancetta. Set everything aside.
+Step 2: Bring a pot of water to a boil over medium-high heat. Salt generously and cook tagliatelle until al dente. Drain, reserving some pasta water.
+",a woman is cooking pasta in a pot on a stove,4,
+76,"Step 1: In a jam jar, add Lime Juice, Fresh Cilantro, Red Chili Pepper, and Soy Sauce. Put a lid on and shake to combine. Set aside.
+Step 2: In a large mixing bowl, add Salad Greens, Chicken Breast and Mango. Drizzle dressing over top. Gently toss everything together to combine and season with Freshly Ground Black Pepper.
+","a person is adding salad greens, chicken breast, and mango to a large mixing bowl",4,
+83,"Step 1: Cut corn tortillas into rounds to fit muffin tin cups, if necessary. Place rounds into muffin tin, so that tortillas form cups. Add beef-bean mixture to the taco cups and crumble feta cheese over it. Bake at 180°C/370°F for approx. 10 – 12 min.
+Step 2: Preheat the oven to 180°C/370°F. Peel and dice onion. Drain and rinse canned beans. In a frying pan, heat olive oil and sauté diced onion. Add ground beef and fry for approx. 1 – 2 min. Add chili powder, paprika powder, ground cumin, Cayenne pepper, dried oregano, and sugar and season with pepper and salt. Mix well and fry for another 2 – 3 min. Stir in pinto beans, black beans, and tomato paste, then remove frying pan from heat.
+Step 3: Meanwhile, juice limes. In a large bowl, whisk together lime juice, olive oil, and chili sauce. Season with salt.
+","A person is whisking together lime juice, olive oil, and chili sauce in a large bowl",4,
+138,"Step 1: Heat a frying pan or panini press over medium heat. Spread Vegan Butter with a thin layer on one side of each Bread.
+",a person is spreading vegan butter on two slices of bread with a knife,4,
+119,"Step 1: Add frozen raspberries on top, or other berries of choice, but it’s best to use frozen ones as they help the rolled oats to soak in.
+Step 2: Top with mixed seeds, e.g. sunflower seeds, shredded flax seeds, rolled oats, and puffed amaranth.
+Step 3: To finish, add rolled oats and pour vanilla soy drink on top. Refrigerate for at least 3 hrs., but at best over night. Serve with sliced banana on top.
+",a bowl of rolled oats with a vanilla soy drink poured on top,1,
+158,"Step 1: Rinse quinoa in warm water and cook in vegetable stock, according to the package instructions, and set aside.
+",the quinoa is being cooked in a pot on the stove,3,
+169,"Step 1: Season Medium Shrimp with Kosher Salt, Cayenne Pepper and Lime Juice to taste, grill on both sides on high heat until just cooked through.
+Step 2: Combine Fresh Strawberry, Watermelon, and Kiwifruit with Honey and Lime Juice, macerate for one hour in the fridge.
+Step 3: Plate the fruit, top with the brochettes, sprinkle with Pomegranate Seeds and Fresh Basil Leaf.
+","a plate of fruit topped with brochettes, sprinkled with pomegranate seeds and fresh basil leaf",1,
+172,"Step 1: Dice chicken breasts into large pieces. Mince garlic and cilantro, cut bell peppers into strips, and finely chop scallions.
+Step 2: Heat half of the vegetable oil in a large skillet over high heat. Add chicken pieces and sauté for approx. 5 – 7 min. until golden. Transfer to a plate and set aside.
+",a person is cooking chicken in a skillet on a stove top,4,
+113,"Step 1: Heat some vegetable oil in a frying pan over medium heat. Add chicken and mushrooms and sauté until mushrooms are soft and chicken is cooked, approx. 6 – 8 min. Remove from heat and allow to cool slightly.
+Step 2: In a medium bowl, whisk together yogurt, mayonnaise and Worcestershire sauce. Set aside.
+Step 3: Add mango, chicken, and mushrooms to the mayonnaise yogurt mixture. Add chopped chives and parsley and stir to combine. Season with salt and pepper to taste.
+","a bowl of chicken, mango, mushrooms, and yogurt mixture with chopped chives and parsley added to it",1,
+72,"Step 1: In the meantime, cook pasta according to package instructions. Drain, reserving about a cup (150 grams) of pasta water.
+Step 2: Heat a generous amount of olive oil in a pan over medium low. Add onion and crushed garlic cloves and sauté until the onions are soft and translucent. Add tomato paste and sauté on low for approx. 10 min.
+Step 3: Whisk together the crème fraîche with half a cup of pasta water to loosen it up. Add to the frying pan over low heat and stir together, adding extra pasta water if needed until the sauce has a glossy consistency. Season with salt and pepper to taste. Before serving, add a handful of grated Parmesan to the sauce, then combine with the pasta and serve with plenty of basil leaves and more grated Parmesan on top.
+",A person is stirring a sauce in a frying pan with a wooden spoon,0,
+20,"Step 1: Add vegetable broth, vinegar, onions, mustard, salt, pepper, and sugar to a saucepan. Whisk until well combined, and bring to a boil. Let cool and pour over the potato slices. Let set for approx. 10 min.
+Step 2: Add eggs to a pot of water and bring to a boil. Reduce heat to medium and cook for approx. 8 – 10 min. Drain and let cool. Peel and dice cooled eggs.
+Step 3: Add eggs, cucumbers, parsley, and dill to the potato salad. Mix until well combined and gently fold in mayonnaise. Mix well once more before serving. Enjoy cold or at room temperature!
+","a bowl of potato salad with eggs, cucumbers, parsley, and dill in it",2,
+35,"Step 1: Mix remaining eggs and sugar in a stand mixer until well combined. Add mascarpone and whipping cream. Add lemon zest. Juice lemons and add some of the juice.
+Step 2: Preheat oven to 200°C/400°F. Carefully place a sheet of parchment paper on the crust and fill with pie weights. Blind bake the crust for 20 – 25 min. Transfer out of oven, remove pie weights, and set aside to cool. Reduce oven temperature to 180°C/350°F.
+Step 3: Add filling to crust and bake in a preheated oven at 180°C/350°F for approx. 30 – 35 min. until just set. Remove from oven and let cool.
+",A person is putting filling into a pie crust and then baking it in a preheated oven at 180°C/350°F for about 30-35 minutes until it is just set,1,
+8,"Step 1: Blend the frozen bananas, cocoa powder, peanut butter, vanilla, and salt with a hand blender until creamy.
+Step 2: Peel and slice the bananas. Put sliced bananas in a freezer bag and place in the freezer for approx. 4 hrs.
+Step 3: On six of the cookies, place a scoop of the banana ice cream, then press another cookie on top to form the sandwich. Cover each with plastic wrap and place back in the freezer for approx. 1 hr.
+","Step 2: On six of the cookies, place a scoop of the banana ice cream, then press another cookie on top to form the sandwich. Cover each with plastic wrap and place back in the freezer for approx. 1 hr",-1,A
+18,"Step 1: Mix together cinnamon, nutmeg, and some of the sugar. Grease a large rectangular baking dish with butter. Preheat oven to 180°C/350°F. Turn dough out onto lightly floured surface, knead a couple of times until smooth, and roll out to fit the baking pan.
+Step 2: Toss apples with lemon juice and zest and set aside.
+Step 3: Transfer dough to baking dish and sprinkle with almonds. Spread apple slices on top, then sprinkle with sugar mixture. For the crumble, combine flour, remaining sugar, butter, salt, and vanilla sugar and use your fingers to combine into large crumbs. Sprinkle crumble over apples and bake at 180°C/350°F for approx. 45 min. Remove from oven and let cool. Cut into squares and
+",A woman is sprinkling almonds on top of a baking dish with apple slices in it. She is also sprinkling sugar mixture on top of the apples. She is then transferring the dough to a baking dish and sprinkling it with almonds. She is then sprinkling crumble over the apples and,-1,A
+63,"Step 1: In a large frying pan, sauté burgers in some vegetable oil over medium heat for approx. 3 – 4 min. per side for medium-rare; 4 – 5 min. per side for well-done.
+Step 2: In a large frying pan, cook bacon over medium-high heat for approx. 1 – 2 min. per side until crispy. Transfer to a paper towel-lined plate to remove excess grease.
+Step 3: When burgers are finished cooking, top with cheddar cheese. Transfer to a plate, cover with foil, and let sit for approx. 3 – 5  min.
+",A person is putting cheese on a burger before transferring it to a plate,2,
+87,"Step 1: In a large pot, heat the olive oil over medium heat. Add onion and garlic and sear quickly. Lower heat, add all of the spices, and sauté for approx. 2 min. Add sweet potatoes, carrots, bell pepper and fennel and sauté for approx. 2 more min.
+Step 2: Peel and finely dice onion and garlic. Peel carrots and sweet potatoes and cut into bite-size pieces. Deseed and dice bell pepper. Remove leaves and core from fennel and chop rest into small pieces. Wash kale, remove leaves from stems, and cut or tear into bite-size pieces.
+Step 3: Stir in water, vegetable stock, and tomatoes and bring to a boil. Reduce heat and let simmer for approx. 15 – 20 min. until sweet potatoes are softened, but still firm.
+",a pot of sweet potatoes is being cooked on a stove top,1,
+93,"Step 1: Add most of the radicchio and sauté for approx. 2 min. more. Deglaze with Calvados, white wine, and apple juice. Crumble in the Gorgonzola cheese. After it has melted, pour in the cream and season with salt, pepper, and freshly grated nutmeg.
+Step 2: Heat olive oil in a frying pan. Sauté the shallots until translucent. Add the walnuts and honey, and allow to caramelize and brown slightly over a medium-high heat for approx. 3 min.
+Step 3: When the pasta is finished, strain, add to the sauce, and stir to combine. Serve and garnish with remaining radicchio.
+",a bowl of pasta with radicchio in it,1,
+68,"Step 1: Take a tablespoon of the mixture, and roll it into a ball shape. Continue with the rest of the meat mixture. Line the balls on a baking tray lined with some baking paper, and bake under 200 degrees C (400 degrees F) for about 20 minutes.
+Step 2: Using your hands, mix together the Chicken Breast, Fresh Cilantro, Yellow Onion, Taco Seasoning, Breadcrumbs, Salt and Pepper
+Step 3: Serve together with the salsa salad, and Corn Chips.
+",the corn chips are being served with salsa salad and a bowl of salsa,2,
+37,"Step 1: Add the Fresh Mint Leaves and Pistachios and pour the dressing over the top. Toss to combine. Gently fold in the Feta Cheese.
+Step 2: Finely chop a handful of carrot tops - resulting in about 1/4 cup. Place the carrot strips and tops in a large salad bowl.
+Step 3: Top with coarsely chopped Fresh Mint Leaves and more Crushed Red Pepper Flakes if you want an additional kick of spice.
+",a bowl of soup with coarsely chopped fresh mint leaves and crushed red pepper flakes on top,1,
+185,"Step 1: Finely slice spring onions. Chop onions and mince garlic. Remove stems from mushrooms, then quarter. Chop peeled chestnuts.
+Step 2: Add pasta to a large pot of salted water and cook until al dente, according to package instructions.
+",a person is adding pasta to a large pot of salted water and cooking it until al dente,1,
+45,"Step 1: Place ladyfingers into a freezer bag. Tightly seal bag and crush roughly with a rolling pin.
+",a woman is using a rolling pin to crush ladyfingers in a freezer bag,4,
+145,"Step 1: Add remaining olive oil, apple cider vinegar, mustard, honey, ground coriander, sumac, and cayenne pepper  to a small bowl and whisk to combine. Season with salt and pepper to taste.
+Step 2: In the meantime, toast sliced almonds in a frying pan until fragrant, then remove from heat.
+Step 3: Add roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stir to combine. Crumble feta cheese on top using your hands.
+","A person is stirring a bowl of roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds with a spoon",4,
+73,"Step 1: Heat half of the vegetable oil in a large skillet over high heat. Add chicken pieces and sauté for approx. 5 – 7 min. until golden. Transfer to a plate and set aside.
+Step 2: Dice chicken breasts into large pieces. Mince garlic and cilantro, cut bell peppers into strips, and finely chop scallions.
+Step 3: Heat other half of vegetable oil and add scallions and garlic. Sauté until soft and fragrant for approx 1 - 2 min. Then, add bell pepper. Continue to sauté and add corn, chicken stock, and enchilada sauce. Season with salt and pepper.
+",A person is cooking a dish on a stove top with a wooden spoon,1,
+162,"Step 1: Add chopped vegetables, lovage, allspice, and bay leaves to the pot. Simmer on low heat for approx. 40 min. until meat is cooked. Season with salt as desired. If soup is too fatty, skim broth, and refill with fresh water. Pour the skimmed broth back to the pot.
+Step 2: Roughly chop carrots, celery root and stalk, leek, and radish.
+Step 3: Remove chicken, then pour broth through a sieve.  Strained broth should be clear.
+",a woman is pouring broth through a sieve into a bowl,1,
+69,"Step 1: Roughly chop bacon. Finely chop chives. Heat chicken stock over medium-low heat in a pot. Fry eggs over-easy in a little butter in a frying pan. Season with salt and pepper and set aside.
+Step 2: In a separate pot over medium-high heat, fry bacon until crispy. Remove from the pot, leaving the fat in the pan. Add the risotto rice and sauté for approx. 2 min.
+","In a separate pot over medium-high heat, fry bacon until crispy. Remove from the pot, leaving the fat in the pan. Add the risotto rice and sauté for approx. 2 min",4,A
+147,"Step 1: Cut chicken breast filet into strips. Chop the marjoram, quarter the lemon, and halve the chili pepper lengthwise, removing the seeds. Quarter the shallot.
+Step 2: Place all the ingredients in a baking dish, add the milk, and season with salt and pepper. Cover the dish with plastic wrap and leave to marinate in the fridge overnight.
+","a baking dish with ingredients including chicken, potatoes, onions, and garlic",1,D
+148,"Step 1: In a pan over medium-high heat, add some Canola Oil and saute the diced tomatoes, mushrooms and Fresh Spinach together until tender, about a minute or two.
+Step 2: Dice the Tomato and Straw Mushrooms.
+Step 3: Set the vegetables aside in a bowl, while you prepare the soup.
+",the soup is being cooked in a pot on the stove,0,
+194,"Step 1: In a small a bowl, whisk together zest and juice of Lime, Olive Oil, Garlic, Dijon Mustard, Ground Cumin, Chipotle Chili Powder, Kosher Salt, and Ground Black Pepper.
+Step 2: Lay the Steak across a large platter, carpaccio style. Add Lettuce, Black Beans, Corn, Red Onion, Red Bell Pepper, Grape Tomatoes, Jalapeño Pepper, Queso Fresco to a large bowl.
+","a person is putting lettuce, black beans, corn, red onion, red bell pepper, grape tomatoes, jalapeno pepper, queso fresco into a bowl",4,
+77,"Step 1: Add Tomato and cook for 3 minutes, stirring occasionally.
+Step 2: Heat skillet over medium-low. Add Olive Oil. Add the green beans, corn, summer squash and hot pepper. Cook for 5 minutes stirring occasionally.
+Step 3: Add garlic and cook for 1 to 2 minutes, stirring often. Taste and adjust seasoning with Salt and Pepper if needed. Remove from heat and add Distilled White Vinegar. Serve topped with Fresh Basil.
+",a person is adding garlic to a pan and stirring it with a spoon,1,
+59,"Step 1: Then add Broccoli and the Carrot and cook until the pasta is done (follow package instructions).
+Step 2: Add the Orzo Pasta and cook for 3 minutes.
+Step 3: Garnish with spring onions if needed.
+",the dish is being served on a plate with a side of lettuce and tomatoes,0,D
+166,"Step 1: Beat the eggs and whisk in the milk. Add oregano, half of the parsley, nutmeg, and salt and pepper to taste.
+Step 2: Halve the tomatoes and cut the bell pepper and avocado into cubes. Cut the chorizo, spring onions, and mozzarella into large pieces, and chop the parsley.
+Step 3: Melt the butter in a nonstick pan over medium-high heat. Fry the chorizo for approx. 2 min., or until the fat begins to render. Add bell pepper and fry for approx. 2 min. longer before reducing the heat to medium-low. Add the tomatoes, then add the egg mixture. Cook the omelette for approx. 4 min. with the lid on.
+",A person is cooking an omelette in a nonstick pan over medium-high heat. They are adding bell pepper and tomatoes to the pan before adding the egg mixture.,4,
+75,"Step 1: Preheat the oven to 180°C/350°F. Line a springform pan with parchment
+paper. Separate the eggs and set the one with the egg yolks aside. Beat egg whites with some of the sugar until stiff peaks
+form.
+Step 2: Stir the butter with some of the sugar and vanilla sugar until foamy. Little by little, stir in the egg yolks. Mix in flour, cocoa powder, baking powder, and ground almonds until a smooth batter forms. Fold in beaten egg whites and add some of the chocolate shavings. Transfer the dough to the springform pan and bake in the preheated oven at 180°C/350°F for approx. 30 min. Allow to cool completely.
+",A woman is stirring a bowl of chocolate batter with a spoon,2,C
+199,"Step 1: Preheat oven to 150°C/300°F. Roughly dice carrot, celery root and half of the onions. Cut remaining onions into rings.
+",a person is cutting onions on a cutting board with a knife,3,
+168,"Step 1: In a large bowl, place Fresh Blueberry, Celery, Grape Tomatoes, Corn Kernels, Slivered Almonds, Scallion, Dried Cranberries, and Chicken.
+Step 2: Whisk together Greek Yogurt, Mayonnaise, Honey, and Salt. Pour onto the chicken salad mixture. Toss until ingredients are coated.
+",a bowl of chicken salad with a spoon in it,1,
+111,"Step 1: In a pot, add the Almond Milk, Cacao Powder, Vanilla Extract, Dry Mixed Spice, Ground Cinnamon, Muscovado Sugar, and 60% Venezuelan Dark Chocolate and leave to melt at a low temperature mixing continuously.
+","In a pot, add the Almond Milk, Cacao Powder, Vanilla Extract, Dry Mixed Spice, Ground Cinnamon, Muscovado Sugar, and 60% Venezuelan Dark Chocolate and leave to melt at a low temperature mixing continuously",4,A
+51,"Step 1: Discard tea bags and pour in the Granulated Sugar. Stir till sugar is dissolved.
+Step 2: Once water has boiled, remove saucepan from heat and add the Black Tea. Steep for 15 minutes.
+Step 3: Pour tea into a pitcher and add Water depending on desired strength. Refrigerate till cold or approximately 4 hours.
+",a pitcher of tea is being poured into a glass,4,
+39,"Step 1: Strain liquid through a fine mesh strainer or a nutbag into a container like a mason jar. Don't over strain it, that's when it gets slimy.
+Step 2: Place Old Fashioned Rolled Oats, Filtered Water, Medjool Dates and Vanilla Extract in a high power blender. Blend for 30 seconds. To avoid slimy oat milk, the less blending the better. You can blend up the water and dates first and then add the vanilla and oats.
+Step 3: Store in fridge for up to 7-10 days. Or freeze in batches and take out as needed.
+",the ingredients for a chicken and vegetable stir fry are in a bowl on a wooden table,0,
+128,"Step 1: Juice orange and grapefruit
+Step 2: Cut one orange peel per glass.
+Step 3: Combine the Aperol, orange juice, and grapefruit juice in a shaker with ice.
+",a woman is pouring orange juice into a shaker with ice,1,
+117,"Step 1: Preheat oven to 160°C/320°F. Beat soft butter with sugar in a standing mixer or with a hand mixer until fluffy.
+Step 2: Add eggs, one at a time, and continue beating until well-combined.
+",the woman is adding eggs to a bowl of chocolate mixture,0,D
+81,"Step 1: Cook the Black Beans as per packet instructions.
+Step 2: In the meantime in a blender blitz the Tomato Passata, Onion, Spring Onion, Garlic, Red Chili Pepper, and Long Green Peppers.
+","a blender is filled with tomato passata, onion, spring onion, garlic, red chili pepper, and long green peppers",4,
+41,"Step 1: Meanwhile, make the chimichurri. In a food processor, add Fresh Parsley (1 cup), Garlic (2 clove), Dried Oregano (2 teaspoon) Red Wine Vinegar (2 tablespoon), Crushed Red Pepper Flakes (1/4 teaspoon), Salt (1/4 teaspoon), and Ground Black Pepper (0 to taste), and blend. Add in Extra-Virgin Olive Oil (1/2 cup).
+Step 2: Put the entire skillet in the oven and cook the meat for 12-15 minutes at 400 degrees F (200 degrees C), flipping halfway through. Let sit for after removing for several minutes.
+Step 3: Drizzle the chimichurri over the tenderloin.
+",the tenderloin is being dusted with a mixture of spices and herbs,2,
+14,"Step 1: Roughly chop parsley and set aside. Clean and quarter mushrooms. Peel and finely dice onion and garlic. Trim pork tenderloin and cut into equal-sized pieces.
+",A person is cutting up a pork tenderloin on a cutting board with a knife,3,
+123,"Step 1: Preheat oven to 180°C/350°F. Cut pork belly into 2.5 cm/1-in. slices. Chop parsley very finely and set aside.
+Step 2: Fry pork belly in large pan over medium heat golden-brown and crispy on both sides. Transfer to an oven rack set over a baking baking sheet and bake at 180°C/350°F for approx. 30 min.
+",A person is frying pork belly in a large pan over medium heat golden-brown and crispy on both sides. They then transfer the pork belly to an oven rack set over a baking baking sheet and bake at 180°C/350°F for approximately 30 minutes,-1,A
+161,"Step 1: Heat Avocado Oil in a 10-inch skillet over medium heat. Add the Grass-Fed Ground Beef and cook, using a wooden spoon or heatproof spatula to break up the ground beef into equal-size pieces as it cooks, until no longer pink, approximately 5-8 minutes.
+",A person is cooking ground beef in an avocado oil skillet on a stove,4,
+132,"Step 1: Blanch Bone-In, Skin-On Chicken Leg in salted water, discard water, cover the leg with Chicken Stock. Season with Kosher Salt, Fresh Ginger, Garlic, Togarashi Chili and Furikake. Simmer for 45 minutes to 1 hour.
+Step 2: about halfway through the cooking process, 20 to 30 minutes, add Coconut Milk and Thai® Sweet Chili Sauce to the soup.
+",a pot of soup with coconut milk and thai sweet chili sauce in it,0,D
+189,"Step 1: Add bread crumbs to a large bowl. Coat chicken wings with bread crumbs, using tongs to make sure they are coated on all sides.
+Step 2: Pour buttermilk mixture into a freezer bag. Add chicken wings and mix well. Transfer to refrigerator and let marinate for approx. 2 hours.
+Step 3: Heat a generous amount of vegetable oil in a frying pan. Once oil is hot, add chicken wings and cook until browned and cooked through, approx. 8 – 10 min. Rotate to cook on all sides. Enjoy with your favorite dipping sauce.
+",A person is cooking chicken wings in a frying pan on a stove top,4,
+183,"Step 1: Blend Frozen Raspberries, Sliced Frozen Peaches, Milk, and Orange Juice in a food processor or blender and blend until smooth.
+Step 2: Pour into popsicle molds and freeze overnight.
+",the popsicle molds are filled with a mixture of blueberries and raspberries,0,D
+4,"Step 1: In the meantime, cut potatoes into thin (approx. 8mm/ 1/3-in.) slices.
+Step 2: Add rinsed basmati rice to a pot of cold, salted water. Bring to a boil and let simmer for approx. 5 min., then drain.
+Step 3: Add turmeric and saffron to the melted butter and stir to combine. Grease  the bottom and sides of a heavy-bottomed pot with some butter. Add half of the butter mixture to the pot. Then add potatoes slices and rice. Use a spoon to press the rice down firmly. Drizzle over the remaining butter mixture and water. Wrap the pot lid with a clean kitchen towel and cover the pot tightly. Let cook over low heat for approx. 45 min.
+",A person is adding turmeric and saffron to a pot of melted butter,2,
+133,"Step 1: Add butter, milk, and salt to a heavy-bottomed saucepan over medium heat and bring to a boil, stirring occasionally. When butter is melted and mixture is boiling, reduce heat to medium-low and slowly stir in flour with a wooden spoon until combined and a ball of dough forms around the spoon. Transfer mixture to the bowl of a stand mixer and stir on low for approx. 1 min. Add eggs one at a time and increase speed to medium. Continue to mix until emulsified and a smooth, sticky pastry forms.
+Step 2: Chill a baking sheet lined with parchment paper in freezer. Form approx. 18 scoops of ice cream on chilled baking sheet and freeze for approx. 1 hr. Preheat oven to 220°C/425°F. Line another baking sheet with parchment paper. Chop chocolate.
+Step 3: Transfer to pastry bag.
+",the pastry bag is filled with a mixture of flour and sugar,0,D
+167,"Step 1: Place a sheet of wax paper on a baking tray. Slice the Banana into thin layers. Place banana onto wax paper in layers.
+Step 2: Spread on a small dollop of the Almond Butter.
+",the almond butter is spread on a small dollop of the almond butter,-1,
+49,"Step 1: Cook the Spicy Chicken Sausage using the method of your choosing-grill, saute, bake, or boil. Slice the sausages into 1/2"" rounds.
+Step 2: Peel the Garlic. Peel, pit, and slice the Hass Avocado. Crumble the Queso Fresco. Rib, deseed, and thinly slice the Jalapeño Pepper. Thinly slice the Red Onion. Slice the Plum Tomato crosswise.
+",A woman is cutting a jalapeno pepper on a cutting board with a knife,2,
+2,"Step 1: In a small bowl, mix together coffee, cayenne pepper, and salt. Generously rub pork with coffee mixture.
+Step 2: Preheat oven to 180°C/350°F. Thinly slice shallot.
+Step 3: In a Dutch oven, sear tenderloin in coconut oil over medium heat, approx. 2 – 3 min. per side. Transfer Dutch oven to preheated oven and bake at 180°C/350°F on the middle grate for approx. 13 – 15 min. Remove from oven, wrap pork in foil, and let rest for approx. 10 – 12 min.
+","In a Dutch oven, sear tenderloin in coconut oil over medium heat, approx. 2 - 3 min. per side. Transfer Dutch oven to preheated oven and bake at 180°C/350°F on the middle grate for approx. 13 - 15 min",2,A
+130,"Step 1: Heat a grilling pan over medium heat. Once the pan is hot, add the slices of bread and toast for 3 minutes per side, cook in batches to not over-crowd the pan.
+Step 2: Cut the Baguette into 1-inch thick slices.
+Step 3: Add between 1 to 2 tablespoons of the tomato puree on top of each toast, then add 1 Spanish Anchovy Fillets in Olive Oil. Garnish each toast with some Fresh Parsley,
+","a plate of toast with tomato puree, olive oil, and anchovy fillets garnished with parsley",3,
+38,"Step 1: Grate cucumbers and ginger, then add to a sieve and press out as much liquid as possible over a bowl.  Toss liquids and transfer cucumbers and ginger to a clean bowl. Add yogurt, ground cumin, and season with salt and pepper to taste. Stir to combine.
+Step 2: Pre-heat oven to 180°C/355°F. Peel and halve onions crosswise, then remove the inner cores to allow room for the meat. Use your hands to form walnut-sized balls out of the minced meat. Add each meatball to a halved onion and transfer them to a baking dish. Bake for approx. 35 min. or until browned.
+Step 3: Serve meatballs with Turkish bread, cucumber yogurt dip, fresh cucumber slices, and parsley.
+","a plate of meatballs with a cucumber yogurt dip, fresh cucumber slices, and parsley",4,
+7,"Step 1: Using a hand or stand mixer, whip together until creamy.
+Step 2: Place Butter and Honey in a medium mixing bowl. Add Ground Cinnamon and Vanilla Extract.
+Step 3: Use as a sweet spread on toast, English muffins or fruit!
+",the spread is on a plate with a spoon next to it,0,
+179,"Step 1: Rub a grill pan with some oil and grill the chicken breasts until cooked through, approx. 5 – 8 min. on each side. Set aside and cover with foil while you make the cucumber-yogurt sauce.
+Step 2: Spread a layer of plastic wrap over a cutting board and place the chicken breasts in the middle with some space between them. Add another layer of plastic over the chicken and pound them with the smooth side of a meat tenderizer just to make the chicken breast even in thickness. Season the chicken thoroughly with salt and pepper, some olive oil, and the Za’atar.
+Step 3: Grate the cucumber and season with salt. Transfer to a fine sieve set over a bowl to drain. Mix the yogurt with some pepper. Gently press the cucumber to remove any excess liquid and add to the yogurt, stirring to combine.
+",A woman is grating cucumber on a cutting board with a knife and then seasoning it with salt,4,
+17,"Step 1: Combine the Aperol, orange juice, and grapefruit juice in a shaker with ice.
+Step 2: Juice orange and grapefruit
+Step 3: Shake thoroughly, then strain into rocks glasses filled with ice. Top glasses with Prosecco.
+",a woman is pouring a drink into a glass that is sitting on a table,,
+141,"Step 1: In a large saucepan, heat fish broth on medium heat. Add clams and cook on low heat for approx. 1 – 2 min. Remove from broth with a slotted spoon, reserve fish stock, and separate clams from shell. Set aside.
+Step 2: Chop parsley and dill. Dice potatoes, bacon, and celery into small cubes and set aside. Wash clams thoroughly.
+Step 3: In another large saucepan, melt butter and fry bacon on medium-high heat until browned, approx. 2 – 3 min. Add flour, stir to combine, and cook for approx. 1 min. Add cream, potatoes, celery, and fish stock and cook until warmed through. Add milk and cook for approx. 5 more min.
+",A person is stirring a pot of soup with a wooden spoon,,
+5,"Step 1: Core and chop the Apple. Put half of the organic apples in a food processor with the Dates, Ground Flaxseed, Salt, Ground Cinnamon, and Vanilla Powder. Process until well blended.
+","Core and chop the apple. Put half of the organic apples in a food processor with the dates, ground flaxseed, salt, ground cinnamon, and vanilla powder. Process until well blended",,
+58,"Step 1: Stir herb mixture into Greek yogurt. Season again with lemon juice and salt and pepper to taste.
+Step 2: In a food processor, finely puree arugula, basil, almonds, Parmesan cheese, salt, and pepper.
+Step 3: In a large bowl, combine cooked pasta with yogurt-pesto. If the pasta seems too dry, add some of the previously saved pasta water. Serve with shavings of Parmesan cheese.
+","In a large bowl, a person is adding cooked pasta to a bowl of yogurt-pesto",,
+74,"Step 1: Thinly slice the leek. Finely chop the chili pepper. Quarter the tomatoes, and dice the pancetta. Set everything aside.
+Step 2: Bring a pot of water to a boil over medium-high heat. Salt generously and cook tagliatelle until al dente. Drain, reserving some pasta water.
+",a woman is cooking pasta in a pot on a stove,,
+76,"Step 1: In a jam jar, add Lime Juice, Fresh Cilantro, Red Chili Pepper, and Soy Sauce. Put a lid on and shake to combine. Set aside.
+Step 2: In a large mixing bowl, add Salad Greens, Chicken Breast and Mango. Drizzle dressing over top. Gently toss everything together to combine and season with Freshly Ground Black Pepper.
+","a person is adding salad greens, chicken breast, and mango to a large mixing bowl",,
+83,"Step 1: Cut corn tortillas into rounds to fit muffin tin cups, if necessary. Place rounds into muffin tin, so that tortillas form cups. Add beef-bean mixture to the taco cups and crumble feta cheese over it. Bake at 180°C/370°F for approx. 10 – 12 min.
+Step 2: Preheat the oven to 180°C/370°F. Peel and dice onion. Drain and rinse canned beans. In a frying pan, heat olive oil and sauté diced onion. Add ground beef and fry for approx. 1 – 2 min. Add chili powder, paprika powder, ground cumin, Cayenne pepper, dried oregano, and sugar and season with pepper and salt. Mix well and fry for another 2 – 3 min. Stir in pinto beans, black beans, and tomato paste, then remove frying pan from heat.
+Step 3: Meanwhile, juice limes. In a large bowl, whisk together lime juice, olive oil, and chili sauce. Season with salt.
+","A person is whisking together lime juice, olive oil, and chili sauce in a large bowl",,
+138,"Step 1: Heat a frying pan or panini press over medium heat. Spread Vegan Butter with a thin layer on one side of each Bread.
+",a person is spreading vegan butter on two slices of bread with a knife,,
+119,"Step 1: Add frozen raspberries on top, or other berries of choice, but it’s best to use frozen ones as they help the rolled oats to soak in.
+Step 2: Top with mixed seeds, e.g. sunflower seeds, shredded flax seeds, rolled oats, and puffed amaranth.
+Step 3: To finish, add rolled oats and pour vanilla soy drink on top. Refrigerate for at least 3 hrs., but at best over night. Serve with sliced banana on top.
+",a bowl of rolled oats with a vanilla soy drink poured on top,,
+158,"Step 1: Rinse quinoa in warm water and cook in vegetable stock, according to the package instructions, and set aside.
+",the quinoa is being cooked in a pot on the stove,,
+169,"Step 1: Season Medium Shrimp with Kosher Salt, Cayenne Pepper and Lime Juice to taste, grill on both sides on high heat until just cooked through.
+Step 2: Combine Fresh Strawberry, Watermelon, and Kiwifruit with Honey and Lime Juice, macerate for one hour in the fridge.
+Step 3: Plate the fruit, top with the brochettes, sprinkle with Pomegranate Seeds and Fresh Basil Leaf.
+","a plate of fruit topped with brochettes, sprinkled with pomegranate seeds and fresh basil leaf",,
+172,"Step 1: Dice chicken breasts into large pieces. Mince garlic and cilantro, cut bell peppers into strips, and finely chop scallions.
+Step 2: Heat half of the vegetable oil in a large skillet over high heat. Add chicken pieces and sauté for approx. 5 – 7 min. until golden. Transfer to a plate and set aside.
+",a person is cooking chicken in a skillet on a stove top,,
+113,"Step 1: Heat some vegetable oil in a frying pan over medium heat. Add chicken and mushrooms and sauté until mushrooms are soft and chicken is cooked, approx. 6 – 8 min. Remove from heat and allow to cool slightly.
+Step 2: In a medium bowl, whisk together yogurt, mayonnaise and Worcestershire sauce. Set aside.
+Step 3: Add mango, chicken, and mushrooms to the mayonnaise yogurt mixture. Add chopped chives and parsley and stir to combine. Season with salt and pepper to taste.
+","a bowl of chicken, mango, mushrooms, and yogurt mixture with chopped chives and parsley added to it",,
+72,"Step 1: In the meantime, cook pasta according to package instructions. Drain, reserving about a cup (150 grams) of pasta water.
+Step 2: Heat a generous amount of olive oil in a pan over medium low. Add onion and crushed garlic cloves and sauté until the onions are soft and translucent. Add tomato paste and sauté on low for approx. 10 min.
+Step 3: Whisk together the crème fraîche with half a cup of pasta water to loosen it up. Add to the frying pan over low heat and stir together, adding extra pasta water if needed until the sauce has a glossy consistency. Season with salt and pepper to taste. Before serving, add a handful of grated Parmesan to the sauce, then combine with the pasta and serve with plenty of basil leaves and more grated Parmesan on top.
+",A person is stirring a sauce in a frying pan with a wooden spoon,,
+20,"Step 1: Add vegetable broth, vinegar, onions, mustard, salt, pepper, and sugar to a saucepan. Whisk until well combined, and bring to a boil. Let cool and pour over the potato slices. Let set for approx. 10 min.
+Step 2: Add eggs to a pot of water and bring to a boil. Reduce heat to medium and cook for approx. 8 – 10 min. Drain and let cool. Peel and dice cooled eggs.
+Step 3: Add eggs, cucumbers, parsley, and dill to the potato salad. Mix until well combined and gently fold in mayonnaise. Mix well once more before serving. Enjoy cold or at room temperature!
+","a bowl of potato salad with eggs, cucumbers, parsley, and dill in it",,
+35,"Step 1: Mix remaining eggs and sugar in a stand mixer until well combined. Add mascarpone and whipping cream. Add lemon zest. Juice lemons and add some of the juice.
+Step 2: Preheat oven to 200°C/400°F. Carefully place a sheet of parchment paper on the crust and fill with pie weights. Blind bake the crust for 20 – 25 min. Transfer out of oven, remove pie weights, and set aside to cool. Reduce oven temperature to 180°C/350°F.
+Step 3: Add filling to crust and bake in a preheated oven at 180°C/350°F for approx. 30 – 35 min. until just set. Remove from oven and let cool.
+",A person is putting filling into a pie crust and then baking it in a preheated oven at 180°C/350°F for about 30-35 minutes until it is just set,,
+8,"Step 1: Blend the frozen bananas, cocoa powder, peanut butter, vanilla, and salt with a hand blender until creamy.
+Step 2: Peel and slice the bananas. Put sliced bananas in a freezer bag and place in the freezer for approx. 4 hrs.
+Step 3: On six of the cookies, place a scoop of the banana ice cream, then press another cookie on top to form the sandwich. Cover each with plastic wrap and place back in the freezer for approx. 1 hr.
+","Step 2: On six of the cookies, place a scoop of the banana ice cream, then press another cookie on top to form the sandwich. Cover each with plastic wrap and place back in the freezer for approx. 1 hr",,
+18,"Step 1: Mix together cinnamon, nutmeg, and some of the sugar. Grease a large rectangular baking dish with butter. Preheat oven to 180°C/350°F. Turn dough out onto lightly floured surface, knead a couple of times until smooth, and roll out to fit the baking pan.
+Step 2: Toss apples with lemon juice and zest and set aside.
+Step 3: Transfer dough to baking dish and sprinkle with almonds. Spread apple slices on top, then sprinkle with sugar mixture. For the crumble, combine flour, remaining sugar, butter, salt, and vanilla sugar and use your fingers to combine into large crumbs. Sprinkle crumble over apples and bake at 180°C/350°F for approx. 45 min. Remove from oven and let cool. Cut into squares and
+",A woman is sprinkling almonds on top of a baking dish with apple slices in it. She is also sprinkling sugar mixture on top of the apples. She is then transferring the dough to a baking dish and sprinkling it with almonds. She is then sprinkling crumble over the apples and,,
+63,"Step 1: In a large frying pan, sauté burgers in some vegetable oil over medium heat for approx. 3 – 4 min. per side for medium-rare; 4 – 5 min. per side for well-done.
+Step 2: In a large frying pan, cook bacon over medium-high heat for approx. 1 – 2 min. per side until crispy. Transfer to a paper towel-lined plate to remove excess grease.
+Step 3: When burgers are finished cooking, top with cheddar cheese. Transfer to a plate, cover with foil, and let sit for approx. 3 – 5  min.
+",A person is putting cheese on a burger before transferring it to a plate,,
+87,"Step 1: In a large pot, heat the olive oil over medium heat. Add onion and garlic and sear quickly. Lower heat, add all of the spices, and sauté for approx. 2 min. Add sweet potatoes, carrots, bell pepper and fennel and sauté for approx. 2 more min.
+Step 2: Peel and finely dice onion and garlic. Peel carrots and sweet potatoes and cut into bite-size pieces. Deseed and dice bell pepper. Remove leaves and core from fennel and chop rest into small pieces. Wash kale, remove leaves from stems, and cut or tear into bite-size pieces.
+Step 3: Stir in water, vegetable stock, and tomatoes and bring to a boil. Reduce heat and let simmer for approx. 15 – 20 min. until sweet potatoes are softened, but still firm.
+",a pot of sweet potatoes is being cooked on a stove top,,
+93,"Step 1: Add most of the radicchio and sauté for approx. 2 min. more. Deglaze with Calvados, white wine, and apple juice. Crumble in the Gorgonzola cheese. After it has melted, pour in the cream and season with salt, pepper, and freshly grated nutmeg.
+Step 2: Heat olive oil in a frying pan. Sauté the shallots until translucent. Add the walnuts and honey, and allow to caramelize and brown slightly over a medium-high heat for approx. 3 min.
+Step 3: When the pasta is finished, strain, add to the sauce, and stir to combine. Serve and garnish with remaining radicchio.
+",a bowl of pasta with radicchio in it,,
+68,"Step 1: Take a tablespoon of the mixture, and roll it into a ball shape. Continue with the rest of the meat mixture. Line the balls on a baking tray lined with some baking paper, and bake under 200 degrees C (400 degrees F) for about 20 minutes.
+Step 2: Using your hands, mix together the Chicken Breast, Fresh Cilantro, Yellow Onion, Taco Seasoning, Breadcrumbs, Salt and Pepper
+Step 3: Serve together with the salsa salad, and Corn Chips.
+",the corn chips are being served with salsa salad and a bowl of salsa,,
+37,"Step 1: Add the Fresh Mint Leaves and Pistachios and pour the dressing over the top. Toss to combine. Gently fold in the Feta Cheese.
+Step 2: Finely chop a handful of carrot tops - resulting in about 1/4 cup. Place the carrot strips and tops in a large salad bowl.
+Step 3: Top with coarsely chopped Fresh Mint Leaves and more Crushed Red Pepper Flakes if you want an additional kick of spice.
+",a bowl of soup with coarsely chopped fresh mint leaves and crushed red pepper flakes on top,,
+185,"Step 1: Finely slice spring onions. Chop onions and mince garlic. Remove stems from mushrooms, then quarter. Chop peeled chestnuts.
+Step 2: Add pasta to a large pot of salted water and cook until al dente, according to package instructions.
+",a person is adding pasta to a large pot of salted water and cooking it until al dente,,
+45,"Step 1: Place ladyfingers into a freezer bag. Tightly seal bag and crush roughly with a rolling pin.
+",a woman is using a rolling pin to crush ladyfingers in a freezer bag,,
+145,"Step 1: Add remaining olive oil, apple cider vinegar, mustard, honey, ground coriander, sumac, and cayenne pepper  to a small bowl and whisk to combine. Season with salt and pepper to taste.
+Step 2: In the meantime, toast sliced almonds in a frying pan until fragrant, then remove from heat.
+Step 3: Add roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stir to combine. Crumble feta cheese on top using your hands.
+","A person is stirring a bowl of roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds with a spoon",,
+73,"Step 1: Heat half of the vegetable oil in a large skillet over high heat. Add chicken pieces and sauté for approx. 5 – 7 min. until golden. Transfer to a plate and set aside.
+Step 2: Dice chicken breasts into large pieces. Mince garlic and cilantro, cut bell peppers into strips, and finely chop scallions.
+Step 3: Heat other half of vegetable oil and add scallions and garlic. Sauté until soft and fragrant for approx 1 - 2 min. Then, add bell pepper. Continue to sauté and add corn, chicken stock, and enchilada sauce. Season with salt and pepper.
+",A person is cooking a dish on a stove top with a wooden spoon,,
+162,"Step 1: Add chopped vegetables, lovage, allspice, and bay leaves to the pot. Simmer on low heat for approx. 40 min. until meat is cooked. Season with salt as desired. If soup is too fatty, skim broth, and refill with fresh water. Pour the skimmed broth back to the pot.
+Step 2: Roughly chop carrots, celery root and stalk, leek, and radish.
+Step 3: Remove chicken, then pour broth through a sieve.  Strained broth should be clear.
+",a woman is pouring broth through a sieve into a bowl,,
+69,"Step 1: Roughly chop bacon. Finely chop chives. Heat chicken stock over medium-low heat in a pot. Fry eggs over-easy in a little butter in a frying pan. Season with salt and pepper and set aside.
+Step 2: In a separate pot over medium-high heat, fry bacon until crispy. Remove from the pot, leaving the fat in the pan. Add the risotto rice and sauté for approx. 2 min.
+","In a separate pot over medium-high heat, fry bacon until crispy. Remove from the pot, leaving the fat in the pan. Add the risotto rice and sauté for approx. 2 min",,
+147,"Step 1: Cut chicken breast filet into strips. Chop the marjoram, quarter the lemon, and halve the chili pepper lengthwise, removing the seeds. Quarter the shallot.
+Step 2: Place all the ingredients in a baking dish, add the milk, and season with salt and pepper. Cover the dish with plastic wrap and leave to marinate in the fridge overnight.
+","a baking dish with ingredients including chicken, potatoes, onions, and garlic",,
+148,"Step 1: In a pan over medium-high heat, add some Canola Oil and saute the diced tomatoes, mushrooms and Fresh Spinach together until tender, about a minute or two.
+Step 2: Dice the Tomato and Straw Mushrooms.
+Step 3: Set the vegetables aside in a bowl, while you prepare the soup.
+",the soup is being cooked in a pot on the stove,1,
+194,"Step 1: In a small a bowl, whisk together zest and juice of Lime, Olive Oil, Garlic, Dijon Mustard, Ground Cumin, Chipotle Chili Powder, Kosher Salt, and Ground Black Pepper.
+Step 2: Lay the Steak across a large platter, carpaccio style. Add Lettuce, Black Beans, Corn, Red Onion, Red Bell Pepper, Grape Tomatoes, Jalapeño Pepper, Queso Fresco to a large bowl.
+","a person is putting lettuce, black beans, corn, red onion, red bell pepper, grape tomatoes, jalapeno pepper, queso fresco into a bowl",1,B
+77,"Step 1: Add Tomato and cook for 3 minutes, stirring occasionally.
+Step 2: Heat skillet over medium-low. Add Olive Oil. Add the green beans, corn, summer squash and hot pepper. Cook for 5 minutes stirring occasionally.
+Step 3: Add garlic and cook for 1 to 2 minutes, stirring often. Taste and adjust seasoning with Salt and Pepper if needed. Remove from heat and add Distilled White Vinegar. Serve topped with Fresh Basil.
+",a person is adding garlic to a pan and stirring it with a spoon,1,B
+59,"Step 1: Then add Broccoli and the Carrot and cook until the pasta is done (follow package instructions).
+Step 2: Add the Orzo Pasta and cook for 3 minutes.
+Step 3: Garnish with spring onions if needed.
+",the dish is being served on a plate with a side of lettuce and tomatoes,0,
+166,"Step 1: Beat the eggs and whisk in the milk. Add oregano, half of the parsley, nutmeg, and salt and pepper to taste.
+Step 2: Halve the tomatoes and cut the bell pepper and avocado into cubes. Cut the chorizo, spring onions, and mozzarella into large pieces, and chop the parsley.
+Step 3: Melt the butter in a nonstick pan over medium-high heat. Fry the chorizo for approx. 2 min., or until the fat begins to render. Add bell pepper and fry for approx. 2 min. longer before reducing the heat to medium-low. Add the tomatoes, then add the egg mixture. Cook the omelette for approx. 4 min. with the lid on.
+",A person is cooking an omelette in a nonstick pan over medium-high heat. They are adding bell pepper and tomatoes to the pan before adding the egg mixture.,3,
+75,"Step 1: Preheat the oven to 180°C/350°F. Line a springform pan with parchment
+paper. Separate the eggs and set the one with the egg yolks aside. Beat egg whites with some of the sugar until stiff peaks
+form.
+Step 2: Stir the butter with some of the sugar and vanilla sugar until foamy. Little by little, stir in the egg yolks. Mix in flour, cocoa powder, baking powder, and ground almonds until a smooth batter forms. Fold in beaten egg whites and add some of the chocolate shavings. Transfer the dough to the springform pan and bake in the preheated oven at 180°C/350°F for approx. 30 min. Allow to cool completely.
+",A woman is stirring a bowl of chocolate batter with a spoon,1,
+199,"Step 1: Preheat oven to 150°C/300°F. Roughly dice carrot, celery root and half of the onions. Cut remaining onions into rings.
+",a person is cutting onions on a cutting board with a knife,2,
+168,"Step 1: In a large bowl, place Fresh Blueberry, Celery, Grape Tomatoes, Corn Kernels, Slivered Almonds, Scallion, Dried Cranberries, and Chicken.
+Step 2: Whisk together Greek Yogurt, Mayonnaise, Honey, and Salt. Pour onto the chicken salad mixture. Toss until ingredients are coated.
+",a bowl of chicken salad with a spoon in it,1,
+111,"Step 1: In a pot, add the Almond Milk, Cacao Powder, Vanilla Extract, Dry Mixed Spice, Ground Cinnamon, Muscovado Sugar, and 60% Venezuelan Dark Chocolate and leave to melt at a low temperature mixing continuously.
+","In a pot, add the Almond Milk, Cacao Powder, Vanilla Extract, Dry Mixed Spice, Ground Cinnamon, Muscovado Sugar, and 60% Venezuelan Dark Chocolate and leave to melt at a low temperature mixing continuously",-1,A
+51,"Step 1: Discard tea bags and pour in the Granulated Sugar. Stir till sugar is dissolved.
+Step 2: Once water has boiled, remove saucepan from heat and add the Black Tea. Steep for 15 minutes.
+Step 3: Pour tea into a pitcher and add Water depending on desired strength. Refrigerate till cold or approximately 4 hours.
+",a pitcher of tea is being poured into a glass,0,
+39,"Step 1: Strain liquid through a fine mesh strainer or a nutbag into a container like a mason jar. Don't over strain it, that's when it gets slimy.
+Step 2: Place Old Fashioned Rolled Oats, Filtered Water, Medjool Dates and Vanilla Extract in a high power blender. Blend for 30 seconds. To avoid slimy oat milk, the less blending the better. You can blend up the water and dates first and then add the vanilla and oats.
+Step 3: Store in fridge for up to 7-10 days. Or freeze in batches and take out as needed.
+",the ingredients for a chicken and vegetable stir fry are in a bowl on a wooden table,0,
+128,"Step 1: Juice orange and grapefruit
+Step 2: Cut one orange peel per glass.
+Step 3: Combine the Aperol, orange juice, and grapefruit juice in a shaker with ice.
+",a woman is pouring orange juice into a shaker with ice,2,
+117,"Step 1: Preheat oven to 160°C/320°F. Beat soft butter with sugar in a standing mixer or with a hand mixer until fluffy.
+Step 2: Add eggs, one at a time, and continue beating until well-combined.
+",the woman is adding eggs to a bowl of chocolate mixture,0,D
+81,"Step 1: Cook the Black Beans as per packet instructions.
+Step 2: In the meantime in a blender blitz the Tomato Passata, Onion, Spring Onion, Garlic, Red Chili Pepper, and Long Green Peppers.
+","a blender is filled with tomato passata, onion, spring onion, garlic, red chili pepper, and long green peppers",4,
+41,"Step 1: Meanwhile, make the chimichurri. In a food processor, add Fresh Parsley (1 cup), Garlic (2 clove), Dried Oregano (2 teaspoon) Red Wine Vinegar (2 tablespoon), Crushed Red Pepper Flakes (1/4 teaspoon), Salt (1/4 teaspoon), and Ground Black Pepper (0 to taste), and blend. Add in Extra-Virgin Olive Oil (1/2 cup).
+Step 2: Put the entire skillet in the oven and cook the meat for 12-15 minutes at 400 degrees F (200 degrees C), flipping halfway through. Let sit for after removing for several minutes.
+Step 3: Drizzle the chimichurri over the tenderloin.
+",the tenderloin is being dusted with a mixture of spices and herbs,1,
+14,"Step 1: Roughly chop parsley and set aside. Clean and quarter mushrooms. Peel and finely dice onion and garlic. Trim pork tenderloin and cut into equal-sized pieces.
+",A person is cutting up a pork tenderloin on a cutting board with a knife,2,B
+123,"Step 1: Preheat oven to 180°C/350°F. Cut pork belly into 2.5 cm/1-in. slices. Chop parsley very finely and set aside.
+Step 2: Fry pork belly in large pan over medium heat golden-brown and crispy on both sides. Transfer to an oven rack set over a baking baking sheet and bake at 180°C/350°F for approx. 30 min.
+",A person is frying pork belly in a large pan over medium heat golden-brown and crispy on both sides. They then transfer the pork belly to an oven rack set over a baking baking sheet and bake at 180°C/350°F for approximately 30 minutes,3,A
+161,"Step 1: Heat Avocado Oil in a 10-inch skillet over medium heat. Add the Grass-Fed Ground Beef and cook, using a wooden spoon or heatproof spatula to break up the ground beef into equal-size pieces as it cooks, until no longer pink, approximately 5-8 minutes.
+",A person is cooking ground beef in an avocado oil skillet on a stove,4,
+132,"Step 1: Blanch Bone-In, Skin-On Chicken Leg in salted water, discard water, cover the leg with Chicken Stock. Season with Kosher Salt, Fresh Ginger, Garlic, Togarashi Chili and Furikake. Simmer for 45 minutes to 1 hour.
+Step 2: about halfway through the cooking process, 20 to 30 minutes, add Coconut Milk and Thai® Sweet Chili Sauce to the soup.
+",a pot of soup with coconut milk and thai sweet chili sauce in it,1,
+189,"Step 1: Add bread crumbs to a large bowl. Coat chicken wings with bread crumbs, using tongs to make sure they are coated on all sides.
+Step 2: Pour buttermilk mixture into a freezer bag. Add chicken wings and mix well. Transfer to refrigerator and let marinate for approx. 2 hours.
+Step 3: Heat a generous amount of vegetable oil in a frying pan. Once oil is hot, add chicken wings and cook until browned and cooked through, approx. 8 – 10 min. Rotate to cook on all sides. Enjoy with your favorite dipping sauce.
+",A person is cooking chicken wings in a frying pan on a stove top,1,
+183,"Step 1: Blend Frozen Raspberries, Sliced Frozen Peaches, Milk, and Orange Juice in a food processor or blender and blend until smooth.
+Step 2: Pour into popsicle molds and freeze overnight.
+",the popsicle molds are filled with a mixture of blueberries and raspberries,3,D
+4,"Step 1: In the meantime, cut potatoes into thin (approx. 8mm/ 1/3-in.) slices.
+Step 2: Add rinsed basmati rice to a pot of cold, salted water. Bring to a boil and let simmer for approx. 5 min., then drain.
+Step 3: Add turmeric and saffron to the melted butter and stir to combine. Grease  the bottom and sides of a heavy-bottomed pot with some butter. Add half of the butter mixture to the pot. Then add potatoes slices and rice. Use a spoon to press the rice down firmly. Drizzle over the remaining butter mixture and water. Wrap the pot lid with a clean kitchen towel and cover the pot tightly. Let cook over low heat for approx. 45 min.
+",A person is adding turmeric and saffron to a pot of melted butter,3,
+133,"Step 1: Add butter, milk, and salt to a heavy-bottomed saucepan over medium heat and bring to a boil, stirring occasionally. When butter is melted and mixture is boiling, reduce heat to medium-low and slowly stir in flour with a wooden spoon until combined and a ball of dough forms around the spoon. Transfer mixture to the bowl of a stand mixer and stir on low for approx. 1 min. Add eggs one at a time and increase speed to medium. Continue to mix until emulsified and a smooth, sticky pastry forms.
+Step 2: Chill a baking sheet lined with parchment paper in freezer. Form approx. 18 scoops of ice cream on chilled baking sheet and freeze for approx. 1 hr. Preheat oven to 220°C/425°F. Line another baking sheet with parchment paper. Chop chocolate.
+Step 3: Transfer to pastry bag.
+",the pastry bag is filled with a mixture of flour and sugar,1,
+167,"Step 1: Place a sheet of wax paper on a baking tray. Slice the Banana into thin layers. Place banana onto wax paper in layers.
+Step 2: Spread on a small dollop of the Almond Butter.
+",the almond butter is spread on a small dollop of the almond butter,1,
+49,"Step 1: Cook the Spicy Chicken Sausage using the method of your choosing-grill, saute, bake, or boil. Slice the sausages into 1/2"" rounds.
+Step 2: Peel the Garlic. Peel, pit, and slice the Hass Avocado. Crumble the Queso Fresco. Rib, deseed, and thinly slice the Jalapeño Pepper. Thinly slice the Red Onion. Slice the Plum Tomato crosswise.
+",A woman is cutting a jalapeno pepper on a cutting board with a knife,1,B
+2,"Step 1: In a small bowl, mix together coffee, cayenne pepper, and salt. Generously rub pork with coffee mixture.
+Step 2: Preheat oven to 180°C/350°F. Thinly slice shallot.
+Step 3: In a Dutch oven, sear tenderloin in coconut oil over medium heat, approx. 2 – 3 min. per side. Transfer Dutch oven to preheated oven and bake at 180°C/350°F on the middle grate for approx. 13 – 15 min. Remove from oven, wrap pork in foil, and let rest for approx. 10 – 12 min.
+","In a Dutch oven, sear tenderloin in coconut oil over medium heat, approx. 2 - 3 min. per side. Transfer Dutch oven to preheated oven and bake at 180°C/350°F on the middle grate for approx. 13 - 15 min",1,A
+130,"Step 1: Heat a grilling pan over medium heat. Once the pan is hot, add the slices of bread and toast for 3 minutes per side, cook in batches to not over-crowd the pan.
+Step 2: Cut the Baguette into 1-inch thick slices.
+Step 3: Add between 1 to 2 tablespoons of the tomato puree on top of each toast, then add 1 Spanish Anchovy Fillets in Olive Oil. Garnish each toast with some Fresh Parsley,
+","a plate of toast with tomato puree, olive oil, and anchovy fillets garnished with parsley",,
+38,"Step 1: Grate cucumbers and ginger, then add to a sieve and press out as much liquid as possible over a bowl.  Toss liquids and transfer cucumbers and ginger to a clean bowl. Add yogurt, ground cumin, and season with salt and pepper to taste. Stir to combine.
+Step 2: Pre-heat oven to 180°C/355°F. Peel and halve onions crosswise, then remove the inner cores to allow room for the meat. Use your hands to form walnut-sized balls out of the minced meat. Add each meatball to a halved onion and transfer them to a baking dish. Bake for approx. 35 min. or until browned.
+Step 3: Serve meatballs with Turkish bread, cucumber yogurt dip, fresh cucumber slices, and parsley.
+","a plate of meatballs with a cucumber yogurt dip, fresh cucumber slices, and parsley",4,
+7,"Step 1: Using a hand or stand mixer, whip together until creamy.
+Step 2: Place Butter and Honey in a medium mixing bowl. Add Ground Cinnamon and Vanilla Extract.
+Step 3: Use as a sweet spread on toast, English muffins or fruit!
+",the spread is on a plate with a spoon next to it,1,
+179,"Step 1: Rub a grill pan with some oil and grill the chicken breasts until cooked through, approx. 5 – 8 min. on each side. Set aside and cover with foil while you make the cucumber-yogurt sauce.
+Step 2: Spread a layer of plastic wrap over a cutting board and place the chicken breasts in the middle with some space between them. Add another layer of plastic over the chicken and pound them with the smooth side of a meat tenderizer just to make the chicken breast even in thickness. Season the chicken thoroughly with salt and pepper, some olive oil, and the Za’atar.
+Step 3: Grate the cucumber and season with salt. Transfer to a fine sieve set over a bowl to drain. Mix the yogurt with some pepper. Gently press the cucumber to remove any excess liquid and add to the yogurt, stirring to combine.
+",A woman is grating cucumber on a cutting board with a knife and then seasoning it with salt,2,B
+17,"Step 1: Combine the Aperol, orange juice, and grapefruit juice in a shaker with ice.
+Step 2: Juice orange and grapefruit
+Step 3: Shake thoroughly, then strain into rocks glasses filled with ice. Top glasses with Prosecco.
+",a woman is pouring a drink into a glass that is sitting on a table,,
+141,"Step 1: In a large saucepan, heat fish broth on medium heat. Add clams and cook on low heat for approx. 1 – 2 min. Remove from broth with a slotted spoon, reserve fish stock, and separate clams from shell. Set aside.
+Step 2: Chop parsley and dill. Dice potatoes, bacon, and celery into small cubes and set aside. Wash clams thoroughly.
+Step 3: In another large saucepan, melt butter and fry bacon on medium-high heat until browned, approx. 2 – 3 min. Add flour, stir to combine, and cook for approx. 1 min. Add cream, potatoes, celery, and fish stock and cook until warmed through. Add milk and cook for approx. 5 more min.
+",A person is stirring a pot of soup with a wooden spoon,,
+5,"Step 1: Core and chop the Apple. Put half of the organic apples in a food processor with the Dates, Ground Flaxseed, Salt, Ground Cinnamon, and Vanilla Powder. Process until well blended.
+","Core and chop the apple. Put half of the organic apples in a food processor with the dates, ground flaxseed, salt, ground cinnamon, and vanilla powder. Process until well blended",,
+58,"Step 1: Stir herb mixture into Greek yogurt. Season again with lemon juice and salt and pepper to taste.
+Step 2: In a food processor, finely puree arugula, basil, almonds, Parmesan cheese, salt, and pepper.
+Step 3: In a large bowl, combine cooked pasta with yogurt-pesto. If the pasta seems too dry, add some of the previously saved pasta water. Serve with shavings of Parmesan cheese.
+","In a large bowl, a person is adding cooked pasta to a bowl of yogurt-pesto",,
+74,"Step 1: Thinly slice the leek. Finely chop the chili pepper. Quarter the tomatoes, and dice the pancetta. Set everything aside.
+Step 2: Bring a pot of water to a boil over medium-high heat. Salt generously and cook tagliatelle until al dente. Drain, reserving some pasta water.
+",a woman is cooking pasta in a pot on a stove,,
+76,"Step 1: In a jam jar, add Lime Juice, Fresh Cilantro, Red Chili Pepper, and Soy Sauce. Put a lid on and shake to combine. Set aside.
+Step 2: In a large mixing bowl, add Salad Greens, Chicken Breast and Mango. Drizzle dressing over top. Gently toss everything together to combine and season with Freshly Ground Black Pepper.
+","a person is adding salad greens, chicken breast, and mango to a large mixing bowl",,
+83,"Step 1: Cut corn tortillas into rounds to fit muffin tin cups, if necessary. Place rounds into muffin tin, so that tortillas form cups. Add beef-bean mixture to the taco cups and crumble feta cheese over it. Bake at 180°C/370°F for approx. 10 – 12 min.
+Step 2: Preheat the oven to 180°C/370°F. Peel and dice onion. Drain and rinse canned beans. In a frying pan, heat olive oil and sauté diced onion. Add ground beef and fry for approx. 1 – 2 min. Add chili powder, paprika powder, ground cumin, Cayenne pepper, dried oregano, and sugar and season with pepper and salt. Mix well and fry for another 2 – 3 min. Stir in pinto beans, black beans, and tomato paste, then remove frying pan from heat.
+Step 3: Meanwhile, juice limes. In a large bowl, whisk together lime juice, olive oil, and chili sauce. Season with salt.
+","A person is whisking together lime juice, olive oil, and chili sauce in a large bowl",,
+138,"Step 1: Heat a frying pan or panini press over medium heat. Spread Vegan Butter with a thin layer on one side of each Bread.
+",a person is spreading vegan butter on two slices of bread with a knife,,
+119,"Step 1: Add frozen raspberries on top, or other berries of choice, but it’s best to use frozen ones as they help the rolled oats to soak in.
+Step 2: Top with mixed seeds, e.g. sunflower seeds, shredded flax seeds, rolled oats, and puffed amaranth.
+Step 3: To finish, add rolled oats and pour vanilla soy drink on top. Refrigerate for at least 3 hrs., but at best over night. Serve with sliced banana on top.
+",a bowl of rolled oats with a vanilla soy drink poured on top,,
+158,"Step 1: Rinse quinoa in warm water and cook in vegetable stock, according to the package instructions, and set aside.
+",the quinoa is being cooked in a pot on the stove,,
+169,"Step 1: Season Medium Shrimp with Kosher Salt, Cayenne Pepper and Lime Juice to taste, grill on both sides on high heat until just cooked through.
+Step 2: Combine Fresh Strawberry, Watermelon, and Kiwifruit with Honey and Lime Juice, macerate for one hour in the fridge.
+Step 3: Plate the fruit, top with the brochettes, sprinkle with Pomegranate Seeds and Fresh Basil Leaf.
+","a plate of fruit topped with brochettes, sprinkled with pomegranate seeds and fresh basil leaf",,
+172,"Step 1: Dice chicken breasts into large pieces. Mince garlic and cilantro, cut bell peppers into strips, and finely chop scallions.
+Step 2: Heat half of the vegetable oil in a large skillet over high heat. Add chicken pieces and sauté for approx. 5 – 7 min. until golden. Transfer to a plate and set aside.
+",a person is cooking chicken in a skillet on a stove top,,
+113,"Step 1: Heat some vegetable oil in a frying pan over medium heat. Add chicken and mushrooms and sauté until mushrooms are soft and chicken is cooked, approx. 6 – 8 min. Remove from heat and allow to cool slightly.
+Step 2: In a medium bowl, whisk together yogurt, mayonnaise and Worcestershire sauce. Set aside.
+Step 3: Add mango, chicken, and mushrooms to the mayonnaise yogurt mixture. Add chopped chives and parsley and stir to combine. Season with salt and pepper to taste.
+","a bowl of chicken, mango, mushrooms, and yogurt mixture with chopped chives and parsley added to it",,
+72,"Step 1: In the meantime, cook pasta according to package instructions. Drain, reserving about a cup (150 grams) of pasta water.
+Step 2: Heat a generous amount of olive oil in a pan over medium low. Add onion and crushed garlic cloves and sauté until the onions are soft and translucent. Add tomato paste and sauté on low for approx. 10 min.
+Step 3: Whisk together the crème fraîche with half a cup of pasta water to loosen it up. Add to the frying pan over low heat and stir together, adding extra pasta water if needed until the sauce has a glossy consistency. Season with salt and pepper to taste. Before serving, add a handful of grated Parmesan to the sauce, then combine with the pasta and serve with plenty of basil leaves and more grated Parmesan on top.
+",A person is stirring a sauce in a frying pan with a wooden spoon,,
+20,"Step 1: Add vegetable broth, vinegar, onions, mustard, salt, pepper, and sugar to a saucepan. Whisk until well combined, and bring to a boil. Let cool and pour over the potato slices. Let set for approx. 10 min.
+Step 2: Add eggs to a pot of water and bring to a boil. Reduce heat to medium and cook for approx. 8 – 10 min. Drain and let cool. Peel and dice cooled eggs.
+Step 3: Add eggs, cucumbers, parsley, and dill to the potato salad. Mix until well combined and gently fold in mayonnaise. Mix well once more before serving. Enjoy cold or at room temperature!
+","a bowl of potato salad with eggs, cucumbers, parsley, and dill in it",,
+35,"Step 1: Mix remaining eggs and sugar in a stand mixer until well combined. Add mascarpone and whipping cream. Add lemon zest. Juice lemons and add some of the juice.
+Step 2: Preheat oven to 200°C/400°F. Carefully place a sheet of parchment paper on the crust and fill with pie weights. Blind bake the crust for 20 – 25 min. Transfer out of oven, remove pie weights, and set aside to cool. Reduce oven temperature to 180°C/350°F.
+Step 3: Add filling to crust and bake in a preheated oven at 180°C/350°F for approx. 30 – 35 min. until just set. Remove from oven and let cool.
+",A person is putting filling into a pie crust and then baking it in a preheated oven at 180°C/350°F for about 30-35 minutes until it is just set,,
+8,"Step 1: Blend the frozen bananas, cocoa powder, peanut butter, vanilla, and salt with a hand blender until creamy.
+Step 2: Peel and slice the bananas. Put sliced bananas in a freezer bag and place in the freezer for approx. 4 hrs.
+Step 3: On six of the cookies, place a scoop of the banana ice cream, then press another cookie on top to form the sandwich. Cover each with plastic wrap and place back in the freezer for approx. 1 hr.
+","Step 2: On six of the cookies, place a scoop of the banana ice cream, then press another cookie on top to form the sandwich. Cover each with plastic wrap and place back in the freezer for approx. 1 hr",,
+18,"Step 1: Mix together cinnamon, nutmeg, and some of the sugar. Grease a large rectangular baking dish with butter. Preheat oven to 180°C/350°F. Turn dough out onto lightly floured surface, knead a couple of times until smooth, and roll out to fit the baking pan.
+Step 2: Toss apples with lemon juice and zest and set aside.
+Step 3: Transfer dough to baking dish and sprinkle with almonds. Spread apple slices on top, then sprinkle with sugar mixture. For the crumble, combine flour, remaining sugar, butter, salt, and vanilla sugar and use your fingers to combine into large crumbs. Sprinkle crumble over apples and bake at 180°C/350°F for approx. 45 min. Remove from oven and let cool. Cut into squares and
+",A woman is sprinkling almonds on top of a baking dish with apple slices in it. She is also sprinkling sugar mixture on top of the apples. She is then transferring the dough to a baking dish and sprinkling it with almonds. She is then sprinkling crumble over the apples and,,
+63,"Step 1: In a large frying pan, sauté burgers in some vegetable oil over medium heat for approx. 3 – 4 min. per side for medium-rare; 4 – 5 min. per side for well-done.
+Step 2: In a large frying pan, cook bacon over medium-high heat for approx. 1 – 2 min. per side until crispy. Transfer to a paper towel-lined plate to remove excess grease.
+Step 3: When burgers are finished cooking, top with cheddar cheese. Transfer to a plate, cover with foil, and let sit for approx. 3 – 5  min.
+",A person is putting cheese on a burger before transferring it to a plate,,
+87,"Step 1: In a large pot, heat the olive oil over medium heat. Add onion and garlic and sear quickly. Lower heat, add all of the spices, and sauté for approx. 2 min. Add sweet potatoes, carrots, bell pepper and fennel and sauté for approx. 2 more min.
+Step 2: Peel and finely dice onion and garlic. Peel carrots and sweet potatoes and cut into bite-size pieces. Deseed and dice bell pepper. Remove leaves and core from fennel and chop rest into small pieces. Wash kale, remove leaves from stems, and cut or tear into bite-size pieces.
+Step 3: Stir in water, vegetable stock, and tomatoes and bring to a boil. Reduce heat and let simmer for approx. 15 – 20 min. until sweet potatoes are softened, but still firm.
+",a pot of sweet potatoes is being cooked on a stove top,,
+93,"Step 1: Add most of the radicchio and sauté for approx. 2 min. more. Deglaze with Calvados, white wine, and apple juice. Crumble in the Gorgonzola cheese. After it has melted, pour in the cream and season with salt, pepper, and freshly grated nutmeg.
+Step 2: Heat olive oil in a frying pan. Sauté the shallots until translucent. Add the walnuts and honey, and allow to caramelize and brown slightly over a medium-high heat for approx. 3 min.
+Step 3: When the pasta is finished, strain, add to the sauce, and stir to combine. Serve and garnish with remaining radicchio.
+",a bowl of pasta with radicchio in it,,
+68,"Step 1: Take a tablespoon of the mixture, and roll it into a ball shape. Continue with the rest of the meat mixture. Line the balls on a baking tray lined with some baking paper, and bake under 200 degrees C (400 degrees F) for about 20 minutes.
+Step 2: Using your hands, mix together the Chicken Breast, Fresh Cilantro, Yellow Onion, Taco Seasoning, Breadcrumbs, Salt and Pepper
+Step 3: Serve together with the salsa salad, and Corn Chips.
+",the corn chips are being served with salsa salad and a bowl of salsa,,
+37,"Step 1: Add the Fresh Mint Leaves and Pistachios and pour the dressing over the top. Toss to combine. Gently fold in the Feta Cheese.
+Step 2: Finely chop a handful of carrot tops - resulting in about 1/4 cup. Place the carrot strips and tops in a large salad bowl.
+Step 3: Top with coarsely chopped Fresh Mint Leaves and more Crushed Red Pepper Flakes if you want an additional kick of spice.
+",a bowl of soup with coarsely chopped fresh mint leaves and crushed red pepper flakes on top,,
+185,"Step 1: Finely slice spring onions. Chop onions and mince garlic. Remove stems from mushrooms, then quarter. Chop peeled chestnuts.
+Step 2: Add pasta to a large pot of salted water and cook until al dente, according to package instructions.
+",a person is adding pasta to a large pot of salted water and cooking it until al dente,,
+45,"Step 1: Place ladyfingers into a freezer bag. Tightly seal bag and crush roughly with a rolling pin.
+",a woman is using a rolling pin to crush ladyfingers in a freezer bag,,
+145,"Step 1: Add remaining olive oil, apple cider vinegar, mustard, honey, ground coriander, sumac, and cayenne pepper  to a small bowl and whisk to combine. Season with salt and pepper to taste.
+Step 2: In the meantime, toast sliced almonds in a frying pan until fragrant, then remove from heat.
+Step 3: Add roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stir to combine. Crumble feta cheese on top using your hands.
+","A person is stirring a bowl of roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds with a spoon",,
+73,"Step 1: Heat half of the vegetable oil in a large skillet over high heat. Add chicken pieces and sauté for approx. 5 – 7 min. until golden. Transfer to a plate and set aside.
+Step 2: Dice chicken breasts into large pieces. Mince garlic and cilantro, cut bell peppers into strips, and finely chop scallions.
+Step 3: Heat other half of vegetable oil and add scallions and garlic. Sauté until soft and fragrant for approx 1 - 2 min. Then, add bell pepper. Continue to sauté and add corn, chicken stock, and enchilada sauce. Season with salt and pepper.
+",A person is cooking a dish on a stove top with a wooden spoon,,
+162,"Step 1: Add chopped vegetables, lovage, allspice, and bay leaves to the pot. Simmer on low heat for approx. 40 min. until meat is cooked. Season with salt as desired. If soup is too fatty, skim broth, and refill with fresh water. Pour the skimmed broth back to the pot.
+Step 2: Roughly chop carrots, celery root and stalk, leek, and radish.
+Step 3: Remove chicken, then pour broth through a sieve.  Strained broth should be clear.
+",a woman is pouring broth through a sieve into a bowl,,
+69,"Step 1: Roughly chop bacon. Finely chop chives. Heat chicken stock over medium-low heat in a pot. Fry eggs over-easy in a little butter in a frying pan. Season with salt and pepper and set aside.
+Step 2: In a separate pot over medium-high heat, fry bacon until crispy. Remove from the pot, leaving the fat in the pan. Add the risotto rice and sauté for approx. 2 min.
+","In a separate pot over medium-high heat, fry bacon until crispy. Remove from the pot, leaving the fat in the pan. Add the risotto rice and sauté for approx. 2 min",,
+147,"Step 1: Cut chicken breast filet into strips. Chop the marjoram, quarter the lemon, and halve the chili pepper lengthwise, removing the seeds. Quarter the shallot.
+Step 2: Place all the ingredients in a baking dish, add the milk, and season with salt and pepper. Cover the dish with plastic wrap and leave to marinate in the fridge overnight.
+","a baking dish with ingredients including chicken, potatoes, onions, and garlic",,
+148,"Step 1: In a pan over medium-high heat, add some Canola Oil and saute the diced tomatoes, mushrooms and Fresh Spinach together until tender, about a minute or two.
+Step 2: Dice the Tomato and Straw Mushrooms.
+Step 3: Set the vegetables aside in a bowl, while you prepare the soup.
+",the soup is being cooked in a pot on the stove,4,
+194,"Step 1: In a small a bowl, whisk together zest and juice of Lime, Olive Oil, Garlic, Dijon Mustard, Ground Cumin, Chipotle Chili Powder, Kosher Salt, and Ground Black Pepper.
+Step 2: Lay the Steak across a large platter, carpaccio style. Add Lettuce, Black Beans, Corn, Red Onion, Red Bell Pepper, Grape Tomatoes, Jalapeño Pepper, Queso Fresco to a large bowl.
+","a person is putting lettuce, black beans, corn, red onion, red bell pepper, grape tomatoes, jalapeno pepper, queso fresco into a bowl",2,B
+77,"Step 1: Add Tomato and cook for 3 minutes, stirring occasionally.
+Step 2: Heat skillet over medium-low. Add Olive Oil. Add the green beans, corn, summer squash and hot pepper. Cook for 5 minutes stirring occasionally.
+Step 3: Add garlic and cook for 1 to 2 minutes, stirring often. Taste and adjust seasoning with Salt and Pepper if needed. Remove from heat and add Distilled White Vinegar. Serve topped with Fresh Basil.
+",a person is adding garlic to a pan and stirring it with a spoon,1,
+59,"Step 1: Then add Broccoli and the Carrot and cook until the pasta is done (follow package instructions).
+Step 2: Add the Orzo Pasta and cook for 3 minutes.
+Step 3: Garnish with spring onions if needed.
+",the dish is being served on a plate with a side of lettuce and tomatoes,0,
+166,"Step 1: Beat the eggs and whisk in the milk. Add oregano, half of the parsley, nutmeg, and salt and pepper to taste.
+Step 2: Halve the tomatoes and cut the bell pepper and avocado into cubes. Cut the chorizo, spring onions, and mozzarella into large pieces, and chop the parsley.
+Step 3: Melt the butter in a nonstick pan over medium-high heat. Fry the chorizo for approx. 2 min., or until the fat begins to render. Add bell pepper and fry for approx. 2 min. longer before reducing the heat to medium-low. Add the tomatoes, then add the egg mixture. Cook the omelette for approx. 4 min. with the lid on.
+",A person is cooking an omelette in a nonstick pan over medium-high heat. They are adding bell pepper and tomatoes to the pan before adding the egg mixture.,2,B
+75,"Step 1: Preheat the oven to 180°C/350°F. Line a springform pan with parchment
+paper. Separate the eggs and set the one with the egg yolks aside. Beat egg whites with some of the sugar until stiff peaks
+form.
+Step 2: Stir the butter with some of the sugar and vanilla sugar until foamy. Little by little, stir in the egg yolks. Mix in flour, cocoa powder, baking powder, and ground almonds until a smooth batter forms. Fold in beaten egg whites and add some of the chocolate shavings. Transfer the dough to the springform pan and bake in the preheated oven at 180°C/350°F for approx. 30 min. Allow to cool completely.
+",A woman is stirring a bowl of chocolate batter with a spoon,0,B
+199,"Step 1: Preheat oven to 150°C/300°F. Roughly dice carrot, celery root and half of the onions. Cut remaining onions into rings.
+",a person is cutting onions on a cutting board with a knife,3,
+168,"Step 1: In a large bowl, place Fresh Blueberry, Celery, Grape Tomatoes, Corn Kernels, Slivered Almonds, Scallion, Dried Cranberries, and Chicken.
+Step 2: Whisk together Greek Yogurt, Mayonnaise, Honey, and Salt. Pour onto the chicken salad mixture. Toss until ingredients are coated.
+",a bowl of chicken salad with a spoon in it,1,
+111,"Step 1: In a pot, add the Almond Milk, Cacao Powder, Vanilla Extract, Dry Mixed Spice, Ground Cinnamon, Muscovado Sugar, and 60% Venezuelan Dark Chocolate and leave to melt at a low temperature mixing continuously.
+","In a pot, add the Almond Milk, Cacao Powder, Vanilla Extract, Dry Mixed Spice, Ground Cinnamon, Muscovado Sugar, and 60% Venezuelan Dark Chocolate and leave to melt at a low temperature mixing continuously",2,A
+51,"Step 1: Discard tea bags and pour in the Granulated Sugar. Stir till sugar is dissolved.
+Step 2: Once water has boiled, remove saucepan from heat and add the Black Tea. Steep for 15 minutes.
+Step 3: Pour tea into a pitcher and add Water depending on desired strength. Refrigerate till cold or approximately 4 hours.
+",a pitcher of tea is being poured into a glass,4,
+39,"Step 1: Strain liquid through a fine mesh strainer or a nutbag into a container like a mason jar. Don't over strain it, that's when it gets slimy.
+Step 2: Place Old Fashioned Rolled Oats, Filtered Water, Medjool Dates and Vanilla Extract in a high power blender. Blend for 30 seconds. To avoid slimy oat milk, the less blending the better. You can blend up the water and dates first and then add the vanilla and oats.
+Step 3: Store in fridge for up to 7-10 days. Or freeze in batches and take out as needed.
+",the ingredients for a chicken and vegetable stir fry are in a bowl on a wooden table,1,
+128,"Step 1: Juice orange and grapefruit
+Step 2: Cut one orange peel per glass.
+Step 3: Combine the Aperol, orange juice, and grapefruit juice in a shaker with ice.
+",a woman is pouring orange juice into a shaker with ice,4,
+117,"Step 1: Preheat oven to 160°C/320°F. Beat soft butter with sugar in a standing mixer or with a hand mixer until fluffy.
+Step 2: Add eggs, one at a time, and continue beating until well-combined.
+",the woman is adding eggs to a bowl of chocolate mixture,0,
+81,"Step 1: Cook the Black Beans as per packet instructions.
+Step 2: In the meantime in a blender blitz the Tomato Passata, Onion, Spring Onion, Garlic, Red Chili Pepper, and Long Green Peppers.
+","a blender is filled with tomato passata, onion, spring onion, garlic, red chili pepper, and long green peppers",4,
+41,"Step 1: Meanwhile, make the chimichurri. In a food processor, add Fresh Parsley (1 cup), Garlic (2 clove), Dried Oregano (2 teaspoon) Red Wine Vinegar (2 tablespoon), Crushed Red Pepper Flakes (1/4 teaspoon), Salt (1/4 teaspoon), and Ground Black Pepper (0 to taste), and blend. Add in Extra-Virgin Olive Oil (1/2 cup).
+Step 2: Put the entire skillet in the oven and cook the meat for 12-15 minutes at 400 degrees F (200 degrees C), flipping halfway through. Let sit for after removing for several minutes.
+Step 3: Drizzle the chimichurri over the tenderloin.
+",the tenderloin is being dusted with a mixture of spices and herbs,3,
+14,"Step 1: Roughly chop parsley and set aside. Clean and quarter mushrooms. Peel and finely dice onion and garlic. Trim pork tenderloin and cut into equal-sized pieces.
+",A person is cutting up a pork tenderloin on a cutting board with a knife,2,
+123,"Step 1: Preheat oven to 180°C/350°F. Cut pork belly into 2.5 cm/1-in. slices. Chop parsley very finely and set aside.
+Step 2: Fry pork belly in large pan over medium heat golden-brown and crispy on both sides. Transfer to an oven rack set over a baking baking sheet and bake at 180°C/350°F for approx. 30 min.
+",A person is frying pork belly in a large pan over medium heat golden-brown and crispy on both sides. They then transfer the pork belly to an oven rack set over a baking baking sheet and bake at 180°C/350°F for approximately 30 minutes,2,
+161,"Step 1: Heat Avocado Oil in a 10-inch skillet over medium heat. Add the Grass-Fed Ground Beef and cook, using a wooden spoon or heatproof spatula to break up the ground beef into equal-size pieces as it cooks, until no longer pink, approximately 5-8 minutes.
+",A person is cooking ground beef in an avocado oil skillet on a stove,4,
+132,"Step 1: Blanch Bone-In, Skin-On Chicken Leg in salted water, discard water, cover the leg with Chicken Stock. Season with Kosher Salt, Fresh Ginger, Garlic, Togarashi Chili and Furikake. Simmer for 45 minutes to 1 hour.
+Step 2: about halfway through the cooking process, 20 to 30 minutes, add Coconut Milk and Thai® Sweet Chili Sauce to the soup.
+",a pot of soup with coconut milk and thai sweet chili sauce in it,1,
+189,"Step 1: Add bread crumbs to a large bowl. Coat chicken wings with bread crumbs, using tongs to make sure they are coated on all sides.
+Step 2: Pour buttermilk mixture into a freezer bag. Add chicken wings and mix well. Transfer to refrigerator and let marinate for approx. 2 hours.
+Step 3: Heat a generous amount of vegetable oil in a frying pan. Once oil is hot, add chicken wings and cook until browned and cooked through, approx. 8 – 10 min. Rotate to cook on all sides. Enjoy with your favorite dipping sauce.
+",A person is cooking chicken wings in a frying pan on a stove top,1,
+183,"Step 1: Blend Frozen Raspberries, Sliced Frozen Peaches, Milk, and Orange Juice in a food processor or blender and blend until smooth.
+Step 2: Pour into popsicle molds and freeze overnight.
+",the popsicle molds are filled with a mixture of blueberries and raspberries,1,
+4,"Step 1: In the meantime, cut potatoes into thin (approx. 8mm/ 1/3-in.) slices.
+Step 2: Add rinsed basmati rice to a pot of cold, salted water. Bring to a boil and let simmer for approx. 5 min., then drain.
+Step 3: Add turmeric and saffron to the melted butter and stir to combine. Grease  the bottom and sides of a heavy-bottomed pot with some butter. Add half of the butter mixture to the pot. Then add potatoes slices and rice. Use a spoon to press the rice down firmly. Drizzle over the remaining butter mixture and water. Wrap the pot lid with a clean kitchen towel and cover the pot tightly. Let cook over low heat for approx. 45 min.
+",A person is adding turmeric and saffron to a pot of melted butter,2,
+133,"Step 1: Add butter, milk, and salt to a heavy-bottomed saucepan over medium heat and bring to a boil, stirring occasionally. When butter is melted and mixture is boiling, reduce heat to medium-low and slowly stir in flour with a wooden spoon until combined and a ball of dough forms around the spoon. Transfer mixture to the bowl of a stand mixer and stir on low for approx. 1 min. Add eggs one at a time and increase speed to medium. Continue to mix until emulsified and a smooth, sticky pastry forms.
+Step 2: Chill a baking sheet lined with parchment paper in freezer. Form approx. 18 scoops of ice cream on chilled baking sheet and freeze for approx. 1 hr. Preheat oven to 220°C/425°F. Line another baking sheet with parchment paper. Chop chocolate.
+Step 3: Transfer to pastry bag.
+",the pastry bag is filled with a mixture of flour and sugar,1,
+167,"Step 1: Place a sheet of wax paper on a baking tray. Slice the Banana into thin layers. Place banana onto wax paper in layers.
+Step 2: Spread on a small dollop of the Almond Butter.
+",the almond butter is spread on a small dollop of the almond butter,1,
+49,"Step 1: Cook the Spicy Chicken Sausage using the method of your choosing-grill, saute, bake, or boil. Slice the sausages into 1/2"" rounds.
+Step 2: Peel the Garlic. Peel, pit, and slice the Hass Avocado. Crumble the Queso Fresco. Rib, deseed, and thinly slice the Jalapeño Pepper. Thinly slice the Red Onion. Slice the Plum Tomato crosswise.
+",A woman is cutting a jalapeno pepper on a cutting board with a knife,4,
+2,"Step 1: In a small bowl, mix together coffee, cayenne pepper, and salt. Generously rub pork with coffee mixture.
+Step 2: Preheat oven to 180°C/350°F. Thinly slice shallot.
+Step 3: In a Dutch oven, sear tenderloin in coconut oil over medium heat, approx. 2 – 3 min. per side. Transfer Dutch oven to preheated oven and bake at 180°C/350°F on the middle grate for approx. 13 – 15 min. Remove from oven, wrap pork in foil, and let rest for approx. 10 – 12 min.
+","In a Dutch oven, sear tenderloin in coconut oil over medium heat, approx. 2 - 3 min. per side. Transfer Dutch oven to preheated oven and bake at 180°C/350°F on the middle grate for approx. 13 - 15 min",2,
+130,"Step 1: Heat a grilling pan over medium heat. Once the pan is hot, add the slices of bread and toast for 3 minutes per side, cook in batches to not over-crowd the pan.
+Step 2: Cut the Baguette into 1-inch thick slices.
+Step 3: Add between 1 to 2 tablespoons of the tomato puree on top of each toast, then add 1 Spanish Anchovy Fillets in Olive Oil. Garnish each toast with some Fresh Parsley,
+","a plate of toast with tomato puree, olive oil, and anchovy fillets garnished with parsley",4,
+38,"Step 1: Grate cucumbers and ginger, then add to a sieve and press out as much liquid as possible over a bowl.  Toss liquids and transfer cucumbers and ginger to a clean bowl. Add yogurt, ground cumin, and season with salt and pepper to taste. Stir to combine.
+Step 2: Pre-heat oven to 180°C/355°F. Peel and halve onions crosswise, then remove the inner cores to allow room for the meat. Use your hands to form walnut-sized balls out of the minced meat. Add each meatball to a halved onion and transfer them to a baking dish. Bake for approx. 35 min. or until browned.
+Step 3: Serve meatballs with Turkish bread, cucumber yogurt dip, fresh cucumber slices, and parsley.
+","a plate of meatballs with a cucumber yogurt dip, fresh cucumber slices, and parsley",4,
+7,"Step 1: Using a hand or stand mixer, whip together until creamy.
+Step 2: Place Butter and Honey in a medium mixing bowl. Add Ground Cinnamon and Vanilla Extract.
+Step 3: Use as a sweet spread on toast, English muffins or fruit!
+",the spread is on a plate with a spoon next to it,0,
+179,"Step 1: Rub a grill pan with some oil and grill the chicken breasts until cooked through, approx. 5 – 8 min. on each side. Set aside and cover with foil while you make the cucumber-yogurt sauce.
+Step 2: Spread a layer of plastic wrap over a cutting board and place the chicken breasts in the middle with some space between them. Add another layer of plastic over the chicken and pound them with the smooth side of a meat tenderizer just to make the chicken breast even in thickness. Season the chicken thoroughly with salt and pepper, some olive oil, and the Za’atar.
+Step 3: Grate the cucumber and season with salt. Transfer to a fine sieve set over a bowl to drain. Mix the yogurt with some pepper. Gently press the cucumber to remove any excess liquid and add to the yogurt, stirring to combine.
+",A woman is grating cucumber on a cutting board with a knife and then seasoning it with salt,4,C

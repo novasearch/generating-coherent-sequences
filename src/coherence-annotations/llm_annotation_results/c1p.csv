@@ -1,0 +1,485 @@
+Id,Input,Prompt,"Rating:
+-1: Errors in the generation or in the input
+0: Prompt doesn't describe the current step
+1: Prompt describes the current step, but some context is missing in the input/output
+2: Prompt is a poor description of the current step, and is in accordance with the context
+3: Prompt is a good description of the current step, and is in accordance with the context
+4: Prompt is a very good description of the current step, and is in accordance with the context","Note (optional)
+A: copy problem
+B: step has too many actions
+C: good prompt DESPITE step with too many actions
+D: prompt has hallucinations",
+53,"Step 1: Set your slow cooker to sauté function, if your slow cooker does not have this function use a pan over medium heat. Season the Boneless Chuck Roast with Kosher Salt, Freshly Ground Black Pepper, Paprika and Ground Cumin. Place in the slow cooker with Olive Oil and sear the outside of the roast for 4-5 minutes per side.
+","A person is cooking a boneless chuck roast in a slow cooker with olive oil and seasoning it with kosher salt, freshly ground black pepper, paprika, and ground cumin",4,B,
+36,"Step 1: A woman is using a hand mixer to beat eggs, sugar, vanilla extract, milk, olive oil, flour, baking powder, salt, ground hazelnuts, lemon zest, and melted chocolate in a bowl
+Step 2: Pour batter into a greased springform pan, arrange sliced pears on top, followed by chopped hazelnuts. Bake at 190°C/375°F for approx. 50 min. Dust with confectioner’s sugar and
+",A woman is pouring batter into a greased springform pan that has sliced pears on top and chopped hazelnuts in it,-1,,
+69,"Step 1: In the image, a person is stirring a pot of chicken stock with a spoon. They are adding lemongrass and galangal to the chicken stock before adding a tablespoon of tom yum chili paste
+Step 2: Add Kaffir Lime Leaf, Cherry Tomato, Oyster Mushroom, and Thai Chili Pepper (if using) to the soup.
+","In the image, a person is adding ingredients to a pot of soup, including kaffir lime leaf, cherry tomato, oyster mushroom, and thai chili pepper (if using)",3,,
+131,"Step 1: Preheat oven to 180°C/355°F. Add eggs and some of the sugar to the bowl of a stand mixer and beat until creamy. Add yogurt and keep beating. Add baking powder to flour and add the mixture to the stand mixer bit by bit.
+",A woman is using a stand mixer to make a cake in an oven,2,,
+149,"Step 1: A silver bowl filled with chopped brussels sprouts sits on a table next to a pile of pistachios
+Step 2: In a saute pan over medium heat, add the Olive Oil, brussels sprouts, chopped pistachios, Kosher Salt and Ground Black Pepper. Saute until leaves begin to soften but are still bright green, about 2 minutes.
+","In a saute pan over medium heat, add the olive oil, brussels sprouts, chopped pistachios, kosher salt, and ground black pepper. Saute until leaves begin to soften but are still bright green, about 2 minutes.",0,A,
+151,"Step 1: A woman is cooking a salad in a frying pan, adding cubes of baguette to it
+Step 2: Place most of the baguette pieces into a baking dish, reserving some for the top layer. Add the sautéed chard, remaining vegetable broth, reserved baguette pieces, and finish with grated Gruyère cheese. Transfer to the oven, preheated to 200°C/390°F, and bake for 15 – 20 minutes, or until the cheese on top is melted and golden. Serve hot and
+",A woman is cooking a salad in a frying pan with cubes of baguette in it,-1,,
+180,"Step 1: Preheat the oven to 180°C/ 350°F. Roughly chop couverture. Cut butter into small pieces. Next, melt both together with sugar in the microwave at 600Watt for approx 2 - 3 min.
+",A woman is using a microwave to melt butter and sugar together,2,,
+105,"Step 1: A person is stirring a pot with a wooden spoon that has vegetables in it
+Step 2: Add crushed tomatoes, vegetable stock, and quinoa to the pot. Season with soy sauce, cane sugar, salt and pepper. Bring to a boil and let cook, covered, for approx. 15 – 20 min. During the last 5 min., add black beans, kidney beans, corn, and walnuts to the pot.
+","A person is stirring a pot with a wooden spoon that has quinoa, black beans, kidney beans, corn, and walnuts in it",4,B,
+22,"Step 1: a person is measuring martini rosso and martini riserva speciale bitter into a glass
+Step 2: Garnish with Orange Twist.
+",a glass of martini rosso and martini riserva speciale bitter is being garnished with an orange twist,4,,
+110,"Step 1: Four pieces of meat are in a frying pan with rosemary and thyme
+Step 2: To serve, slice duck breast and halve figs. Arrange on serving plates together with parsnip puree, then drizzle with cassis reduction and sprinkle with thyme.
+","A plate of duck breast, figs, parsnip puree, and cassis reduction is being served on a white plate",4,,
+50,"Step 1: In the image, there is a bowl of noodles on a kitchen counter. The noodles appear to be cooked and ready to eat.
+Step 2: Drain the carrots and chop cucumber, Thai basil, lettuce, and cilantro and set aside. Chop scallions. Heat vegetable oil in a frying pan over medium-high heat and sauté scallions for approx. 2 min.
+","A person is chopping vegetables on a cutting board, including carrots, cucumber, Thai basil, lettuce, cilantro, and scallions",3,,
+194,"Step 1: Image of aquafaba being mixed in a mixer bowl with a whisk
+Step 2: Store the aquafaba in the fridge or freezer for later use. If you are adding it to a recipe with oils or fats, mix in Cream of Tartar Or, if using it to replace whipped cream, add Powdered Confectioners Sugar.
+",A woman is adding aquafaba to a mixer bowl with a whisk,2,B,
+18,"Step 1: A person is adding cashew cream to a bowl with white balsamic vinegar, coriander, salt, and pepper
+Step 2: Add vegan mayonnaise, cinnamon, and chili powder to a small bowl and stir to combine. Refrigerate until serving.
+","A person is adding cashew cream to a bowl with white balsamic vinegar, coriander, salt, and pepper",0,A,
+171,"Step 1: Thinly slice the leek. Finely chop the chili pepper. Quarter the tomatoes, and dice the pancetta. Set everything aside.
+","a person is chopping up a leek, chili pepper, tomatoes, and pancetta on a cutting board",4,,
+60,"Step 1: Combine Bell Pepper, Red Onion, Zucchini, Cucumber, Corn, Low-Sodium Black Beans, Jalapeño Pepper and Fresh Cilantro. Toss to combine.
+","a bowl of black beans, bell pepper, onion, zucchini, cucumber, corn, and fresh cilantro",4,,
+98,"Step 1: In a pan over a low to medium heat, add in some olive oil and lay down the Bacon. Each side should only take 3-4 minutes. It's important to not overcook the bacon so that it remain foldable.
+","In a pan over a low to medium heat, add in some olive oil and lay down the bacon. Each side should only take 3-4 minutes. It's important to not overcook the bacon so that it remain foldable.",0,A,
+30,"Step 1: Trim off the top end of the zucchini and cut lengthwise into 4 thin slices. Slice the tomato and slice the mozzarella. Slice off the top of one piece of focaccia; this will be the bottom of the sandwich.
+",A person is cutting a zucchini into four thin slices and then cutting a tomato and mozzarella cheese into thin slices,3,C,
+55,"Step 1: Put Caster Sugar, All-Purpose Flour, Unsweetened Cocoa Powder into a mixing bowl and use a wooden spoon to mix it all together until it's combined. Add Butter and Egg into the mixing bowl and mix everything together until smooth.
+",A woman is stirring a bowl of chocolate mousse with a wooden spoon,3,,
+152,"Step 1: On two plates, add a handful of Arugula to each one. Evenly divide the Red Onion and Cherry Tomato on top of the arugula. Season with Sea Salt and Freshly Ground Black Pepper and set aside
+","two plates with arugula, red onion, and cherry tomatoes on them",4,,
+199,"Step 1: Dice the Fresh Strawberry.
+",the person is cutting up a strawberry on a cutting board with a knife,4,D,
+4,"Step 1: A person is cooking spaghetti in a large pot of salted water on a stove. While the pasta cooks, they are melting some of the butter in a pan over medium heat and adding pine nuts to it
+Step 2: Drain the spaghetti and remove tomatoes from oven. Melt the remaining butter in pan set over medium heat, add the minced garlic and fry for approx. 1 min. Add spaghetti and tomatoes and toss to combine. Season with salt and pepper. Tear mozzarella and scatter over the spaghetti, followed by the pine nuts and basil.
+","A person is cooking spaghetti in a large pot of salted water on a stove. They are also melting some butter in a pan over medium heat and adding pine nuts to it. After the spaghetti is cooked, they drain it and remove the tomatoes from the oven. They then melt the remaining butter in th",-1,,
+163,"Step 1: Into a bowl, add the Ground Lamb, Garlic, and Fresh Mint. Using your hands, mix everything together.
+","a bowl of ground lamb, garlic, and fresh mint is being mixed together with a spoon",2,,
+102,"Step 1: Heat the Coconut Oil in a wide pan over a medium flame, then add the Onion, Garlic, Scallion, and Ground Black Pepper. Reduce the heat to low for about 3-4 minutes.
+","a pan with coconut oil, onions, garlic, scallions, and ground black pepper in it",4,,
+197,"Step 1: In the image, a person is mixing vanilla pudding powder with some milk and whisking it to combine well. They then add the remaining milk, sugar, and pudding powder mixture to a saucepan and let it simmer until thickened. After that, they grease a springform pan and line it with parchment paper
+Step 2: Transfer the cake to the oven and bake at 180°C/350°F for approx. 40 min. Dust with confectioner’s sugar before serving.
+","In the image, a person is baking a cake in an oven. They are using a springform pan and lining it with parchment paper. The cake will be baked at 180°C/350°F for approximately 40 minutes. After baking, the cake will be dusted with confectioner",2,,
+82,"Step 1: A woman is using a knife to cut up a chicken on a cutting board
+Step 2: Add arugula, green onion, cilantro, and pine nuts to pan. Toss thoroughly with roasted vegetables. Return chicken to pan and season with lemon juice, salt, and pepper.
+",A woman is cooking chicken in a pan with vegetables and spices,2,,
+40,"Step 1: A woman is spreading pear slices on top of puff pastry squares and then sprinkling them with sugar and butter before putting them in the oven
+Step 2: In the meantime, heat up apricot jam with some water in the microwave or on the stove until liquid. Brush the finished tart with jam and serve warm with a dollop of whipped cream.
+",A woman is spreading apricot jam on top of puff pastry squares and then sprinkling them with sugar and butter before putting them in the oven,2,,
+178,"Step 1: Make base by pureeing Banana and Honey until smooth, scraping down the sides as needed to get a really smooth and creamy mixture.
+",a woman is using a blender to make a smoothie with banana and honey,4,,
+45,"Step 1: In the image, there is a baking dish in an oven with two brûlée tins inside of it. The oven is preheated to 120°C/250°F and the brûlée tins will be baked for approximately 60 minutes. After removing the tins from the water bath
+Step 2: Caramelize rest of the sugar in a small frying pan. Add a pinch of salt, pour in water and reduce into a sauce. Pour over the Crema Catalana to serve.
+","In the image, there is a baking dish with two brûlée tins inside of it. The oven is preheated to 120°C/250°F and the brûlée tins will be baked for approximately 60 minutes. After removing the tins from the water bath, caramelize",-1,,
+147,"Step 1: Wash the Mushroom and pat dry with paper towel. Place mushroom slices in a large bowl or suitable jar.
+Step 2: Pour Vegetable Oil, Distilled White Vinegar, Salt and Ground Black Pepper into the bowl.
+","A person is pouring vegetable oil, distilled white vinegar, salt, and ground black pepper into a bowl",2,A,
+183,"Step 1: A pot of pasta is cooking on the stove with chicken and cheese in it
+Step 2: Mix in the cheese and serve warm in large bowls!
+",a bowl of pasta with cheese and chicken in it,3,,previous step doesn't describe the pasta either
+41,"Step 1: Place 1 to 2 slices of Jalapeño Pepper in the bottom of a cocktail shaker, along with the freshly squeezed juice of a Lime.
+Step 2: Muddle and then add Silver Tequila and Ice. Shake vigorously for about 20 seconds.
+",A cocktail shaker with a lime and jalapeno pepper in it,4,,
+198,"Step 1: In the image, there is a pot of soup on the stove with chicken and vegetables in it. There is also a person's hand reaching into the pot to add more ingredients to the soup.
+Step 2: Serve with White Rice on the bottom and Lime Wedge on the side. Or with tortillas for dipping into the soup.
+","In the image, there is a bowl of soup with a tortilla in it. The soup has chicken, vegetables, and lime juice in it.",3,,lime edge
+179,"Step 1: Chop Chinese cabbage into fine ribbons and set aside. Mince shallots and garlic.
+",the person is chopping chinese cabbage into fine ribbons and setting it aside,3,,the set aside is not visual.
+142,"Step 1: Place Pineapple, Mango, Fresh Ginger, Water, and Carrot in a blender and blitz until smooth.
+","a blender is filled with pineapple, mango, fresh ginger, water, and carrot",4,,
+49,"Step 1: Slice the Baguette in half. Then slice each half again lengthwise to make two sandwiches.
+Step 2: Slice the Peach.
+",the person is slicing a peach on a cutting board,4,,
+150,"Step 1: A pot of melted butter, pumpkin puree, and marshmallows is being stirred with a wooden spoon
+Step 2: Stir in the Rice Krispies® Cereal. Spray an 8x8 baking dish with nonstick spray. Spread the mixture into the dish and press gently with a greased spatula.
+","A person is stirring a pot of melted butter, pumpkin puree, and marshmallows with a wooden spoon",0,illustrated previous step,
+130,"Step 1: A wok is being greased with some sesame oil before cooking the chicken breast in it. The wok is then greased again and the yellow onion, garlic, and frozen mixed vegetables are added to it
+Step 2: Add in the Egg, and cook for a few minutes. Then, add in the chicken, and White Rice into the wok. Sprinkle over with some Soy Sauce, and mix everything together.
+","A wok is being used to cook chicken, vegetables, and rice. The wok is being greased with some sesame oil before the chicken, vegetables, and rice are added to it. The wok is then greased again and the yellow onion, garlic, and frozen mixed vegetables are added to it.",3,B,prompts too long should be discarded.
+191,"Step 1: Preheat oven to 180°C/350°F. Finely dice shallot and cut green onion crosswise into thin rings. In a small bowl, mix together cheese, paprika powder, chili flakes, vegetable oil, and green onion. Season to taste with salt and pepper.
+Step 2: In a large frying pan, heat up some vegetable oil over medium heat and sauté shallot for approx. 1 – 2 min. Then, add spinach and continue to cook for approx. 1 – 2 min. until wilted. Grate nutmeg into pan and stir thoroughly. Remove from heat.
+",A person is cooking spinach in a frying pan on a stove. They are adding shallots to the pan and sautéing them for about 1-2 minutes before adding spinach and cooking it for about 1-2 minutes until it is wilted. They then grate nutmeg into the pan and stir,3,B,prompts with time should be discarded.
+99,"Step 1: Preheat oven to 180°C
+Step 2: Melt the butter and the black chocolate in a saucepan over a very low heat
+",a saucepan with butter and black chocolate in it that is being heated over a very low heat,4,,
+119,"Step 1: Preheat oven to 180°C/350°F. Cut cauliflower into small florets. Fill a large saucepan half full with water, bring to a boil, add cauliflower and salt, and cook for approx. 8 – 10 min. until tender. Remove from heat and drain.
+",A person is cooking cauliflower in a large saucepan on a stove,4,,
+112,"Step 1: Place Avocado, Cacao Powder, Unsweetened Plain Non-Dairy Milk, Agave Nectar, Pure Vanilla Extract, and Fine Sea Salt in mini food processor.
+","a mini food processor is filled with avocado, cacao powder, unsweetened plain non-dairy milk, agave nectar, pure vanilla extract, and fine sea salt",3,prompt has too many things in it.,
+29,"Step 1: In a small bowl or measuring cup, whisk together Unsweetened Soy Milk and Apple Cider Vinegar. Set aside for 5 minutes.
+Step 2: Optional: If you want the top marshmallow to look all toasted, place under your broiler to toast. WATCH CLOSELY: THESE WILL BURN QUICKLY.
+","In a small bowl or measuring cup, whisk together Unsweetened Soy Milk and Apple Cider Vinegar. Set aside for 5 minutes. Optional: If you want the top marshmallow to look all toasted, place under your broiler to toast. WATCH CLOSELY: THESE WILL BURN",0,A,
+168,"Step 1: A person is pouring heavy cream into a mixing bowl on top of a kitchen machine
+Step 2: Loosen the cake from the springform pan and brush with remaining espresso. Spread the top with the tahini frosting. Drizzle over the caramel sauce and sprinkle with black sesame before serving.
+",A person is pouring heavy cream into a mixing bowl on top of a kitchen machine,0,A,copied the previous step
+156,"Step 1: A small bowl filled with strawberries, pineapple, and marshmallows
+Step 2: Refrigerate and allow to stand overnight for flavors to develop. Decorate with fresh strawberry, before serving.
+","A bowl of strawberries, pineapple, and marshmallows is being decorated with fresh strawberry before being served",4,,
+114,"Step 1: Place the Lump Crab Meat into a mixing bowl and use two forks to shred it into bite size pieces.
+",a woman is using two forks to shred lump crab meat into bite size pieces,4,,
+71,"Step 1: A pink bowl has a mixture of ground lamb, egg, garlic paste, dried oregano, ground cumin, kosher salt, and cayenne pepper in it
+Step 2: Shape into round sausage shapes or shape with two wet knifes into edged sausages.
+","A pink bowl with ground lamb, egg, garlic paste, dried oregano, ground cumin, kosher salt, and cayenne pepper in it",0,A,
+170,"Step 1: Pour BOMBAY SAPPHIRE, Simple Syrup and Lime Juice into a shaker.
+Step 2: Fill a cocktail shaker halfway with Ice and shake.
+",a cocktail shaker filled with ice and a bottle of bourbon,4,,
+120,"Step 1: In the image, a person is cutting cherry tomatoes and mozzarella cheese with a sharp knife on a wooden cutting board.
+Step 2: For the crab, halve one apple and cut out the core. Core and cut the other half into thin slices for legs, and cut serrated edges into two slices for the claws. Carve out small holes for the eyes, and stick small pieces of chocolate into the holes. If desired, use toothpicks to hold everything together.
+","In the image, a person is cutting a crab with a knife on a cutting board. They are cutting the crab into halves, core and cut the other half into thin slices for legs, and cut serrated edges into two slices for the claws. They also carve out small holes for the eyes and stick small pieces of chocolate",-1,A,
+173,"Step 1: A woman is using a stand mixer with a food grinder attachment to puree ingredients in a large bowl
+Step 2: Using your hands, form mixture into small disc-shaped patties.
+","In the image, a person is using their hands to form small disc-shaped patties out of a mixture of ingredients.",4,reference to previous ingredients,
+65,"Step 1: A purple plastic cup is sitting on a wooden table. Inside the cup, there is a mixture of black pepper, olive oil, brown sugar, curry powder, salt, and white vinegar. There are also some sultanas floating in the mixture. The cup is covered with plastic wrap.
+Step 2: Get White Rice in a big bowl. Add in Celery and Scallion. In order to add a bit color and some sweetness, chop up Red Apple and dust that up. Toss them together.
+","A bowl of white rice is being prepared with celery, scallions, and red apples",3,,
+195,"Step 1: Lotus seeds are being cooked in a pan with red chili powder, ground turmeric, and salt
+Step 2: Add Garam Masala or chat masala and mix well. You can eat it hot or store it for whenever you want a snack.
+","A pan with lotus seeds, red chili powder, ground turmeric, and salt in it",3,,
+15,"Step 1: Heat the Vegetable Oil is a wide pan or wok on medium flame and add the Garlic. Cook for 10 seconds then add the Bell Pepper and String Beans. Stir and cook for another 50 seconds to soften a bit. Then add the Sesame Oil and stir well.
+","A pan or wok is filled with vegetables including garlic, bell pepper, and string beans",4,,
+34,"Step 1: A woman is using two forks to tear into bite-sized pieces of a dish in a frying pan
+Step 2: Garnish with confectioner’s sugar and
+",A woman is stirring a bowl of chocolate mousse with a spoon,0,,
+190,"Step 1: Melt the Unsalted Butter in a large pot and sauté the Short Grain White Rice for a minute.
+Step 2: Add Milk and Granulated Sugar.
+",a pot of milk and granulated sugar is being heated on a stove,3,,
+138,"Step 1: A person is stirring a pan with a wooden spoon that has chili and ginger in it
+Step 2: Add broccoli florets, bell pepper, zucchini, and carrots, and stir in the coconut milk and sour cream. Leave to simmer over medium heat for approx. 3 – 4 min., then add apple and sugar snap peas.
+",A person is stirring a pan with a wooden spoon that has chili and ginger in it,0,,
+11,"Step 1: Peel and mince garlic. Thinly slice celery stalks at an angle to create long, thin slices. Peel and julienne carrots. Shred cabbage into long thin pieces. Trim top and bottoms of scallions then slice thinly at an angle.
+","A woman is cutting vegetables on a cutting board with a knife. She is peeling and mincing garlic, thinly slicing celery stalks at an angle to create long, thin slices, peeling and julienning carrots, shredding cabbage into long thin pieces, trimming top and bottoms of scallions, an",-1,,
+33,"Step 1: A woman is cooking chicken and vegetables in a blue pot on top of a stove
+Step 2: Meanwhile, finely chop parsley.
+",A woman is chopping parsley on a wooden cutting board with a knife,4,,
+111,"Step 1: Put a saucepan over medium heat. Add the Water, Butter, Salt, and Granulated Sugar. Let the water come to a boil. Add the All-Purpose Flour and turn the heat to low. Whisk everything together.
+","a saucepan with water, butter, salt, and granulated sugar in it",4,,
+25,"Step 1: Cut the salmon into bite-sized pieces and set aside. Peel onion, daikon radish, carrots, and sweet potato, and dice along with the pumpkin and lotus root into approx. 1-cm/0.5-in. cubes. Slice the shimeji and shiitake mushrooms. Mince the fresh cayenne peppers. Peel garlic and ginger, grate, and set aside.
+","A woman is cutting up vegetables on a cutting board, including salmon, onion, daikon radish, carrots, sweet potato, pumpkin, lotus root, shimeji mushrooms, and shiitake mushrooms",2,C,
+57,"Step 1: A glass bowl with a whisk in it that has honey, mustard, lemon, pepper, and olive oil in it
+Step 2: Serve the dressing with salad or toss and serve immediately. Garnish with Sharp White Cheddar Cheese and
+",a bowl of salad with a spoon in it and a piece of cheese on top,-1,the input is cut?,
+53,"Step 1: Set your slow cooker to sauté function, if your slow cooker does not have this function use a pan over medium heat. Season the Boneless Chuck Roast with Kosher Salt, Freshly Ground Black Pepper, Paprika and Ground Cumin. Place in the slow cooker with Olive Oil and sear the outside of the roast for 4-5 minutes per side.
+","A person is cooking a boneless chuck roast in a slow cooker with olive oil and seasoning it with kosher salt, freshly ground black pepper, paprika, and ground cumin",3,,
+36,"Step 1: A woman is using a hand mixer to beat eggs, sugar, vanilla extract, milk, olive oil, flour, baking powder, salt, ground hazelnuts, lemon zest, and melted chocolate in a bowl
+Step 2: Pour batter into a greased springform pan, arrange sliced pears on top, followed by chopped hazelnuts. Bake at 190°C/375°F for approx. 50 min. Dust with confectioner’s sugar and
+",A woman is pouring batter into a greased springform pan that has sliced pears on top and chopped hazelnuts in it,2,,
+69,"Step 1: In the image, a person is stirring a pot of chicken stock with a spoon. They are adding lemongrass and galangal to the chicken stock before adding a tablespoon of tom yum chili paste
+Step 2: Add Kaffir Lime Leaf, Cherry Tomato, Oyster Mushroom, and Thai Chili Pepper (if using) to the soup.
+","In the image, a person is adding ingredients to a pot of soup, including kaffir lime leaf, cherry tomato, oyster mushroom, and thai chili pepper (if using)",3,,
+131,"Step 1: Preheat oven to 180°C/355°F. Add eggs and some of the sugar to the bowl of a stand mixer and beat until creamy. Add yogurt and keep beating. Add baking powder to flour and add the mixture to the stand mixer bit by bit.
+",A woman is using a stand mixer to make a cake in an oven,2,,
+149,"Step 1: A silver bowl filled with chopped brussels sprouts sits on a table next to a pile of pistachios
+Step 2: In a saute pan over medium heat, add the Olive Oil, brussels sprouts, chopped pistachios, Kosher Salt and Ground Black Pepper. Saute until leaves begin to soften but are still bright green, about 2 minutes.
+","In a saute pan over medium heat, add the olive oil, brussels sprouts, chopped pistachios, kosher salt, and ground black pepper. Saute until leaves begin to soften but are still bright green, about 2 minutes.",-1,A,
+151,"Step 1: A woman is cooking a salad in a frying pan, adding cubes of baguette to it
+Step 2: Place most of the baguette pieces into a baking dish, reserving some for the top layer. Add the sautéed chard, remaining vegetable broth, reserved baguette pieces, and finish with grated Gruyère cheese. Transfer to the oven, preheated to 200°C/390°F, and bake for 15 – 20 minutes, or until the cheese on top is melted and golden. Serve hot and
+",A woman is cooking a salad in a frying pan with cubes of baguette in it,-1,A,
+180,"Step 1: Preheat the oven to 180°C/ 350°F. Roughly chop couverture. Cut butter into small pieces. Next, melt both together with sugar in the microwave at 600Watt for approx 2 - 3 min.
+",A woman is using a microwave to melt butter and sugar together,3,,
+105,"Step 1: A person is stirring a pot with a wooden spoon that has vegetables in it
+Step 2: Add crushed tomatoes, vegetable stock, and quinoa to the pot. Season with soy sauce, cane sugar, salt and pepper. Bring to a boil and let cook, covered, for approx. 15 – 20 min. During the last 5 min., add black beans, kidney beans, corn, and walnuts to the pot.
+","A person is stirring a pot with a wooden spoon that has quinoa, black beans, kidney beans, corn, and walnuts in it",-1,A,
+22,"Step 1: a person is measuring martini rosso and martini riserva speciale bitter into a glass
+Step 2: Garnish with Orange Twist.
+",a glass of martini rosso and martini riserva speciale bitter is being garnished with an orange twist,3,,
+110,"Step 1: Four pieces of meat are in a frying pan with rosemary and thyme
+Step 2: To serve, slice duck breast and halve figs. Arrange on serving plates together with parsnip puree, then drizzle with cassis reduction and sprinkle with thyme.
+","A plate of duck breast, figs, parsnip puree, and cassis reduction is being served on a white plate",4,,
+50,"Step 1: In the image, there is a bowl of noodles on a kitchen counter. The noodles appear to be cooked and ready to eat.
+Step 2: Drain the carrots and chop cucumber, Thai basil, lettuce, and cilantro and set aside. Chop scallions. Heat vegetable oil in a frying pan over medium-high heat and sauté scallions for approx. 2 min.
+","A person is chopping vegetables on a cutting board, including carrots, cucumber, Thai basil, lettuce, cilantro, and scallions",2,B,
+194,"Step 1: Image of aquafaba being mixed in a mixer bowl with a whisk
+Step 2: Store the aquafaba in the fridge or freezer for later use. If you are adding it to a recipe with oils or fats, mix in Cream of Tartar Or, if using it to replace whipped cream, add Powdered Confectioners Sugar.
+",A woman is adding aquafaba to a mixer bowl with a whisk,0,,
+18,"Step 1: A person is adding cashew cream to a bowl with white balsamic vinegar, coriander, salt, and pepper
+Step 2: Add vegan mayonnaise, cinnamon, and chili powder to a small bowl and stir to combine. Refrigerate until serving.
+","A person is adding cashew cream to a bowl with white balsamic vinegar, coriander, salt, and pepper",-1,A,
+171,"Step 1: Thinly slice the leek. Finely chop the chili pepper. Quarter the tomatoes, and dice the pancetta. Set everything aside.
+","a person is chopping up a leek, chili pepper, tomatoes, and pancetta on a cutting board",4,,
+60,"Step 1: Combine Bell Pepper, Red Onion, Zucchini, Cucumber, Corn, Low-Sodium Black Beans, Jalapeño Pepper and Fresh Cilantro. Toss to combine.
+","a bowl of black beans, bell pepper, onion, zucchini, cucumber, corn, and fresh cilantro",4,,
+98,"Step 1: In a pan over a low to medium heat, add in some olive oil and lay down the Bacon. Each side should only take 3-4 minutes. It's important to not overcook the bacon so that it remain foldable.
+","In a pan over a low to medium heat, add in some olive oil and lay down the bacon. Each side should only take 3-4 minutes. It's important to not overcook the bacon so that it remain foldable.",-1,A,
+30,"Step 1: Trim off the top end of the zucchini and cut lengthwise into 4 thin slices. Slice the tomato and slice the mozzarella. Slice off the top of one piece of focaccia; this will be the bottom of the sandwich.
+",A person is cutting a zucchini into four thin slices and then cutting a tomato and mozzarella cheese into thin slices,3,,
+55,"Step 1: Put Caster Sugar, All-Purpose Flour, Unsweetened Cocoa Powder into a mixing bowl and use a wooden spoon to mix it all together until it's combined. Add Butter and Egg into the mixing bowl and mix everything together until smooth.
+",A woman is stirring a bowl of chocolate mousse with a wooden spoon,3,,
+152,"Step 1: On two plates, add a handful of Arugula to each one. Evenly divide the Red Onion and Cherry Tomato on top of the arugula. Season with Sea Salt and Freshly Ground Black Pepper and set aside
+","two plates with arugula, red onion, and cherry tomatoes on them",3,,
+199,"Step 1: Dice the Fresh Strawberry.
+",the person is cutting up a strawberry on a cutting board with a knife,4,,
+4,"Step 1: A person is cooking spaghetti in a large pot of salted water on a stove. While the pasta cooks, they are melting some of the butter in a pan over medium heat and adding pine nuts to it
+Step 2: Drain the spaghetti and remove tomatoes from oven. Melt the remaining butter in pan set over medium heat, add the minced garlic and fry for approx. 1 min. Add spaghetti and tomatoes and toss to combine. Season with salt and pepper. Tear mozzarella and scatter over the spaghetti, followed by the pine nuts and basil.
+","A person is cooking spaghetti in a large pot of salted water on a stove. They are also melting some butter in a pan over medium heat and adding pine nuts to it. After the spaghetti is cooked, they drain it and remove the tomatoes from the oven. They then melt the remaining butter in th",2,,
+163,"Step 1: Into a bowl, add the Ground Lamb, Garlic, and Fresh Mint. Using your hands, mix everything together.
+","a bowl of ground lamb, garlic, and fresh mint is being mixed together with a spoon",3,,
+102,"Step 1: Heat the Coconut Oil in a wide pan over a medium flame, then add the Onion, Garlic, Scallion, and Ground Black Pepper. Reduce the heat to low for about 3-4 minutes.
+","a pan with coconut oil, onions, garlic, scallions, and ground black pepper in it",3,,
+197,"Step 1: In the image, a person is mixing vanilla pudding powder with some milk and whisking it to combine well. They then add the remaining milk, sugar, and pudding powder mixture to a saucepan and let it simmer until thickened. After that, they grease a springform pan and line it with parchment paper
+Step 2: Transfer the cake to the oven and bake at 180°C/350°F for approx. 40 min. Dust with confectioner’s sugar before serving.
+","In the image, a person is baking a cake in an oven. They are using a springform pan and lining it with parchment paper. The cake will be baked at 180°C/350°F for approximately 40 minutes. After baking, the cake will be dusted with confectioner",2,,
+82,"Step 1: A woman is using a knife to cut up a chicken on a cutting board
+Step 2: Add arugula, green onion, cilantro, and pine nuts to pan. Toss thoroughly with roasted vegetables. Return chicken to pan and season with lemon juice, salt, and pepper.
+",A woman is cooking chicken in a pan with vegetables and spices,3,,
+40,"Step 1: A woman is spreading pear slices on top of puff pastry squares and then sprinkling them with sugar and butter before putting them in the oven
+Step 2: In the meantime, heat up apricot jam with some water in the microwave or on the stove until liquid. Brush the finished tart with jam and serve warm with a dollop of whipped cream.
+",A woman is spreading apricot jam on top of puff pastry squares and then sprinkling them with sugar and butter before putting them in the oven,1,D,
+178,"Step 1: Make base by pureeing Banana and Honey until smooth, scraping down the sides as needed to get a really smooth and creamy mixture.
+",a woman is using a blender to make a smoothie with banana and honey,2,,
+45,"Step 1: In the image, there is a baking dish in an oven with two brûlée tins inside of it. The oven is preheated to 120°C/250°F and the brûlée tins will be baked for approximately 60 minutes. After removing the tins from the water bath
+Step 2: Caramelize rest of the sugar in a small frying pan. Add a pinch of salt, pour in water and reduce into a sauce. Pour over the Crema Catalana to serve.
+","In the image, there is a baking dish with two brûlée tins inside of it. The oven is preheated to 120°C/250°F and the brûlée tins will be baked for approximately 60 minutes. After removing the tins from the water bath, caramelize",-1,A,
+147,"Step 1: Wash the Mushroom and pat dry with paper towel. Place mushroom slices in a large bowl or suitable jar.
+Step 2: Pour Vegetable Oil, Distilled White Vinegar, Salt and Ground Black Pepper into the bowl.
+","A person is pouring vegetable oil, distilled white vinegar, salt, and ground black pepper into a bowl",3,,
+183,"Step 1: A pot of pasta is cooking on the stove with chicken and cheese in it
+Step 2: Mix in the cheese and serve warm in large bowls!
+",a bowl of pasta with cheese and chicken in it,-1,A,
+41,"Step 1: Place 1 to 2 slices of Jalapeño Pepper in the bottom of a cocktail shaker, along with the freshly squeezed juice of a Lime.
+Step 2: Muddle and then add Silver Tequila and Ice. Shake vigorously for about 20 seconds.
+",A cocktail shaker with a lime and jalapeno pepper in it,4,,
+198,"Step 1: In the image, there is a pot of soup on the stove with chicken and vegetables in it. There is also a person's hand reaching into the pot to add more ingredients to the soup.
+Step 2: Serve with White Rice on the bottom and Lime Wedge on the side. Or with tortillas for dipping into the soup.
+","In the image, there is a bowl of soup with a tortilla in it. The soup has chicken, vegetables, and lime juice in it.",2,,
+179,"Step 1: Chop Chinese cabbage into fine ribbons and set aside. Mince shallots and garlic.
+",the person is chopping chinese cabbage into fine ribbons and setting it aside,4,,
+142,"Step 1: Place Pineapple, Mango, Fresh Ginger, Water, and Carrot in a blender and blitz until smooth.
+","a blender is filled with pineapple, mango, fresh ginger, water, and carrot",4,,
+49,"Step 1: Slice the Baguette in half. Then slice each half again lengthwise to make two sandwiches.
+Step 2: Slice the Peach.
+",the person is slicing a peach on a cutting board,4,,
+150,"Step 1: A pot of melted butter, pumpkin puree, and marshmallows is being stirred with a wooden spoon
+Step 2: Stir in the Rice Krispies® Cereal. Spray an 8x8 baking dish with nonstick spray. Spread the mixture into the dish and press gently with a greased spatula.
+","A person is stirring a pot of melted butter, pumpkin puree, and marshmallows with a wooden spoon",0,,
+130,"Step 1: A wok is being greased with some sesame oil before cooking the chicken breast in it. The wok is then greased again and the yellow onion, garlic, and frozen mixed vegetables are added to it
+Step 2: Add in the Egg, and cook for a few minutes. Then, add in the chicken, and White Rice into the wok. Sprinkle over with some Soy Sauce, and mix everything together.
+","A wok is being used to cook chicken, vegetables, and rice. The wok is being greased with some sesame oil before the chicken, vegetables, and rice are added to it. The wok is then greased again and the yellow onion, garlic, and frozen mixed vegetables are added to it.",0,A,
+191,"Step 1: Preheat oven to 180°C/350°F. Finely dice shallot and cut green onion crosswise into thin rings. In a small bowl, mix together cheese, paprika powder, chili flakes, vegetable oil, and green onion. Season to taste with salt and pepper.
+Step 2: In a large frying pan, heat up some vegetable oil over medium heat and sauté shallot for approx. 1 – 2 min. Then, add spinach and continue to cook for approx. 1 – 2 min. until wilted. Grate nutmeg into pan and stir thoroughly. Remove from heat.
+",A person is cooking spinach in a frying pan on a stove. They are adding shallots to the pan and sautéing them for about 1-2 minutes before adding spinach and cooking it for about 1-2 minutes until it is wilted. They then grate nutmeg into the pan and stir,2,B,
+99,"Step 1: Preheat oven to 180°C
+Step 2: Melt the butter and the black chocolate in a saucepan over a very low heat
+",a saucepan with butter and black chocolate in it that is being heated over a very low heat,4,,
+119,"Step 1: Preheat oven to 180°C/350°F. Cut cauliflower into small florets. Fill a large saucepan half full with water, bring to a boil, add cauliflower and salt, and cook for approx. 8 – 10 min. until tender. Remove from heat and drain.
+",A person is cooking cauliflower in a large saucepan on a stove,3,,
+112,"Step 1: Place Avocado, Cacao Powder, Unsweetened Plain Non-Dairy Milk, Agave Nectar, Pure Vanilla Extract, and Fine Sea Salt in mini food processor.
+","a mini food processor is filled with avocado, cacao powder, unsweetened plain non-dairy milk, agave nectar, pure vanilla extract, and fine sea salt",4,,
+29,"Step 1: In a small bowl or measuring cup, whisk together Unsweetened Soy Milk and Apple Cider Vinegar. Set aside for 5 minutes.
+Step 2: Optional: If you want the top marshmallow to look all toasted, place under your broiler to toast. WATCH CLOSELY: THESE WILL BURN QUICKLY.
+","In a small bowl or measuring cup, whisk together Unsweetened Soy Milk and Apple Cider Vinegar. Set aside for 5 minutes. Optional: If you want the top marshmallow to look all toasted, place under your broiler to toast. WATCH CLOSELY: THESE WILL BURN",-1,A,
+168,"Step 1: A person is pouring heavy cream into a mixing bowl on top of a kitchen machine
+Step 2: Loosen the cake from the springform pan and brush with remaining espresso. Spread the top with the tahini frosting. Drizzle over the caramel sauce and sprinkle with black sesame before serving.
+",A person is pouring heavy cream into a mixing bowl on top of a kitchen machine,0,A,
+156,"Step 1: A small bowl filled with strawberries, pineapple, and marshmallows
+Step 2: Refrigerate and allow to stand overnight for flavors to develop. Decorate with fresh strawberry, before serving.
+","A bowl of strawberries, pineapple, and marshmallows is being decorated with fresh strawberry before being served",3,,
+114,"Step 1: Place the Lump Crab Meat into a mixing bowl and use two forks to shred it into bite size pieces.
+",a woman is using two forks to shred lump crab meat into bite size pieces,4,,
+71,"Step 1: A pink bowl has a mixture of ground lamb, egg, garlic paste, dried oregano, ground cumin, kosher salt, and cayenne pepper in it
+Step 2: Shape into round sausage shapes or shape with two wet knifes into edged sausages.
+","A pink bowl with ground lamb, egg, garlic paste, dried oregano, ground cumin, kosher salt, and cayenne pepper in it",0,,
+170,"Step 1: Pour BOMBAY SAPPHIRE, Simple Syrup and Lime Juice into a shaker.
+Step 2: Fill a cocktail shaker halfway with Ice and shake.
+",a cocktail shaker filled with ice and a bottle of bourbon,3,,
+120,"Step 1: In the image, a person is cutting cherry tomatoes and mozzarella cheese with a sharp knife on a wooden cutting board.
+Step 2: For the crab, halve one apple and cut out the core. Core and cut the other half into thin slices for legs, and cut serrated edges into two slices for the claws. Carve out small holes for the eyes, and stick small pieces of chocolate into the holes. If desired, use toothpicks to hold everything together.
+","In the image, a person is cutting a crab with a knife on a cutting board. They are cutting the crab into halves, core and cut the other half into thin slices for legs, and cut serrated edges into two slices for the claws. They also carve out small holes for the eyes and stick small pieces of chocolate",2,,
+173,"Step 1: A woman is using a stand mixer with a food grinder attachment to puree ingredients in a large bowl
+Step 2: Using your hands, form mixture into small disc-shaped patties.
+","In the image, a person is using their hands to form small disc-shaped patties out of a mixture of ingredients.",4,,
+65,"Step 1: A purple plastic cup is sitting on a wooden table. Inside the cup, there is a mixture of black pepper, olive oil, brown sugar, curry powder, salt, and white vinegar. There are also some sultanas floating in the mixture. The cup is covered with plastic wrap.
+Step 2: Get White Rice in a big bowl. Add in Celery and Scallion. In order to add a bit color and some sweetness, chop up Red Apple and dust that up. Toss them together.
+","A bowl of white rice is being prepared with celery, scallions, and red apples",4,,
+195,"Step 1: Lotus seeds are being cooked in a pan with red chili powder, ground turmeric, and salt
+Step 2: Add Garam Masala or chat masala and mix well. You can eat it hot or store it for whenever you want a snack.
+","A pan with lotus seeds, red chili powder, ground turmeric, and salt in it",0,,
+15,"Step 1: Heat the Vegetable Oil is a wide pan or wok on medium flame and add the Garlic. Cook for 10 seconds then add the Bell Pepper and String Beans. Stir and cook for another 50 seconds to soften a bit. Then add the Sesame Oil and stir well.
+","A pan or wok is filled with vegetables including garlic, bell pepper, and string beans",4,,
+34,"Step 1: A woman is using two forks to tear into bite-sized pieces of a dish in a frying pan
+Step 2: Garnish with confectioner’s sugar and
+",A woman is stirring a bowl of chocolate mousse with a spoon,0,,
+190,"Step 1: Melt the Unsalted Butter in a large pot and sauté the Short Grain White Rice for a minute.
+Step 2: Add Milk and Granulated Sugar.
+",a pot of milk and granulated sugar is being heated on a stove,2,,
+138,"Step 1: A person is stirring a pan with a wooden spoon that has chili and ginger in it
+Step 2: Add broccoli florets, bell pepper, zucchini, and carrots, and stir in the coconut milk and sour cream. Leave to simmer over medium heat for approx. 3 – 4 min., then add apple and sugar snap peas.
+",A person is stirring a pan with a wooden spoon that has chili and ginger in it,0,A,
+11,"Step 1: Peel and mince garlic. Thinly slice celery stalks at an angle to create long, thin slices. Peel and julienne carrots. Shred cabbage into long thin pieces. Trim top and bottoms of scallions then slice thinly at an angle.
+","A woman is cutting vegetables on a cutting board with a knife. She is peeling and mincing garlic, thinly slicing celery stalks at an angle to create long, thin slices, peeling and julienning carrots, shredding cabbage into long thin pieces, trimming top and bottoms of scallions, an",3,B,
+33,"Step 1: A woman is cooking chicken and vegetables in a blue pot on top of a stove
+Step 2: Meanwhile, finely chop parsley.
+",A woman is chopping parsley on a wooden cutting board with a knife,4,,
+111,"Step 1: Put a saucepan over medium heat. Add the Water, Butter, Salt, and Granulated Sugar. Let the water come to a boil. Add the All-Purpose Flour and turn the heat to low. Whisk everything together.
+","a saucepan with water, butter, salt, and granulated sugar in it",4,,
+25,"Step 1: Cut the salmon into bite-sized pieces and set aside. Peel onion, daikon radish, carrots, and sweet potato, and dice along with the pumpkin and lotus root into approx. 1-cm/0.5-in. cubes. Slice the shimeji and shiitake mushrooms. Mince the fresh cayenne peppers. Peel garlic and ginger, grate, and set aside.
+","A woman is cutting up vegetables on a cutting board, including salmon, onion, daikon radish, carrots, sweet potato, pumpkin, lotus root, shimeji mushrooms, and shiitake mushrooms",2,B,
+57,"Step 1: A glass bowl with a whisk in it that has honey, mustard, lemon, pepper, and olive oil in it
+Step 2: Serve the dressing with salad or toss and serve immediately. Garnish with Sharp White Cheddar Cheese and
+",a bowl of salad with a spoon in it and a piece of cheese on top,3,,
+53,"Step 1: Set your slow cooker to sauté function, if your slow cooker does not have this function use a pan over medium heat. Season the Boneless Chuck Roast with Kosher Salt, Freshly Ground Black Pepper, Paprika and Ground Cumin. Place in the slow cooker with Olive Oil and sear the outside of the roast for 4-5 minutes per side.
+","A person is cooking a boneless chuck roast in a slow cooker with olive oil and seasoning it with kosher salt, freshly ground black pepper, paprika, and ground cumin",4,C,
+36,"Step 1: A woman is using a hand mixer to beat eggs, sugar, vanilla extract, milk, olive oil, flour, baking powder, salt, ground hazelnuts, lemon zest, and melted chocolate in a bowl
+Step 2: Pour batter into a greased springform pan, arrange sliced pears on top, followed by chopped hazelnuts. Bake at 190°C/375°F for approx. 50 min. Dust with confectioner’s sugar and
+",A woman is pouring batter into a greased springform pan that has sliced pears on top and chopped hazelnuts in it,1,,
+69,"Step 1: In the image, a person is stirring a pot of chicken stock with a spoon. They are adding lemongrass and galangal to the chicken stock before adding a tablespoon of tom yum chili paste
+Step 2: Add Kaffir Lime Leaf, Cherry Tomato, Oyster Mushroom, and Thai Chili Pepper (if using) to the soup.
+","In the image, a person is adding ingredients to a pot of soup, including kaffir lime leaf, cherry tomato, oyster mushroom, and thai chili pepper (if using)",1,,
+131,"Step 1: Preheat oven to 180°C/355°F. Add eggs and some of the sugar to the bowl of a stand mixer and beat until creamy. Add yogurt and keep beating. Add baking powder to flour and add the mixture to the stand mixer bit by bit.
+",A woman is using a stand mixer to make a cake in an oven,2,,
+149,"Step 1: A silver bowl filled with chopped brussels sprouts sits on a table next to a pile of pistachios
+Step 2: In a saute pan over medium heat, add the Olive Oil, brussels sprouts, chopped pistachios, Kosher Salt and Ground Black Pepper. Saute until leaves begin to soften but are still bright green, about 2 minutes.
+","In a saute pan over medium heat, add the olive oil, brussels sprouts, chopped pistachios, kosher salt, and ground black pepper. Saute until leaves begin to soften but are still bright green, about 2 minutes.",2,,
+151,"Step 1: A woman is cooking a salad in a frying pan, adding cubes of baguette to it
+Step 2: Place most of the baguette pieces into a baking dish, reserving some for the top layer. Add the sautéed chard, remaining vegetable broth, reserved baguette pieces, and finish with grated Gruyère cheese. Transfer to the oven, preheated to 200°C/390°F, and bake for 15 – 20 minutes, or until the cheese on top is melted and golden. Serve hot and
+",A woman is cooking a salad in a frying pan with cubes of baguette in it,2,,
+180,"Step 1: Preheat the oven to 180°C/ 350°F. Roughly chop couverture. Cut butter into small pieces. Next, melt both together with sugar in the microwave at 600Watt for approx 2 - 3 min.
+",A woman is using a microwave to melt butter and sugar together,3,,
+105,"Step 1: A person is stirring a pot with a wooden spoon that has vegetables in it
+Step 2: Add crushed tomatoes, vegetable stock, and quinoa to the pot. Season with soy sauce, cane sugar, salt and pepper. Bring to a boil and let cook, covered, for approx. 15 – 20 min. During the last 5 min., add black beans, kidney beans, corn, and walnuts to the pot.
+","A person is stirring a pot with a wooden spoon that has quinoa, black beans, kidney beans, corn, and walnuts in it",4,C,
+22,"Step 1: a person is measuring martini rosso and martini riserva speciale bitter into a glass
+Step 2: Garnish with Orange Twist.
+",a glass of martini rosso and martini riserva speciale bitter is being garnished with an orange twist,4,,
+110,"Step 1: Four pieces of meat are in a frying pan with rosemary and thyme
+Step 2: To serve, slice duck breast and halve figs. Arrange on serving plates together with parsnip puree, then drizzle with cassis reduction and sprinkle with thyme.
+","A plate of duck breast, figs, parsnip puree, and cassis reduction is being served on a white plate",3,,
+50,"Step 1: In the image, there is a bowl of noodles on a kitchen counter. The noodles appear to be cooked and ready to eat.
+Step 2: Drain the carrots and chop cucumber, Thai basil, lettuce, and cilantro and set aside. Chop scallions. Heat vegetable oil in a frying pan over medium-high heat and sauté scallions for approx. 2 min.
+","A person is chopping vegetables on a cutting board, including carrots, cucumber, Thai basil, lettuce, cilantro, and scallions",2,,
+194,"Step 1: Image of aquafaba being mixed in a mixer bowl with a whisk
+Step 2: Store the aquafaba in the fridge or freezer for later use. If you are adding it to a recipe with oils or fats, mix in Cream of Tartar Or, if using it to replace whipped cream, add Powdered Confectioners Sugar.
+",A woman is adding aquafaba to a mixer bowl with a whisk,0,,
+18,"Step 1: A person is adding cashew cream to a bowl with white balsamic vinegar, coriander, salt, and pepper
+Step 2: Add vegan mayonnaise, cinnamon, and chili powder to a small bowl and stir to combine. Refrigerate until serving.
+","A person is adding cashew cream to a bowl with white balsamic vinegar, coriander, salt, and pepper",0,A,
+171,"Step 1: Thinly slice the leek. Finely chop the chili pepper. Quarter the tomatoes, and dice the pancetta. Set everything aside.
+","a person is chopping up a leek, chili pepper, tomatoes, and pancetta on a cutting board",3,,
+60,"Step 1: Combine Bell Pepper, Red Onion, Zucchini, Cucumber, Corn, Low-Sodium Black Beans, Jalapeño Pepper and Fresh Cilantro. Toss to combine.
+","a bowl of black beans, bell pepper, onion, zucchini, cucumber, corn, and fresh cilantro",4,,
+98,"Step 1: In a pan over a low to medium heat, add in some olive oil and lay down the Bacon. Each side should only take 3-4 minutes. It's important to not overcook the bacon so that it remain foldable.
+","In a pan over a low to medium heat, add in some olive oil and lay down the bacon. Each side should only take 3-4 minutes. It's important to not overcook the bacon so that it remain foldable.",0,A,
+30,"Step 1: Trim off the top end of the zucchini and cut lengthwise into 4 thin slices. Slice the tomato and slice the mozzarella. Slice off the top of one piece of focaccia; this will be the bottom of the sandwich.
+",A person is cutting a zucchini into four thin slices and then cutting a tomato and mozzarella cheese into thin slices,3,B,
+55,"Step 1: Put Caster Sugar, All-Purpose Flour, Unsweetened Cocoa Powder into a mixing bowl and use a wooden spoon to mix it all together until it's combined. Add Butter and Egg into the mixing bowl and mix everything together until smooth.
+",A woman is stirring a bowl of chocolate mousse with a wooden spoon,2,,
+152,"Step 1: On two plates, add a handful of Arugula to each one. Evenly divide the Red Onion and Cherry Tomato on top of the arugula. Season with Sea Salt and Freshly Ground Black Pepper and set aside
+","two plates with arugula, red onion, and cherry tomatoes on them",3,,
+199,"Step 1: Dice the Fresh Strawberry.
+",the person is cutting up a strawberry on a cutting board with a knife,4,,
+4,"Step 1: A person is cooking spaghetti in a large pot of salted water on a stove. While the pasta cooks, they are melting some of the butter in a pan over medium heat and adding pine nuts to it
+Step 2: Drain the spaghetti and remove tomatoes from oven. Melt the remaining butter in pan set over medium heat, add the minced garlic and fry for approx. 1 min. Add spaghetti and tomatoes and toss to combine. Season with salt and pepper. Tear mozzarella and scatter over the spaghetti, followed by the pine nuts and basil.
+","A person is cooking spaghetti in a large pot of salted water on a stove. They are also melting some butter in a pan over medium heat and adding pine nuts to it. After the spaghetti is cooked, they drain it and remove the tomatoes from the oven. They then melt the remaining butter in th",2,B,
+163,"Step 1: Into a bowl, add the Ground Lamb, Garlic, and Fresh Mint. Using your hands, mix everything together.
+","a bowl of ground lamb, garlic, and fresh mint is being mixed together with a spoon",2,D,
+102,"Step 1: Heat the Coconut Oil in a wide pan over a medium flame, then add the Onion, Garlic, Scallion, and Ground Black Pepper. Reduce the heat to low for about 3-4 minutes.
+","a pan with coconut oil, onions, garlic, scallions, and ground black pepper in it",4,,
+197,"Step 1: In the image, a person is mixing vanilla pudding powder with some milk and whisking it to combine well. They then add the remaining milk, sugar, and pudding powder mixture to a saucepan and let it simmer until thickened. After that, they grease a springform pan and line it with parchment paper
+Step 2: Transfer the cake to the oven and bake at 180°C/350°F for approx. 40 min. Dust with confectioner’s sugar before serving.
+","In the image, a person is baking a cake in an oven. They are using a springform pan and lining it with parchment paper. The cake will be baked at 180°C/350°F for approximately 40 minutes. After baking, the cake will be dusted with confectioner",2,D,
+82,"Step 1: A woman is using a knife to cut up a chicken on a cutting board
+Step 2: Add arugula, green onion, cilantro, and pine nuts to pan. Toss thoroughly with roasted vegetables. Return chicken to pan and season with lemon juice, salt, and pepper.
+",A woman is cooking chicken in a pan with vegetables and spices,2,,
+40,"Step 1: A woman is spreading pear slices on top of puff pastry squares and then sprinkling them with sugar and butter before putting them in the oven
+Step 2: In the meantime, heat up apricot jam with some water in the microwave or on the stove until liquid. Brush the finished tart with jam and serve warm with a dollop of whipped cream.
+",A woman is spreading apricot jam on top of puff pastry squares and then sprinkling them with sugar and butter before putting them in the oven,2,B,
+178,"Step 1: Make base by pureeing Banana and Honey until smooth, scraping down the sides as needed to get a really smooth and creamy mixture.
+",a woman is using a blender to make a smoothie with banana and honey,2,,
+45,"Step 1: In the image, there is a baking dish in an oven with two brûlée tins inside of it. The oven is preheated to 120°C/250°F and the brûlée tins will be baked for approximately 60 minutes. After removing the tins from the water bath
+Step 2: Caramelize rest of the sugar in a small frying pan. Add a pinch of salt, pour in water and reduce into a sauce. Pour over the Crema Catalana to serve.
+","In the image, there is a baking dish with two brûlée tins inside of it. The oven is preheated to 120°C/250°F and the brûlée tins will be baked for approximately 60 minutes. After removing the tins from the water bath, caramelize",0,A,
+147,"Step 1: Wash the Mushroom and pat dry with paper towel. Place mushroom slices in a large bowl or suitable jar.
+Step 2: Pour Vegetable Oil, Distilled White Vinegar, Salt and Ground Black Pepper into the bowl.
+","A person is pouring vegetable oil, distilled white vinegar, salt, and ground black pepper into a bowl",4,,
+183,"Step 1: A pot of pasta is cooking on the stove with chicken and cheese in it
+Step 2: Mix in the cheese and serve warm in large bowls!
+",a bowl of pasta with cheese and chicken in it,4,,
+41,"Step 1: Place 1 to 2 slices of Jalapeño Pepper in the bottom of a cocktail shaker, along with the freshly squeezed juice of a Lime.
+Step 2: Muddle and then add Silver Tequila and Ice. Shake vigorously for about 20 seconds.
+",A cocktail shaker with a lime and jalapeno pepper in it,3,,
+198,"Step 1: In the image, there is a pot of soup on the stove with chicken and vegetables in it. There is also a person's hand reaching into the pot to add more ingredients to the soup.
+Step 2: Serve with White Rice on the bottom and Lime Wedge on the side. Or with tortillas for dipping into the soup.
+","In the image, there is a bowl of soup with a tortilla in it. The soup has chicken, vegetables, and lime juice in it.",3,,
+179,"Step 1: Chop Chinese cabbage into fine ribbons and set aside. Mince shallots and garlic.
+",the person is chopping chinese cabbage into fine ribbons and setting it aside,3,C,
+142,"Step 1: Place Pineapple, Mango, Fresh Ginger, Water, and Carrot in a blender and blitz until smooth.
+","a blender is filled with pineapple, mango, fresh ginger, water, and carrot",4,,
+49,"Step 1: Slice the Baguette in half. Then slice each half again lengthwise to make two sandwiches.
+Step 2: Slice the Peach.
+",the person is slicing a peach on a cutting board,4,,
+150,"Step 1: A pot of melted butter, pumpkin puree, and marshmallows is being stirred with a wooden spoon
+Step 2: Stir in the Rice Krispies® Cereal. Spray an 8x8 baking dish with nonstick spray. Spread the mixture into the dish and press gently with a greased spatula.
+","A person is stirring a pot of melted butter, pumpkin puree, and marshmallows with a wooden spoon",0,,
+130,"Step 1: A wok is being greased with some sesame oil before cooking the chicken breast in it. The wok is then greased again and the yellow onion, garlic, and frozen mixed vegetables are added to it
+Step 2: Add in the Egg, and cook for a few minutes. Then, add in the chicken, and White Rice into the wok. Sprinkle over with some Soy Sauce, and mix everything together.
+","A wok is being used to cook chicken, vegetables, and rice. The wok is being greased with some sesame oil before the chicken, vegetables, and rice are added to it. The wok is then greased again and the yellow onion, garlic, and frozen mixed vegetables are added to it.",2,B,
+191,"Step 1: Preheat oven to 180°C/350°F. Finely dice shallot and cut green onion crosswise into thin rings. In a small bowl, mix together cheese, paprika powder, chili flakes, vegetable oil, and green onion. Season to taste with salt and pepper.
+Step 2: In a large frying pan, heat up some vegetable oil over medium heat and sauté shallot for approx. 1 – 2 min. Then, add spinach and continue to cook for approx. 1 – 2 min. until wilted. Grate nutmeg into pan and stir thoroughly. Remove from heat.
+",A person is cooking spinach in a frying pan on a stove. They are adding shallots to the pan and sautéing them for about 1-2 minutes before adding spinach and cooking it for about 1-2 minutes until it is wilted. They then grate nutmeg into the pan and stir,3,B,
+99,"Step 1: Preheat oven to 180°C
+Step 2: Melt the butter and the black chocolate in a saucepan over a very low heat
+",a saucepan with butter and black chocolate in it that is being heated over a very low heat,4,,
+119,"Step 1: Preheat oven to 180°C/350°F. Cut cauliflower into small florets. Fill a large saucepan half full with water, bring to a boil, add cauliflower and salt, and cook for approx. 8 – 10 min. until tender. Remove from heat and drain.
+",A person is cooking cauliflower in a large saucepan on a stove,1,B,
+112,"Step 1: Place Avocado, Cacao Powder, Unsweetened Plain Non-Dairy Milk, Agave Nectar, Pure Vanilla Extract, and Fine Sea Salt in mini food processor.
+","a mini food processor is filled with avocado, cacao powder, unsweetened plain non-dairy milk, agave nectar, pure vanilla extract, and fine sea salt",4,,
+29,"Step 1: In a small bowl or measuring cup, whisk together Unsweetened Soy Milk and Apple Cider Vinegar. Set aside for 5 minutes.
+Step 2: Optional: If you want the top marshmallow to look all toasted, place under your broiler to toast. WATCH CLOSELY: THESE WILL BURN QUICKLY.
+","In a small bowl or measuring cup, whisk together Unsweetened Soy Milk and Apple Cider Vinegar. Set aside for 5 minutes. Optional: If you want the top marshmallow to look all toasted, place under your broiler to toast. WATCH CLOSELY: THESE WILL BURN",0,A,
+168,"Step 1: A person is pouring heavy cream into a mixing bowl on top of a kitchen machine
+Step 2: Loosen the cake from the springform pan and brush with remaining espresso. Spread the top with the tahini frosting. Drizzle over the caramel sauce and sprinkle with black sesame before serving.
+",A person is pouring heavy cream into a mixing bowl on top of a kitchen machine,0,,
+156,"Step 1: A small bowl filled with strawberries, pineapple, and marshmallows
+Step 2: Refrigerate and allow to stand overnight for flavors to develop. Decorate with fresh strawberry, before serving.
+","A bowl of strawberries, pineapple, and marshmallows is being decorated with fresh strawberry before being served",4,,
+114,"Step 1: Place the Lump Crab Meat into a mixing bowl and use two forks to shred it into bite size pieces.
+",a woman is using two forks to shred lump crab meat into bite size pieces,4,,
+71,"Step 1: A pink bowl has a mixture of ground lamb, egg, garlic paste, dried oregano, ground cumin, kosher salt, and cayenne pepper in it
+Step 2: Shape into round sausage shapes or shape with two wet knifes into edged sausages.
+","A pink bowl with ground lamb, egg, garlic paste, dried oregano, ground cumin, kosher salt, and cayenne pepper in it",1,,
+170,"Step 1: Pour BOMBAY SAPPHIRE, Simple Syrup and Lime Juice into a shaker.
+Step 2: Fill a cocktail shaker halfway with Ice and shake.
+",a cocktail shaker filled with ice and a bottle of bourbon,2,,
+120,"Step 1: In the image, a person is cutting cherry tomatoes and mozzarella cheese with a sharp knife on a wooden cutting board.
+Step 2: For the crab, halve one apple and cut out the core. Core and cut the other half into thin slices for legs, and cut serrated edges into two slices for the claws. Carve out small holes for the eyes, and stick small pieces of chocolate into the holes. If desired, use toothpicks to hold everything together.
+","In the image, a person is cutting a crab with a knife on a cutting board. They are cutting the crab into halves, core and cut the other half into thin slices for legs, and cut serrated edges into two slices for the claws. They also carve out small holes for the eyes and stick small pieces of chocolate",3,B,
+173,"Step 1: A woman is using a stand mixer with a food grinder attachment to puree ingredients in a large bowl
+Step 2: Using your hands, form mixture into small disc-shaped patties.
+","In the image, a person is using their hands to form small disc-shaped patties out of a mixture of ingredients.",1,,
+65,"Step 1: A purple plastic cup is sitting on a wooden table. Inside the cup, there is a mixture of black pepper, olive oil, brown sugar, curry powder, salt, and white vinegar. There are also some sultanas floating in the mixture. The cup is covered with plastic wrap.
+Step 2: Get White Rice in a big bowl. Add in Celery and Scallion. In order to add a bit color and some sweetness, chop up Red Apple and dust that up. Toss them together.
+","A bowl of white rice is being prepared with celery, scallions, and red apples",4,C,
+195,"Step 1: Lotus seeds are being cooked in a pan with red chili powder, ground turmeric, and salt
+Step 2: Add Garam Masala or chat masala and mix well. You can eat it hot or store it for whenever you want a snack.
+","A pan with lotus seeds, red chili powder, ground turmeric, and salt in it",1,,
+15,"Step 1: Heat the Vegetable Oil is a wide pan or wok on medium flame and add the Garlic. Cook for 10 seconds then add the Bell Pepper and String Beans. Stir and cook for another 50 seconds to soften a bit. Then add the Sesame Oil and stir well.
+","A pan or wok is filled with vegetables including garlic, bell pepper, and string beans",4,,
+34,"Step 1: A woman is using two forks to tear into bite-sized pieces of a dish in a frying pan
+Step 2: Garnish with confectioner’s sugar and
+",A woman is stirring a bowl of chocolate mousse with a spoon,0,,
+190,"Step 1: Melt the Unsalted Butter in a large pot and sauté the Short Grain White Rice for a minute.
+Step 2: Add Milk and Granulated Sugar.
+",a pot of milk and granulated sugar is being heated on a stove,2,,
+138,"Step 1: A person is stirring a pan with a wooden spoon that has chili and ginger in it
+Step 2: Add broccoli florets, bell pepper, zucchini, and carrots, and stir in the coconut milk and sour cream. Leave to simmer over medium heat for approx. 3 – 4 min., then add apple and sugar snap peas.
+",A person is stirring a pan with a wooden spoon that has chili and ginger in it,0,,
+11,"Step 1: Peel and mince garlic. Thinly slice celery stalks at an angle to create long, thin slices. Peel and julienne carrots. Shred cabbage into long thin pieces. Trim top and bottoms of scallions then slice thinly at an angle.
+","A woman is cutting vegetables on a cutting board with a knife. She is peeling and mincing garlic, thinly slicing celery stalks at an angle to create long, thin slices, peeling and julienning carrots, shredding cabbage into long thin pieces, trimming top and bottoms of scallions, an",3,B,
+33,"Step 1: A woman is cooking chicken and vegetables in a blue pot on top of a stove
+Step 2: Meanwhile, finely chop parsley.
+",A woman is chopping parsley on a wooden cutting board with a knife,4,,
+111,"Step 1: Put a saucepan over medium heat. Add the Water, Butter, Salt, and Granulated Sugar. Let the water come to a boil. Add the All-Purpose Flour and turn the heat to low. Whisk everything together.
+","a saucepan with water, butter, salt, and granulated sugar in it",3,,
+25,"Step 1: Cut the salmon into bite-sized pieces and set aside. Peel onion, daikon radish, carrots, and sweet potato, and dice along with the pumpkin and lotus root into approx. 1-cm/0.5-in. cubes. Slice the shimeji and shiitake mushrooms. Mince the fresh cayenne peppers. Peel garlic and ginger, grate, and set aside.
+","A woman is cutting up vegetables on a cutting board, including salmon, onion, daikon radish, carrots, sweet potato, pumpkin, lotus root, shimeji mushrooms, and shiitake mushrooms",1,B,
+57,"Step 1: A glass bowl with a whisk in it that has honey, mustard, lemon, pepper, and olive oil in it
+Step 2: Serve the dressing with salad or toss and serve immediately. Garnish with Sharp White Cheddar Cheese and
+",a bowl of salad with a spoon in it and a piece of cheese on top,3,,

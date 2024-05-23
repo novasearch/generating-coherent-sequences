@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sequence Evaluation</title>
+  <style>
+    /* Add your CSS styles here */
+    /* Adjust styles as needed for alignment, spacing, etc. */
+    .sequence-row {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+  <h1>Sequence Evaluation</h1>
+
+  <!-- Title -->
+  <h2>${title}</h2>
+
+  <!-- Image Display -->
+  <img src="${image_url}" alt="Sequences" width="500px">
+
+  <!-- Radio Buttons -->
+  <crowd-form answer-format="flatten-objects" id="sequenceForm">
+    <input type="hidden" name="recipe_id" value="${recipe_id}">
+
+    <div class="sequence-row">
+      <label for="ratingA">Rating for A:</label><br>
+      <input type="radio" id="ratingA1" name="ratingA" value="1">
+      <label for="ratingA1">1</label>
+      <input type="radio" id="ratingA2" name="ratingA" value="2">
+      <label for="ratingA2">2</label>
+      <input type="radio" id="ratingA3" name="ratingA" value="3">
+      <label for="ratingA3">3</label>
+      <input type="radio" id="ratingA4" name="ratingA" value="4">
+      <label for="ratingA4">4</label>
+      <input type="radio" id="ratingA5" name="ratingA" value="5">
+      <label for="ratingA5">5</label>
+    </div>
+
+    <div class="sequence-row">
+      <label for="ratingB">Rating for B:</label><br>
+      <input type="radio" id="ratingB1" name="ratingB" value="1">
+      <label for="ratingB1">1</label>
+      <input type="radio" id="ratingB2" name="ratingB" value="2">
+      <label for="ratingB2">2</label>
+      <input type="radio" id="ratingB3" name="ratingB" value="3">
+      <label for="ratingB3">3</label>
+      <input type="radio" id="ratingB4" name="ratingB" value="4">
+      <label for="ratingB4">4</label>
+      <input type="radio" id="ratingB5" name="ratingB" value="5">
+      <label for="ratingB5">5</label>
+    </div>
+
+    <div class="sequence-row">
+      <input type="checkbox" id="noGoodSequence" name="noGoodSequence">
+      <label for="noGoodSequence">No good sequence</label>
+    </div>
+
+    <textarea name="observations" id="observations" cols="100" rows="5" placeholder="Observations"></textarea>
+    <br>
+    <button type="submit" id="submitBtn">Submit</button>
+  </crowd-form>
+
+  <script>
+    document.getElementById('sequenceForm').addEventListener('submit', function (event) {
+      var noGoodSequence = document.getElementById('noGoodSequence').checked;
+
+      if (noGoodSequence) {
+        return;
+      }
+
+      var ratingASelected = false;
+      var ratingBSelected = false;
+
+      var ratingARadios = document.getElementsByName('ratingA');
+      var ratingBRadios = document.getElementsByName('ratingB');
+
+      for (var i = 0; i < ratingARadios.length; i++) {
+        if (ratingARadios[i].checked) {
+          ratingASelected = true;
+          break;
+        }
+      }
+
+      for (var i = 0; i < ratingBRadios.length; i++) {
+        if (ratingBRadios[i].checked) {
+          ratingBSelected = true;
+          break;
+        }
+      }
+
+      if (!ratingASelected || !ratingBSelected) {
+        event.preventDefault();
+        alert('Please select a rating for both sequences.');
+      }
+    });
+  </script>
+</body>
+
+</html>

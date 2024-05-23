@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MTurk</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+
+    <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+    <div style="justify-content:center; align-items:center; padding-left: 5%; padding-right: 5%;">
+        <crowd-form answer-format="flatten-objects">
+
+            <input type="hidden" name="hidden_id" value="${hidden_id}">
+            
+            <h2 style="margin-bottom: 5px;"><span style="color: red;">Please read the instructions carefully before
+                    working on this HIT.</span></h2>
+
+
+            <crowd-instructions link-text="View instructions" link-type="button">
+                <short-summary>
+                    <h2>Instructions</h2>
+                    <ol>
+                        <li>Read the description of the image carefully.</li>
+                        <li>Check the content of the image carefully.</li>
+                        <li>(Q1) Rate the overall quality of the image.</li>
+                        <li>(Q2) Rate how well the image matches the description.</li>
+                    </ol>
+
+                    <h4>Q1. Rate the overall quality of this image.</h4>
+                    <p>When you answer Q1, please rate if the image looks like a real image. A high quality image is one
+                        that is hard to tell if it is real or AI-generated. Some AI-generated images may have artifacts
+                        such as irregular textures, shapes or noise as in the examples below. Rate such images as lower
+                        quality. <span style="color:red" ;>The description is irrelavant for this question.</span></p>
+
+                    <h4>Q2. Rate how well the image matches the description.</h4>
+                    <p>When you answer Q2, please <span style="color:red" ;>judge only the matching of the description and the image.</span>
+                        An image that has some irregular textures and shapes but has all the important content, e.g. all the ingredients, should be given a high score.</p>
+
+                    <h3>Examples</h3>
+
+                    <div style="border: 1px solid black; padding:5px;">
+                        <div class="image-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap; align-items: flex-start;">
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/998_1.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/991_2.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/988_0.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                        </div>
+                        <div class="text-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap;">
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                a) A plate with red and green Christmas croissants, with a buttery and flaky texture.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                b) A plate of veggie and tofu scramble with chopped vegetables and tofu.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                c) A crown roast of pork, cooked to a golden brown, with herbs and garnished with sprigs
+                                of rosemary.
+                            </div>
+                        </div>
+
+                        <ol type="a">
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>poor</b>. AI-generated with hallucinations.</li>
+                                <li>Description matching: <b>has several minor discrepancies</b>. The color of the
+                                    croissants is wrong.</li>
+                            </ul>
+                            <hr>
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Acceptable</b>. Apart from the fork the image has great quality.
+                                </li>
+                                <li>Description matching: <b>Matches exactly</b>. Everything is in the image.</li>
+                            </ul>
+                            <hr>
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Good</b>. Apart from the rosemary inside the chicken it has
+                                    great quality.</li>
+                                <li>Description matching: <b>Has significant discrepancies</b>. The image is not a crown
+                                    roast of pork but chicken.</li>
+                            </ul>
+                        </ol>
+                    </div>
+
+                    <br>
+
+                    <div style="border: 1px solid black; padding:5px;">
+                        <div class="image-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap; align-items: flex-start;">
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/992_2.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/979_2.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/977_1.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                        </div>
+                        <div class="text-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap;">
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                d) A bowl of vanilla ice milk.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                e) Two tacos filled with scrambled eggs, roasted red peppers, and black beans, topped
+                                with cheese.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                f) A slice of tres leches cake with a creamy texture, topped with whipped cream and
+                                cherries.
+                            </div>
+                        </div>
+
+                        <ol type="a" start="4">
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>very poor</b>. AI-generated with hallucinations.</li>
+                                <li>Description matching: <b>Does not match at all</b>.</li>
+                            </ul>
+                            <hr>
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Very good</b>.</li>
+                                <li>Description matching: <b>Has few minor discrepancies</b>. There are three and not
+                                    two tacos.</li>
+                            </ul>
+                            <hr>
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Very good</b>.</li>
+                                <li>Description matching: <b>Matches exactly</b>.</li>
+                            </ul>
+                        </ol>
+                    </div>
+
+                    <br>
+
+                    <div style="border: 1px solid black; padding:5px;">
+                        <div class="image-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap; align-items: flex-start;">
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/976_0.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/975_1.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="https://visual-prompts-nl2vi.s3.us-west-2.amazonaws.com/recipes_1000/images/GPT35/sd2.1/985_3.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                        </div>
+                        <div class="text-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap;">
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                g) A platter with a perfectly cooked prime rib roast, sliced, and ready to be served.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                h) A cup of maple-mushroom chai, garnished with a cinnamon stick.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                i) A loaf of zucchini bread with pieces of pineapple and raisins, sliced on a wooden
+                                cutting board.
+                            </div>
+                        </div>
+                        <ol type="a" start="4">
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Good</b>. Minor hallucination on the right.</li>
+                                <li>Description matching: <b>Very good</b>. Everything is in the image.</li>
+                            </ul>
+                            <hr>
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Acceptable</b>. Not the best looking image.</li>
+                                <li>Description matching: <b>Very good</b>. Use google to search unkown recipes.</li>
+                            </ul>
+                            <hr>
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Acceptable</b>. The bread has some deformations.</li>
+                                <li>Description matching: <b>Very good</b>. Everything is in the image.</li>
+                            </ul>
+                        </ol>
+                    </div>
+                </short-summary>
+                <detailed-instructions>
+                    <h2>Instructions</h2>
+                    <ol>
+                        <li>Read the description of the image carefully.</li>
+                        <li>Check the content of the image carefully.</li>
+                        <li>(Q1) Rate the overall quality of the image.</li>
+                        <li>(Q2) Rate how well the image matches the description.</li>
+                    </ol>
+
+                    <h4>Q1. Rate the overall quality of this image.</h4>
+                    <p>When you answer Q1, please rate if the image looks like a real image. A high quality image is one
+                        that is hard to tell if it is real or AI-generated. Some AI-generated images may have artifacts
+                        such as irregular textures, shapes or noise as in the examples below. Rate such images as lower
+                        quality. <span style="color:red" ;>The description is irrelavant for this question.</span></p>
+
+                    <h4>Q2. Rate how well the image matches the description.</h4>
+                    <p>When you answer Q2, please judge only by the corresponde of content in the caption and the image.
+                        For example, we consider the caption and image below match exactly. Although the image has some
+                        irregular textures and shapes, all the important content, e.g., man, bike, and friend on the
+                        back, can be easily identified.</p>
+
+                    <h3>Examples</h3>
+
+                    <div style="border: 1px solid black; padding:5px;">
+                        <div class="image-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap; align-items: flex-start;">
+                            <img src="998_1.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="991_2.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="988_0.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                        </div>
+                        <div class="text-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap;">
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                a) A plate with red and green Christmas croissants, with a buttery and flaky texture.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                b) A plate of veggie and tofu scramble with chopped vegetables and tofu.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                c) A crown roast of pork, cooked to a golden brown, with herbs and garnished with sprigs
+                                of rosemary.
+                            </div>
+                        </div>
+
+
+                        <ol type="a">
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>poor</b>. AI-generated with hallucinations.</li>
+                                <li>Description matching: <b>has several minor discrepancies</b>. The color of the
+                                    croissants is wrong.</li>
+                            </ul>
+
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Acceptable</b>. Apart from the fork the image has great quality.
+                                </li>
+                                <li>Description matching: <b>Matches exactly</b>. Everything is in the image.</li>
+                            </ul>
+
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Good</b>. Apart from the rosemary inside the chicken it has
+                                    great quality.</li>
+                                <li>Description matching: <b>Has significant discrepancies</b>. The image is not a crown
+                                    roast of pork but chicken.</li>
+                            </ul>
+                        </ol>
+                    </div>
+
+                    <br>
+
+                    <div style="border: 1px solid black; padding:5px;">
+                        <div class="image-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap; align-items: flex-start;">
+                            <img src="992_2.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="979_2.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="977_1.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                        </div>
+                        <div class="text-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap;">
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                d) A bowl of vanilla ice milk.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                e) Two tacos filled with scrambled eggs, roasted red peppers, and black beans, topped
+                                with cheese.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                f) A slice of tres leches cake with a creamy texture, topped with whipped cream and
+                                cherries.
+                            </div>
+                        </div>
+
+                        <ol type="a" start="4">
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>very poor</b>. AI-generated with hallucinations.</li>
+                                <li>Description matching: <b>Does not match at all</b>.</li>
+                            </ul>
+
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Very good</b>.</li>
+                                <li>Description matching: <b>Has few minor discrepancies</b>. There are three and not
+                                    two tacos.</li>
+                            </ul>
+
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Very good</b>.</li>
+                                <li>Description matching: <b>Matches exactly</b>.</li>
+                            </ul>
+                        </ol>
+                    </div>
+
+                    <br>
+
+                    <div style="border: 1px solid black; padding:5px;">
+                        <div class="image-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap; align-items: flex-start;">
+                            <img src="976_0.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="975_1.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                            <img src="985_3.png"
+                                style="margin: 5px; display: block; margin: auto; max-width: 512px; max-height: 200px;" />
+                        </div>
+                        <div class="text-container"
+                            style="display: flex; flex-direction: row; justify-content: center; flex-wrap: nowrap;">
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                g) A platter with a perfectly cooked prime rib roast, sliced, and ready to be served.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                h) A cup of maple-mushroom chai, garnished with a cinnamon stick.
+                            </div>
+                            <div style="width: calc(100% / 3 - 10px); margin: 5px; text-align: center;">
+                                i) A loaf of zucchini bread with pieces of pineapple and raisins, sliced on a wooden
+                                cutting board.
+                            </div>
+                        </div>
+                        <ol type="a" start="4">
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Good</b>. Minor hallucination on the right.</li>
+                                <li>Description matching: <b>Very good</b>. Everything is in the image.</li>
+                            </ul>
+
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Acceptable</b>. Not the best looking image.</li>
+                                <li>Description matching: <b>Very good</b>. Use google to search unkown recipes.</li>
+                            </ul>
+
+                            <li></li>
+                            <ul>
+                                <li>Overall quality: <b>Acceptable</b>. The bread has some deformations.</li>
+                                <li>Description matching: <b>Very good</b>. Everything is in the image.</li>
+                            </ul>
+                        </ol>
+                    </div>
+                </detailed-instructions>
+            </crowd-instructions>
+
+            <p style="font-size: 14px; margin-top:5px">NOTE: Please <span style="color: red;"> do NOT submit more than
+                    50 HITs</span> in this batch. We intend to collect submissions from diverse workers. We may reject
+                submissions from workers who violate this limit.</p>
+
+            <h3 class="text">Pay attention to the following image: <span style="color: green;">"A bowl of mashed potatoes with a
+                    spoon."</span></h3>
+
+            <div style="border: 1px solid black; padding-bottom:5px">
+                <div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+                    <div style="margin: 7px;">
+                        <img src="6_0.png" style="max-width: 1024px; max-height: 30vh;" />
+                        <crowd-checkbox name="might_be_offensive">Offensive image</crowd-checkbox>
+
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text">Given the image description <span style="color: green;">"A bowl of mashed potatoes with a
+                    spoon."</span>:</h3>
+
+            <div style="margin-left: 0px;">
+                <div class="crowd-input-container" style="flex: 10 0 min-content; width: 100%">
+                    <h4 style="margin-bottom: 0px;">Q1. How do you rate the overall quality of this image?</h4>
+                    <crowd-radio-group id="q1">
+                        <crowd-radio-button name="q1_1" value="q1_1">Very poor</crowd-radio-button>
+                        <crowd-radio-button name="q1_2" value="q1_2">Poor</crowd-radio-button>
+                        <crowd-radio-button name="q1_3" value="q1_3">Acceptable</crowd-radio-button>
+                        <crowd-radio-button name="q1_4" value="q1_4">Good</crowd-radio-button>
+                        <crowd-radio-button name="q1_5" value="q1_5">Very good</crowd-radio-button>
+                    </crowd-radio-group>
+
+
+                    <h4 style="margin-bottom: 0px;">Q2. How well does the image match the description?</h4>
+                    <crowd-radio-group id="q2">
+                        <crowd-radio-button name="q2_1" value="q2_1">Does not match at all</crowd-radio-button>
+                        <crowd-radio-button name="q2_2" value="q2_2">Has significant discrepancies</crowd-radio-button>
+                        <crowd-radio-button name="q2_3" value="q2_3">Has several minor
+                            discrepancies</crowd-radio-button>
+                        <crowd-radio-button name="q2_4" value="q2_4">Has few minor discrepancies</crowd-radio-button>
+                        <crowd-radio-button name="q2_5" value="q2_5">Matches exactly</crowd-radio-button>
+                    </crowd-radio-group>
+
+                    <div>
+                        <p style="margin-bottom: 5px;"><span style="color: red;">Check this box only when you feel you
+                                cannot answer Q2 for any reasons, such as abstract / non-visual descriptions or when
+                                there is missing information.</p>
+                        <crowd-checkbox id="q2_abstract" name="q2_abstract" style="margin-left: 20px;">Unable to
+                            answer</crowd-checkbox>
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <script>
+                var elements = document.getElementsByClassName("text");
+                
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].textContent = elements[i].textContent.replace(/\\/g, '');
+                }
+
+                window.onload = function() {
+                    document.querySelector('crowd-form').onsubmit = validateForm;
+                }
+                
+                document.querySelector('#q2').addEventListener('change', uncheckCheckbox);
+                document.querySelector('#q2_abstract').addEventListener('change', uncheckRadioButtons);
+            
+                function validateForm() {
+                    var radioButtonsGroup1 = document.querySelectorAll('#q1 crowd-radio-button');
+                    var radioButtonsGroup2 = document.querySelectorAll('#q2 crowd-radio-button');
+                    console.log(document.querySelectorAll('crowd-radio-group'))
+                    console.log(radioButtonsGroup1)
+                    console.log(radioButtonsGroup2)
+                    var checkbox = document.querySelector('#q2_abstract');
+                    var isRadioButtonCheckedGroup1 = Array.from(radioButtonsGroup1).some(radio => radio.checked);
+                    var isRadioButtonCheckedGroup2 = Array.from(radioButtonsGroup2).some(radio => radio.checked);
+                    var isCheckboxChecked = checkbox.checked;
+            
+                    if (!isRadioButtonCheckedGroup1) {
+                        alert("Please select an option from the first question");
+                        return false;
+                    } else if (!isRadioButtonCheckedGroup2 && !isCheckboxChecked) {
+                        alert("Please select an option from the second question or check the checkbox");
+                        return false;
+                    } else {
+                        return true;
+                    }
+                }
+
+                function uncheckCheckbox() {
+                    document.querySelector('#q2_abstract').checked = false;
+                }
+            
+                function uncheckRadioButtons() {
+                    var radioButtons = document.querySelectorAll('#q2 crowd-radio-button');
+                    Array.from(radioButtons).forEach(radio => radio.checked = false);
+                }
+            </script>
+        </crowd-form>
+    </div>
+</body>
+

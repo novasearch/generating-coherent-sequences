@@ -1,0 +1,31 @@
+recipe_id,image_url,title
+35,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/35.png,Bone Broth
+9,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/9.png,Crema Catalana with salted caramel sauce
+32,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/32.png,Instant Pot Pepperoncini Italian Beef
+24,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/24.png,Lamb and pomegranate sandwich
+44,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/44.png,Gingerbread loaf cake
+54,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/54.png,Winter sandwich with spicy cinnamon mayo
+13,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/13.png,Buttermilk chicken wings
+10,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/10.png,Tangy lemon sheet cake
+18,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/18.png,"Zucchini, Pecorino & Mint Salad"
+26,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/26.png,New England Clam Chowder
+22,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/22.png,Panettone French toast
+39,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/39.png,Creamy yogurt-white chocolate parfait with orange
+46,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/46.png,Carrot hummus with pita bread
+43,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/43.png,Shortcut tarte flambée
+42,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/42.png,Sweet potato and orange soup
+27,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/27.png,Whole wheat pasta alla norma
+0,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/0.png,Jamaican Callaloo With Shrimp
+31,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/31.png,Honey-coconut porridge
+15,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/15.png,Homemade McDonald's McFlurry
+3,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/3.png,Madeleines
+51,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/51.png,Simple Egg Fry
+28,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/28.png,Macaroni and Cheese
+2,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/2.png,Vegan Basil Pesto and Sun-Dried Tomato Pinwheels
+14,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/14.png,Home Made Vanilla Extract
+50,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/50.png,Sparkling Fruit Slushy
+47,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/47.png,Classic Caribbean Corned Beef
+4,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/4.png,Gluten-free apple cake
+7,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/7.png,Baked sweet potatoes with spinach and pine nuts
+41,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/41.png,Potato and mint ravioli with sage butter
+8,https://coherence-annotation-images.s3.amazonaws.com/our-method-vs-ground-truth/8.png,Dutch baby

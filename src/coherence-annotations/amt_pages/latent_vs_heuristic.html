@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sequence Evaluation</title>
+  <style>
+    /* Add your CSS styles here */
+    /* Adjust styles as needed for alignment, spacing, etc. */
+    .sequence-row {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+  <h1>Sequence Evaluation</h1>
+
+  <!-- Title -->
+  <h2>${title}</h2>
+
+  <!-- Image Display -->
+  <img src="${image_url}" alt="Sequences" width="1000px">
+
+  <!-- Radio Buttons -->
+  <crowd-form answer-format="flatten-objects" id="sequenceForm">
+    <input type="hidden" name="recipe_id" value="${recipe_id}">
+
+    <div class="sequence-row">
+      <label for="bestSequence">Best Sequence:</label><br>
+      <input type="radio" id="bestSequenceA" name="bestSequence" value="A">
+      <label for="bestSequenceA">A</label>
+      <input type="radio" id="bestSequenceB" name="bestSequence" value="B">
+      <label for="bestSequenceB">B</label>
+      <input type="radio" id="bestSequenceC" name="bestSequence" value="C">
+      <label for="bestSequenceC">Equivalent</label>
+    </div>
+
+    <div class="sequence-row">
+      <input type="checkbox" id="noGoodSequence" name="noGoodSequence">
+      <label for="noGoodSequence">No good sequence</label>
+    </div>
+
+    <textarea name="observations" id="observations" cols="100" rows="5" placeholder="Observations"></textarea>
+    <br>
+    <button type="submit" id="submitBtn">Submit</button>
+  </crowd-form>
+
+  <script>
+    document.getElementById('sequenceForm').addEventListener('submit', function (event) {
+      var noGoodSequence = document.getElementById('noGoodSequence').checked;
+
+      if (noGoodSequence) {
+        return;
+      }
+
+      var bestSeqChecked = false;
+
+      var bestSeqRadios = document.getElementsByName('bestSequence');
+
+      for (var i = 0; i < bestSeqRadios.length; i++) {
+        if (bestSeqRadios[i].checked) {
+          bestSeqChecked = true;
+          break;
+        }
+      }
+
+      if (!bestSeqChecked) {
+        event.preventDefault();
+        alert('Please select a sequence for each category.');
+      }
+    });
+  </script>
+</body>
+
+</html>

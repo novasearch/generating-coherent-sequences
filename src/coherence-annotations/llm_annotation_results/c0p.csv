@@ -1,0 +1,587 @@
+Id,Input,Prompt,"Rating:
+-1: Errors in the generation or in the input
+0: Prompt doesn't describe the current step
+1: Prompt describes the current step, but some context is missing in the input/output
+2: Prompt is a poor description of the current step, and is in accordance with the context
+3: Prompt is a good description of the current step, and is in accordance with the context
+4: Prompt is a very good description of the current step, and is in accordance with the context","Note (optional)
+A: copy problem
+B: step has too many actions
+C: good prompt DESPITE step with too many actions
+D: prompt has hallucinations"
+54,"Step 1: Slice the Avocado, shred the Green Cabbage. Slice the Lime into wedges.
+Step 2: Warm your White Corn Tortilla carefully on the stove top over an open flame to give it some charring on the edges.
+","In the image, a person is cooking a white corn tortilla on a stove top over an open flame. They are using a spatula to carefully warm the tortilla on the stove top.",2,D
+68,"Step 1: Mix vegetable stock, oil, vinegar, diced onions, and mustard in a mixing bowl and stir to combine. Transfer to a saucepan and simmer on medium heat for approx. 5 min. Pour warm mixture over potato slices, then add diced pickles, chives and toss to coat. Season with salt and pepper and let potato salad sit to marinate.
+Step 2: Add potatoes to a large saucepan and fill with cold water until covered. Salt water, then bring to boil and cook for approx. 20 min., or until potatoes are knife tender. Strain potatoes and cool slightly before peeling them. Cut into thin slices and add to large mixing bowl.
+Step 3: Add butter to a large frying pan set over medium-high heat. Fry meatloaf on both sides for approx. 3 min., or until browned. Take out of the pan and set aside.
+","A person is frying meatloaf in a large frying pan set over medium-high heat. They are using a spatula to flip the meatloaf on both sides for about 3 minutes until it is browned. After flipping the meatloaf, they take it out of the pan and set it aside.",1,D
+120,"Step 1: Heat oil in a large frying pan and sauté sliced asparagus for approx. 4 – 5 min. on medium heat. Add sugar and season with salt and pepper. Deglaze with some of the orange juice. Take from heat and add sliced radishes.
+Step 2: Toast pine nuts in a small frying pan for approx. 3 – 4 min. on medium-low heat until browned.
+Step 3: Prepare vinaigrette by stirring olive oil, mustard, lemon juice, and remaining orange juice together. Season with salt and pepper.
+",A woman is stirring a bowl of vinaigrette with a spoon,3,
+182,"Step 1: Stem the swiss chard and roughly chop leaves and stem. Halve the olives and set aside. Reserve any liquid from the jar. Thinly slice the onions.
+Step 2: In a heavy-bottomed pot with a lid set over medium-high heat, add some olive oil. Season the lamb shoulder on all sides, then sear it until brown on all sides. Add onions and Swiss chard stems to the pot and sauté until soft. Add harissa and stir to combine. Deglaze with olive liquid.
+","In a heavy-bottomed pot with a lid set over medium-high heat, add some olive oil. Season the lamb shoulder on all sides, then sear it until brown on all sides. Add onions and Swiss chard stems to the pot and sauté until soft. Add harissa and stir to combine. Deglaze with olive",2,A
+45,"Step 1: Fill a highball glass with Ice. Add Dewar’s White Label.
+",a highball glass filled with ice and dewar's white label is sitting on a bar,4,
+55,"Step 1: Peel and finely dice onions. Cut chives into small rings and dice pickles. Set aside.
+",A woman is cutting onions on a cutting board with a knife,3,
+17,"Step 1: Top with more Vegan Caramel Sauce.
+Step 2: Transfer to a tall glass and top with the chilled coconut cream.
+Step 3: Serve with a straw and
+",a glass of orange juice with a straw in it sits on a table,-1,
+166,"Step 1: Roll out the second half of the dough, and place on top of the pie. Fold in the edges and gently press to seal. Now take a fork to prick the top of the pie. Whisk egg yolk, then brush across the pie. Bake for approx. 40 min. at 200°C/390°F. Cool down, and
+Step 2: Roll out the first half of the dough, and place in the pie plate, leaving a 1.5-cm/0.5-in. rim. Add the strawberry mixture. Chop the remaining butter and distribute across the strawberries.
+Step 3: Want to share your recipe with our awesome community? Each week, we'll be choosing your best recipes to test cook, photograph, and publish on Kitchen Stories for the world to see! Simply email us at community@kitchenstories.io and send us your recipe.
+",Image of a person holding a bowl of soup with a spoon in it,-1,D
+51,"Step 1: As the shrimp cooks (remember to keep stirring) you’ll notice the color will go to a bright sort of orange color. You can place a lid on the pot for about a minute or two if you’d like. After 3 minutes you can add the Lemon Juice. The shrimp will also let out its own juices, so there’s no need for any other liquid. Try not to overcook the shrimp or you’ll risk them going rubbery.
+Step 2: Heat a pan on medium-high heat (no oil necessary as we’ll be sort of scalding the shrimp), then add the Shrimp and give it a good stir. Now add the garlic, habanero, Salt and Paprika and stir well to coat everything.
+Step 3: Within 7 minutes or so your shrimp should be done. Top with the Italian Flat-Leaf Parsley, give it a final stir, and get ready to serve.
+","In the image, a person is cooking shrimp in a pan on a stove. They are using a spoon to stir the shrimp in the pan.",3,D
+172,"Step 1: Remove dosa batter from fridge and stir. Heat clarified butter in a frying pan set over medium-low heat. Add one ladle of batter to the frying pan and tilt the frying pan so that you have an even layer of batter. Fry until golden brown on both sides, and repeat the process until you have used up all the batter.
+Step 2: Peel and finely dice onions. Heat clarified butter in a frying pan set over medium-high heat and sauté onions. Add cooked potatoes, sweet potatoes, and peas and stir to combine. Add Indian tikka masala sauce and remaining lime juice and let simmer for approx. 10 – 12 min.
+Step 3: Fill dosa with potato filling and carefully roll up. Serve with the mint-yogurt sauce.
+",A person is filling a dosa with potato filling and carefully rolling it up. They then serve it with a mint-yogurt sauce.,4,C
+89,"Step 1: In a bowl, mix breadcrumbs with grated Parmesan cheese. Add rosemary, thyme, sage, slivered almonds, and mix of Parmesan cheese and breadcrumbs to a blender and pulse. Add egg yolks and blend again. Transfer herb-crust blend to a bowl and set aside.
+Step 2: Trim venison saddle and cut it into 200 g portions. Add crème de cassis to a small saucepan and slowly heat on the side.
+Step 3: Heat olive oil in a frying pan and add rosemary and garlic. Add more olive oil, if desired. Season venison saddle with salt and pepper. Transfer venison saddle to the frying pan and sear for approx. 2 – 3 min. on each side, or until a crust has formed. Allow to rest for approx. 10 min.
+","A person is cooking venison saddle in a frying pan with olive oil, rosemary, and garlic",4,
+173,"Step 1: Slice the Spanish Chorizo in strips, you can also use spicy or smoked chorizo if you like.
+",A woman is cutting a block of Spanish chorizo into strips on a cutting board,4,D
+44,"Step 1: Wash and dry baby spinach, halve cherry tomatoes, and cut sage leaves into fine strips.
+Step 2: Cook linguine, according to the package instructions, in salted boiling water for approx. 8 - 9 min. until al dente. Drain and set aside.
+Step 3: Melt butter in a large frying pan. Add sage, cherry tomatoes, pine nuts, and chili oil and fry. Season lightly with salt and pepper.
+","A person is cooking sage, cherry tomatoes, pine nuts, and chili oil in a large frying pan",4,
+11,"Step 1: Mix cream cheese, eggs, sugar, vanilla bean pulp, and zest of half a lemon with a whisk. Add sour cream and whisk until smooth. Then pour the mixture onto the cooled crust and bake at 180°C/ 350°F for approx. 20 – 30 min.
+Step 2: Butter baking pan if necessary and press crumb mixture into the bottom. Make sure to come approx. 2 cm up the sides of the pan. Chill the crust for approx. 15 – 20 min. and then bake in a preheated oven at 180°C/ 350°F for approx. 10 – 15 min. until golden. Then let cool for approx. 15 – 20 min.
+Step 3: Allow the cheesecake to cool on a cake rack for approx. 15 – 20 min. Now, cover and chill for at least 8 hours. Serve with a garnish of fresh berries.
+","A woman is putting a cheesecake in the oven to bake it for 30 minutes at 350 degrees Fahrenheit. She then allows the cheesecake to cool on a cake rack for about 15 to 20 minutes before covering and chilling it for at least 8 hours. Finally, she serves the ch",0,D
+65,"Step 1: Finely chop half of the cilantro and place in a large bowl. Add ground pork, half of the curry paste, and egg. Combine with your hands until thoroughly mixed—don’t worry about over-mixing here. Season with salt and pepper. Use a spoon to roll the meat into small meatballs, about the size of a gumball. Chill in the fridge for approx. 10 min.
+Step 2: Meanwhile, bring two thirds of the water and all the rice to a boil in a covered pot over medium-high heat. Once boiling, uncover, and reduce heat to medium until rice is cooked. Remove from heat, fluff with a fork, re-cover, and set aside.
+",A woman is cooking rice in a pot on a stove top. She is adding water to the pot and stirring it with a wooden spoon. She is also adding salt and pepper to the pot.,3,
+105,"Step 1: Heat the Vegetable Oil on medium-high heat in a wok or wide pan, then add the Garlic and Fresh Ginger and give it a good stir. We’re trying to release all those wonderful flavors to use as a base for this vegetarian fried rice. That should cook for a minute or two, then add the Carrot. Give it a good stir and cook for a couple of minutes.
+Step 2: Now add the Onion, Bell Pepper, and Celery. Allow that to cook for a couple of minutes, then add the Ground Black Pepper, Dark Soy Sauce, and Sesame Oil. Everything will go dark, but have no fear, once we add the cooked rice it will balance off.
+",A person is cooking a dish on a stove top with a wooden spoon,0,
+27,"Step 1: Melt the 70% Dark Chocolate and Unsalted Butter in a bowl over boiling water. When melted set aside to cool down.
+Step 2: In a pot, add the Milk, Granulated Sugar, and Vanilla Extract and leave to warm up in medium heat until the milk starts to froth.
+","In a pot, a person is adding milk, granulated sugar, and vanilla extract to it and leaving it to warm up in medium heat until the milk starts to froth",2,A
+62,"Step 1: In a heavy bottom vessel add the Milk, Water, and Tea Powder. Mix well and place it on the stove and switch on the stove .
+Step 2: Add Unsweetened Cocoa Powder.
+",a bowl of chocolate mousse with a spoon in it,0,D
+193,"Step 1: In a chilled highball glass filled with Ice, add GREY GOOSE Vodka.
+Step 2: Top with Seltzer Water and add the Cranberry Juice.
+",a glass of cranberry juice sits on a table next to a bottle of seltzer water,0,
+20,"Step 1: Boil noodles according to package instructions then drain.
+Step 2: Heat a frying pan over low heat. Add vegetable oil and white scallions and fry, approx. 15 min. Add green parts of scallions and fry approx. 10 min. more. Add soy sauce mixture and simmer on low for approx. 2 min. Then remove from heat.
+Step 3: Divide noodles among serving bowls. Spoon scallion oil over noodles and toss to combine. Reserve the rest of the oil in an airtight container in the fridge for up to 1 week and
+",A person is pouring scallion oil over noodles in a bowl,-1,
+31,"Step 1: Finely dice shallot. Chop parsley. Combine with ground beef, breadcrumbs, egg yolk, mustard, ketchup, salt, and pepper in a bowl.
+Step 2: Finely dice scallion. Chop dill. Combine in a bowl with cucumber tagliatelle, vegetable oil, vinegar, salt, pepper, and sugar to taste. Toss to combine.
+Step 3: Peel the eggs and evenly coat them with ground beef mixture and fry in hot vegetable oil over medium-high heat for approx. 5 min. until golden brown. Make sure to carefully turn them occasionally.
+","In the image, there are two eggs in a frying pan that are being cooked in hot vegetable oil over medium-high heat. The eggs are being coated with ground beef mixture and fried for about 5 minutes until golden brown. The eggs are then carefully turned occasionally.",0,D
+7,"Step 1: Remove the chopped peach and cinnamon sticks. Place in the fridge for 2 hours to allow flavors to intensify.
+Step 2: In a large bowl add the Red Wine, Brown Sugar, Orange Juice, Peach, Cinnamon Stick, Lime, and Orange Soda. Mix well.
+Step 3: Once you've left it enough time in the fridge, remove and pour over a glass with ice.
+",A glass of coconut milk is being poured over ice in a glass,0,D
+118,"Step 1: Sauté Fresh Oregano, Extra-Virgin Olive Oil, Chili Pepper, and Snails in Garlic Paste until the onions are translucent. Add Scallion, sauté for another minute then add Kosher Salt, Onion, and Crushed Red Pepper Flakes.
+Step 2: Add Red Wine and Pernod, simmer slowly until liquid has reduced by half.
+",A woman is pouring red wine and pernod into a pot on a stove,1,
+190,"Step 1: Add Water to your blender.
+",a blender with water in it,4,
+138,"Step 1: Add remaining olive oil, apple cider vinegar, mustard, honey, ground coriander, sumac, and cayenne pepper  to a small bowl and whisk to combine. Season with salt and pepper to taste.
+Step 2: In the meantime, toast sliced almonds in a frying pan until fragrant, then remove from heat.
+Step 3: Add roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stir to combine. Crumble feta cheese on top using your hands.
+","A person is adding roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stirring to combine",4,
+75,"Step 1: Deglaze with cream and cook for approx. 4 min. Juice lemon. Finely grate Parmesan. Season to taste with salt, pepper, and lemon juice. Add Parmesan and stir to combine.
+Step 2: Heat olive oil in a frying pan over medium-high heat. Add onions and garlic, and sauté until translucent. Then, add mushrooms and sauté for approx. 5 min. Season to taste with salt. Add chopped chestnuts and cook for approx. 3 min.
+Step 3: Drain pasta, transfer to frying pan, and stir to combine. Serve pasta and garnish with spring onions.
+",A person is stirring pasta in a frying pan with a spoon,1,
+13,"Step 1: Now it’s time to remove the bay leaves and ginger from the pot and discard. If you like the strong aroma and taste of ginger and bay leaves, you can always grate the ginger into the syrup and crush the bay leaves and add the essence and stir in the Desiccated Coconut.
+Step 2: The first thing we need to do is start the syrup we’ll need as the base for this. In a deep saucepan heat the Granulated Sugar, Water, Bay Leaf, and Fresh Ginger. Whisking constantly, bring up to a rolling boil over medium-high heat and allow to cook until it reduces and gets thick, about 5-7 minutes.
+Step 3: Next, add the drops of Red Food Coloring and stir constantly for about 5-7 minutes. Burn off as much liquid as you can from the pan, so you have a thick and sticky consistency. When the coconut mixture starts coming away from the sides of the pan and somewhat clump, you are near the desired consistency.
+","In the image, a person is stirring a coconut mixture in a pan with a wooden spoon. They are adding drops of red food coloring to the mixture and stirring it constantly for about 5-7 minutes. After adding the drops of red food coloring, they are burning off as much liquid as they can from the pan",2,D
+80,"Step 1: Heat some vegetable oil in a frying pan over medium heat. Add shrimp and sauté for approx. 1 min. on each side until red.
+Step 2: Finely chop garlic. Cut ginger and spring onion into thin strips.
+Step 3: Add garlic, ginger, and spring onions to the pan. Deglaze with red wine. Season with salt and sugar. Then, add light and dark soy sauce.
+","A person is adding garlic, ginger, and spring onions to a pan",1,
+39,"Step 1: Mix together the Ground Turkey, Gruyère Cheese, Garlic, Scallion, Breadcrumbs, Dijon Mustard, Sea Salt and Ground Black Pepper.
+","a bowl of ground turkey, gruyere cheese, garlic, scallion, breadcrumbs, dijon mustard, sea salt, and ground black pepper",4,
+132,"Step 1: Prep your smoker for indirect cooking.
+",a man is smoking a turkey in a smoker on a countertop,0,
+77,"Step 1: Combine shrimp with fish spice and remaining olive oil in another sealable plastic bag, shake, and marinate for approx. 20 min.
+Step 2: Halve fennel, remove stalk, and cut into fine strips. Finely dice onion. Peel garlic. Clean zucchini and bell pepper and cut into bite-sized pieces. Combine vegetables with rosemary, thyme, and some of the olive oil in a plastic bag. Close, shake, and marinate for approx. 20 min.
+Step 3: In the meantime, combine herb vinegar, lemon juice and zest, Dijon mustard, lemon oil, salt, and pepper for the vinaigrette.
+","A woman is pouring a mixture of olive oil, lemon juice, lemon zest, herb vinegar, Dijon mustard, lemon oil, salt, and pepper into a bowl",4,
+192,"Step 1: Peel the sweet potatoes and grate finely with a box grater. Drain the liquid out by placing the grated sweet potato in a kitchen towel and squeezing it. Finely mince the garlic. Add garlic and sweet potatoes to a bowl along with olive oil, eggs, ground coriander, ground caraway, salt, and pepper, and mix well. Add starch and mix again. Halve the avocados and remove the stones.
+","A woman is peeling sweet potatoes and grating them with a box grater. She then drains the liquid out by placing the grated sweet potatoes in a kitchen towel and squeezing them. She then finely mince the garlic and adds it to a bowl with olive oil, eggs, ground coriander, ground caraway",4,C
+15,"Step 1: Spread a layer of mashed avocado over toast, top with a little sea salt.
+Step 2: Slice your Onion, Tomato, and Cucumber.
+Step 3: Then top with tomato, onion, cucumber, Ground Black Pepper, Salt, and Capers.
+","A bowl of salad with tomato, onion, cucumber, ground black pepper, salt, and capers",2,D
+183,"Step 1: In a large pitcher or bowl, combine sugar, maple syrup, and sparkling water until sugar is dissolved.
+Step 2: Stir in gin, sweet vermouth, lemon juice, and grapefruit juice and refrigerate until chilled, approx. 1 hr. Meanwhile, slice lemon and grapefruit into wheels for garnish; set aside.
+",A person is slicing lemon and grapefruit into wheels for garnish,0,
+85,"Step 1: Add Cinnamon Stick, Ground Cinnamon, and Ground Nutmeg into the pot. Mix and let simmer over medium heat for 10 minutes.
+Step 2: Then add orange slices and Apple Cider into a large pot.
+Step 3: Cover pot and let sit for 5 minutes. Strain, serve, and
+",A person is pouring a liquid into a glass from a pitcher,0,
+53,"Step 1: Fill 24 oz cup about half way with Ice.
+",a person is pouring ice into a cup,4,
+191,"Step 1: Add in the Almond Flour, Coconut Sugar, Xanthan Gum, Ground Cinnamon, and stir until a creamy batter forms.
+Step 2: Whisk together the Egg, Soy Milk, Vanilla Extract, and Cream of Tartar.
+Step 3: Cook your pancakes on a hot, greased pan for a few minutes on each side and serve with fresh or cooked fruit and maple syrup.
+","A woman is cooking pancakes on a hot, greased pan for a few minutes on each side and serving them with fresh or cooked fruit and maple syrup",4,
+160,"Step 1: Peel and cut the watermelon into thick slices or rounds. Halve peach, remove the core, and thinly slice. Crumble the feta and set aside. Coarsely chop the pistachios, and chop most of the mint. Zest and juice the lime. Mix the baby spinach, arugula, and chopped mint together in a large bowl.
+",A woman is chopping a watermelon on a cutting board with a knife,1,B
+161,"Step 1: Use a spiralizer to shred zucchini into spaghetti-like noodles. Blanch zoodles in boiling water for approx. 2-3 min.
+Step 2: Add mixed herbs and carrots and mushrooms, if using. Add crushed tomatoes, stir to combine, and add salt and pepper to taste. Let simmer for a minimum of approx. 20 min. Stir in part of the parmesan at the end of the cooking time.
+Step 3: Drain zoodles and add to serving plates with Bolognese sauce the rest of the Parmesan. Stir well. Serve with fresh basil.
+",A woman is stirring a bowl of pasta with a spoon,2,
+155,"Step 1: Slice onion. Dice chicken and season with salt and pepper. Heat coconut oil in large skillet over medium-high heat, then add chicken. Cook, stirring frequently, for approx. 5 – 7 min. or until browned and cooked through. Transfer to a bowl.
+Step 2: Add sliced onion to the same frying pan; sauté, stirring frequently, until golden brown.
+",A person is cooking onions in a frying pan on a stove,1,
+124,"Step 1: In a large bowl, whisk together Unbleached All-Purpose Flour, Graham Cracker Crumbs, Granulated Sugar, Baking Powder, and Salt. Add the milk mixture, Vanilla Extract and Coconut Oil and whisk until smooth.
+Step 2: Coat a heated pan or griddle with additional Coconut Oil. Scoop 1/4 cup of pancake batter onto the pan, then with your fingers, press 4-5 mini Vegan Marshmallow into the middle of the batter and then carefully cover them completely with an additional tbsp of batter.
+",A person is using a spatula to scoop 1/4 cup of pancake batter onto a heated pan or griddle that has been coated with additional coconut oil. They then use their fingers to press 4-5 mini vegan marshmallows into the middle of the batter and then carefully cover them completely with an,3,
+59,"Step 1: Add cooked pasta to sauté pan and toss to coat with butter.
+Step 2: Reserve some of the pasta water before straining.
+Step 3: Add grated cheese and some pasta water to loosen mixture to desired consistency and mix to combine. Season to taste with salt and pepper.
+",A person is adding grated cheese and some pasta water to a bowl of ricotta cheese and egg mixture,2,
+98,"Step 1: Put the Red Lentils and water in a pot and bring to a boil. Reduce the heat to low and simmer until the lentils are softened, about 15 minutes.
+",A pot of red lentils is being cooked on a stove,4,
+70,"Step 1: For the passion fruit filling, soak gelatine sheets in cold water. Heat some passion fruit nectar and sugar in a pot. Squeeze out gelatine sheets, add to the pot, and whisk to combine. Pour into a baking pan lined with plastic wrap. Allow to sit in the fridge for approx. 2 hrs., or until passion fruit filling is firm.
+",A person is pouring passion fruit filling into a baking pan lined with plastic wrap,2,B
+134,"Step 1: To a tall glass, add the Lime Wedge and Caster Sugar.
+Step 2: Bruise the Fresh Mint Leaves by clapping them between your palms, then rub them on the rim of the glass and drop them in. Muddle everything together with a muddler or the end of a rolling pin.
+",A person is using a rolling pin to muddle ingredients in a glass,0,
+123,"Step 1: In the meantime in a blender blitz the Tomato Passata, Onion, Spring Onion, Garlic, Red Chili Pepper, and Long Green Peppers.
+Step 2: Cook the Black Beans as per packet instructions.
+Step 3: In a pot, add Salt, Roasted Cumin Powder, Dried Oregano, Worcestershire Sauce, and Ground Black Pepper. Cook for about 20 minutes.
+","a pot with salt, roasted cumin powder, dried oregano, worcestershire sauce, and ground black pepper in it",4,
+99,"Step 1: Cut the ciabatta lengthwise and drizzle with olive oil. Roast in a hot pan, oiled side down, for approx. 3 - 5 minutes.
+",A person is cutting a loaf of ciabatta bread into slices and drizzling it with olive oil before roasting it in a hot pan,4,
+179,"Step 1: Pour mixture into a 16-ounce mug or a heat-proof glass. Add Coffee followed by Peppermint Essence. Stir lightly.
+Step 2: In a small bowl, stir together Unsweetened Cocoa Powder and Water.
+Step 3: Fill the remainder of the container with Milk. Stir lightly. Garnish with sweetened Whipped Topping and Hard Peppermint Candy.
+",A person is pouring milk into a container with a spoon in it,1,
+108,"Step 1: In a large bowl, whisk together yogurt, confectioner’s sugar, and lemon juice. Evenly distribute 1 - 2 tbsp of the yogurt mixture among popsicle molds.
+","In a large bowl, whisk together yogurt, confectioner's sugar, and lemon juice. Evenly distribute 1 - 2 tbsp of the yogurt mixture among popsicle molds",4,
+115,"Step 1: Add BOMBAY SAPPHIRE and NOILLY PRAT Original French Dry Vermouth. Stir until glass is frosted or ice cold.
+Step 2: Take mixing glass from the freezer and fill to rim with Ice (add water and stir to chill/activate ice if required). Strain excess liquid.
+Step 3: Pour the liquid into a martini glass through a strainer. Garnish with Lemon Twist.
+",A person is pouring liquid into a martini glass through a strainer,1,
+178,"Step 1: In a large bowl, using a potato masher or large whisk, coarsely smash most of the Chickpeas.
+","In a large bowl, using a potato masher or large whisk, coarsely smash most of the Chickpeas",4,
+6,"Step 1: In a bowl season the Agouti with Green Caribbean Seasoning, Salt, and Freshly Ground Black Pepper, then add the Onion, Tomato, Garlic, and Scotch Bonnet Pepper and mix. Let it marinate overnight.
+Step 2: Once your meat has marinated, heat up a pot and add the Vegetable Oil and Brown Sugar. Cook over high heat until the sugar turns an amber color but careful that it does not turn black.
+",A pot of marinated meat is being cooked over high heat in a pot with vegetable oil and brown sugar in it,0,
+64,"Step 1: Pour the liquid Beef Stock over your mix. Also pour in the Worcestershire Sauce. GIve the mix a final stir.
+Step 2: Cut the Red Potato into the slow cooker. Add in the Carrot, Yellow Onion, Celery, Garlic, Tomato Paste and Smoked Paprika. Season with black pepper, and add in the flour meat. Stir everything together.
+Step 3: Put on the lid and set the slow cooker to low setting. Allow it to cook for seven and a halt.
+",A slow cooker with a lid on top of it is sitting on a wooden table,4,
+154,"Step 1: Cut the Boneless, Skinless Chicken Breast into very thin strips. Season with Himalayan Rock Salt and Ground Black Pepper. Place it in a bowl and add the juice of the Lemon. Cover and let the meat marinate for 1 hour.
+","A person is cutting a boneless, skinless chicken breast into very thin strips on a cutting board",4,
+14,"Step 1: Bring a pot of water to a boil over medium-high heat. Peel and finely chop shallots and garlic cloves.
+",A person is chopping shallots and garlic in a bowl with a knife,4,
+3,"Step 1: Preheat oven to 180°C/350°F. In a measuring cup, dissolve yeast and sugar in lukewarm water. Then, add to a standing mixer with flour, salt, and vegetable oil. Beat until a smooth, uniform dough forms. Cover and allow to rise in a warm place for approx. 60 min.
+Step 2: Roughly chop olives and sun-dried tomatoes.
+",a woman is chopping olives and sun-dried tomatoes on a wooden cutting board,4,
+63,"Step 1: Transfer dough onto a lined baking sheet, spreading it out evenly to create a smooth surface.
+Step 2: Add part of the butter and part of the sugar to a stand mixer and beat until light and fluffy. Add eggs and beat until well incorporated. Add part of the flour and baking powder. Beat until a smooth dough has formed.
+Step 3: In a large bowl, mix remaining butter, sugar, flour, and vanilla sugar into coarse crumbles with your fingers.
+","In a large bowl, a person is mixing butter, sugar, flour, and vanilla sugar into coarse crumbles with their fingers",4,
+121,"Step 1: Soak the dried porcini mushrooms in lukewarm water. Drain the mushrooms, saving the soaking water for later. Roughly chop soaked and drained porcini mushrooms. Slice brown mushrooms. Finely chop the shallots and garlic. Remove thyme leaves from sprigs.
+Step 2: Heat olive oil and butter in a pot. Fry shallots, garlic, and brown mushrooms briefly. Add porcini mushrooms and barley, fry briefly, then deglaze with sherry. Add white wine and porcini mushroom water, star anise, bay leaf, and Parmesan rind. Bring to a boil, then reduce heat and let simmer for approx. 45 min.
+","A person is cooking a dish in a pot on a stove top. They are adding ingredients to the pot, including shallots, garlic, brown mushrooms, porcini mushrooms, sherry, white wine, porcini mushroom water, star anise, bay leaf, and Parmesan rind",4,
+22,"Step 1: Preheat oven to 200℃/390°F. Wash the chard and shake it dry, slice off the chard stems, trim and string the stems, then chop roughly. Chop leaves to large strips. Finely dice the onion and mince the garlic. Cut the bread into large cubes. Grate Gruyére cheese and set aside.
+Step 2: Heat a tablespoon of oil in a frying pan, add the cubed baguette, and fry on medium-high heat on all sides until golden. Season with salt and pepper. Remove the bread from the pan and leave on a plate lined with kitchen towel to soak up excess oil.
+",A person is frying a piece of baguette in a frying pan with a tablespoon of oil,1,
+102,"Step 1: Cut tomatoes into halves. Pick rosemary from stem and roughly chop. Remove pit and peel avocado, cut into bite-sized cubes and set aside. Add olive oil to pan over medium-high heat. Add tomatoes, rosemary, and agave syrup and cook for approx. 15 mins. or until tomatoes thicken. Stir occasionally, then set aside.
+Step 2: Place quinoa in sieve and run under cold water. Add fresh water to a saucepan, add quinoa and stock cube, and cook according to package instructions. Set aside.
+Step 3: For the miso sauce, add white miso paste, mustard, sesame oil, neutral plant oil, lemon juice, and water to a small bowl and mix until the texture is smooth. Season to taste with salt and pepper.
+",A person is stirring a bowl of miso sauce with a spoon,4,
+54,"Step 1: Slice the Avocado, shred the Green Cabbage. Slice the Lime into wedges.
+Step 2: Warm your White Corn Tortilla carefully on the stove top over an open flame to give it some charring on the edges.
+","In the image, a person is cooking a white corn tortilla on a stove top over an open flame. They are using a spatula to carefully warm the tortilla on the stove top.",3,D
+68,"Step 1: Mix vegetable stock, oil, vinegar, diced onions, and mustard in a mixing bowl and stir to combine. Transfer to a saucepan and simmer on medium heat for approx. 5 min. Pour warm mixture over potato slices, then add diced pickles, chives and toss to coat. Season with salt and pepper and let potato salad sit to marinate.
+Step 2: Add potatoes to a large saucepan and fill with cold water until covered. Salt water, then bring to boil and cook for approx. 20 min., or until potatoes are knife tender. Strain potatoes and cool slightly before peeling them. Cut into thin slices and add to large mixing bowl.
+Step 3: Add butter to a large frying pan set over medium-high heat. Fry meatloaf on both sides for approx. 3 min., or until browned. Take out of the pan and set aside.
+","A person is frying meatloaf in a large frying pan set over medium-high heat. They are using a spatula to flip the meatloaf on both sides for about 3 minutes until it is browned. After flipping the meatloaf, they take it out of the pan and set it aside.",3,D
+120,"Step 1: Heat oil in a large frying pan and sauté sliced asparagus for approx. 4 – 5 min. on medium heat. Add sugar and season with salt and pepper. Deglaze with some of the orange juice. Take from heat and add sliced radishes.
+Step 2: Toast pine nuts in a small frying pan for approx. 3 – 4 min. on medium-low heat until browned.
+Step 3: Prepare vinaigrette by stirring olive oil, mustard, lemon juice, and remaining orange juice together. Season with salt and pepper.
+",A woman is stirring a bowl of vinaigrette with a spoon,3,
+182,"Step 1: Stem the swiss chard and roughly chop leaves and stem. Halve the olives and set aside. Reserve any liquid from the jar. Thinly slice the onions.
+Step 2: In a heavy-bottomed pot with a lid set over medium-high heat, add some olive oil. Season the lamb shoulder on all sides, then sear it until brown on all sides. Add onions and Swiss chard stems to the pot and sauté until soft. Add harissa and stir to combine. Deglaze with olive liquid.
+","In a heavy-bottomed pot with a lid set over medium-high heat, add some olive oil. Season the lamb shoulder on all sides, then sear it until brown on all sides. Add onions and Swiss chard stems to the pot and sauté until soft. Add harissa and stir to combine. Deglaze with olive",2,A
+45,"Step 1: Fill a highball glass with Ice. Add Dewar’s White Label.
+",a highball glass filled with ice and dewar's white label is sitting on a bar,4,
+55,"Step 1: Peel and finely dice onions. Cut chives into small rings and dice pickles. Set aside.
+",A woman is cutting onions on a cutting board with a knife,2,
+17,"Step 1: Top with more Vegan Caramel Sauce.
+Step 2: Transfer to a tall glass and top with the chilled coconut cream.
+Step 3: Serve with a straw and
+",a glass of orange juice with a straw in it sits on a table,0,
+166,"Step 1: Roll out the second half of the dough, and place on top of the pie. Fold in the edges and gently press to seal. Now take a fork to prick the top of the pie. Whisk egg yolk, then brush across the pie. Bake for approx. 40 min. at 200°C/390°F. Cool down, and
+Step 2: Roll out the first half of the dough, and place in the pie plate, leaving a 1.5-cm/0.5-in. rim. Add the strawberry mixture. Chop the remaining butter and distribute across the strawberries.
+Step 3: Want to share your recipe with our awesome community? Each week, we'll be choosing your best recipes to test cook, photograph, and publish on Kitchen Stories for the world to see! Simply email us at community@kitchenstories.io and send us your recipe.
+",Image of a person holding a bowl of soup with a spoon in it,0,
+51,"Step 1: As the shrimp cooks (remember to keep stirring) you’ll notice the color will go to a bright sort of orange color. You can place a lid on the pot for about a minute or two if you’d like. After 3 minutes you can add the Lemon Juice. The shrimp will also let out its own juices, so there’s no need for any other liquid. Try not to overcook the shrimp or you’ll risk them going rubbery.
+Step 2: Heat a pan on medium-high heat (no oil necessary as we’ll be sort of scalding the shrimp), then add the Shrimp and give it a good stir. Now add the garlic, habanero, Salt and Paprika and stir well to coat everything.
+Step 3: Within 7 minutes or so your shrimp should be done. Top with the Italian Flat-Leaf Parsley, give it a final stir, and get ready to serve.
+","In the image, a person is cooking shrimp in a pan on a stove. They are using a spoon to stir the shrimp in the pan.",2,
+172,"Step 1: Remove dosa batter from fridge and stir. Heat clarified butter in a frying pan set over medium-low heat. Add one ladle of batter to the frying pan and tilt the frying pan so that you have an even layer of batter. Fry until golden brown on both sides, and repeat the process until you have used up all the batter.
+Step 2: Peel and finely dice onions. Heat clarified butter in a frying pan set over medium-high heat and sauté onions. Add cooked potatoes, sweet potatoes, and peas and stir to combine. Add Indian tikka masala sauce and remaining lime juice and let simmer for approx. 10 – 12 min.
+Step 3: Fill dosa with potato filling and carefully roll up. Serve with the mint-yogurt sauce.
+",A person is filling a dosa with potato filling and carefully rolling it up. They then serve it with a mint-yogurt sauce.,2,A
+89,"Step 1: In a bowl, mix breadcrumbs with grated Parmesan cheese. Add rosemary, thyme, sage, slivered almonds, and mix of Parmesan cheese and breadcrumbs to a blender and pulse. Add egg yolks and blend again. Transfer herb-crust blend to a bowl and set aside.
+Step 2: Trim venison saddle and cut it into 200 g portions. Add crème de cassis to a small saucepan and slowly heat on the side.
+Step 3: Heat olive oil in a frying pan and add rosemary and garlic. Add more olive oil, if desired. Season venison saddle with salt and pepper. Transfer venison saddle to the frying pan and sear for approx. 2 – 3 min. on each side, or until a crust has formed. Allow to rest for approx. 10 min.
+","A person is cooking venison saddle in a frying pan with olive oil, rosemary, and garlic",1,
+173,"Step 1: Slice the Spanish Chorizo in strips, you can also use spicy or smoked chorizo if you like.
+",A woman is cutting a block of Spanish chorizo into strips on a cutting board,4,
+44,"Step 1: Wash and dry baby spinach, halve cherry tomatoes, and cut sage leaves into fine strips.
+Step 2: Cook linguine, according to the package instructions, in salted boiling water for approx. 8 - 9 min. until al dente. Drain and set aside.
+Step 3: Melt butter in a large frying pan. Add sage, cherry tomatoes, pine nuts, and chili oil and fry. Season lightly with salt and pepper.
+","A person is cooking sage, cherry tomatoes, pine nuts, and chili oil in a large frying pan",3,
+11,"Step 1: Mix cream cheese, eggs, sugar, vanilla bean pulp, and zest of half a lemon with a whisk. Add sour cream and whisk until smooth. Then pour the mixture onto the cooled crust and bake at 180°C/ 350°F for approx. 20 – 30 min.
+Step 2: Butter baking pan if necessary and press crumb mixture into the bottom. Make sure to come approx. 2 cm up the sides of the pan. Chill the crust for approx. 15 – 20 min. and then bake in a preheated oven at 180°C/ 350°F for approx. 10 – 15 min. until golden. Then let cool for approx. 15 – 20 min.
+Step 3: Allow the cheesecake to cool on a cake rack for approx. 15 – 20 min. Now, cover and chill for at least 8 hours. Serve with a garnish of fresh berries.
+","A woman is putting a cheesecake in the oven to bake it for 30 minutes at 350 degrees Fahrenheit. She then allows the cheesecake to cool on a cake rack for about 15 to 20 minutes before covering and chilling it for at least 8 hours. Finally, she serves the ch",2,
+65,"Step 1: Finely chop half of the cilantro and place in a large bowl. Add ground pork, half of the curry paste, and egg. Combine with your hands until thoroughly mixed—don’t worry about over-mixing here. Season with salt and pepper. Use a spoon to roll the meat into small meatballs, about the size of a gumball. Chill in the fridge for approx. 10 min.
+Step 2: Meanwhile, bring two thirds of the water and all the rice to a boil in a covered pot over medium-high heat. Once boiling, uncover, and reduce heat to medium until rice is cooked. Remove from heat, fluff with a fork, re-cover, and set aside.
+",A woman is cooking rice in a pot on a stove top. She is adding water to the pot and stirring it with a wooden spoon. She is also adding salt and pepper to the pot.,2,
+105,"Step 1: Heat the Vegetable Oil on medium-high heat in a wok or wide pan, then add the Garlic and Fresh Ginger and give it a good stir. We’re trying to release all those wonderful flavors to use as a base for this vegetarian fried rice. That should cook for a minute or two, then add the Carrot. Give it a good stir and cook for a couple of minutes.
+Step 2: Now add the Onion, Bell Pepper, and Celery. Allow that to cook for a couple of minutes, then add the Ground Black Pepper, Dark Soy Sauce, and Sesame Oil. Everything will go dark, but have no fear, once we add the cooked rice it will balance off.
+",A person is cooking a dish on a stove top with a wooden spoon,0,
+27,"Step 1: Melt the 70% Dark Chocolate and Unsalted Butter in a bowl over boiling water. When melted set aside to cool down.
+Step 2: In a pot, add the Milk, Granulated Sugar, and Vanilla Extract and leave to warm up in medium heat until the milk starts to froth.
+","In a pot, a person is adding milk, granulated sugar, and vanilla extract to it and leaving it to warm up in medium heat until the milk starts to froth",3,A
+62,"Step 1: In a heavy bottom vessel add the Milk, Water, and Tea Powder. Mix well and place it on the stove and switch on the stove .
+Step 2: Add Unsweetened Cocoa Powder.
+",a bowl of chocolate mousse with a spoon in it,2,
+193,"Step 1: In a chilled highball glass filled with Ice, add GREY GOOSE Vodka.
+Step 2: Top with Seltzer Water and add the Cranberry Juice.
+",a glass of cranberry juice sits on a table next to a bottle of seltzer water,3,
+20,"Step 1: Boil noodles according to package instructions then drain.
+Step 2: Heat a frying pan over low heat. Add vegetable oil and white scallions and fry, approx. 15 min. Add green parts of scallions and fry approx. 10 min. more. Add soy sauce mixture and simmer on low for approx. 2 min. Then remove from heat.
+Step 3: Divide noodles among serving bowls. Spoon scallion oil over noodles and toss to combine. Reserve the rest of the oil in an airtight container in the fridge for up to 1 week and
+",A person is pouring scallion oil over noodles in a bowl,3,
+31,"Step 1: Finely dice shallot. Chop parsley. Combine with ground beef, breadcrumbs, egg yolk, mustard, ketchup, salt, and pepper in a bowl.
+Step 2: Finely dice scallion. Chop dill. Combine in a bowl with cucumber tagliatelle, vegetable oil, vinegar, salt, pepper, and sugar to taste. Toss to combine.
+Step 3: Peel the eggs and evenly coat them with ground beef mixture and fry in hot vegetable oil over medium-high heat for approx. 5 min. until golden brown. Make sure to carefully turn them occasionally.
+","In the image, there are two eggs in a frying pan that are being cooked in hot vegetable oil over medium-high heat. The eggs are being coated with ground beef mixture and fried for about 5 minutes until golden brown. The eggs are then carefully turned occasionally.",2,A
+7,"Step 1: Remove the chopped peach and cinnamon sticks. Place in the fridge for 2 hours to allow flavors to intensify.
+Step 2: In a large bowl add the Red Wine, Brown Sugar, Orange Juice, Peach, Cinnamon Stick, Lime, and Orange Soda. Mix well.
+Step 3: Once you've left it enough time in the fridge, remove and pour over a glass with ice.
+",A glass of coconut milk is being poured over ice in a glass,1,D
+118,"Step 1: Sauté Fresh Oregano, Extra-Virgin Olive Oil, Chili Pepper, and Snails in Garlic Paste until the onions are translucent. Add Scallion, sauté for another minute then add Kosher Salt, Onion, and Crushed Red Pepper Flakes.
+Step 2: Add Red Wine and Pernod, simmer slowly until liquid has reduced by half.
+",A woman is pouring red wine and pernod into a pot on a stove,1,
+190,"Step 1: Add Water to your blender.
+",a blender with water in it,4,
+138,"Step 1: Add remaining olive oil, apple cider vinegar, mustard, honey, ground coriander, sumac, and cayenne pepper  to a small bowl and whisk to combine. Season with salt and pepper to taste.
+Step 2: In the meantime, toast sliced almonds in a frying pan until fragrant, then remove from heat.
+Step 3: Add roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stir to combine. Crumble feta cheese on top using your hands.
+","A person is adding roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stirring to combine",1,
+75,"Step 1: Deglaze with cream and cook for approx. 4 min. Juice lemon. Finely grate Parmesan. Season to taste with salt, pepper, and lemon juice. Add Parmesan and stir to combine.
+Step 2: Heat olive oil in a frying pan over medium-high heat. Add onions and garlic, and sauté until translucent. Then, add mushrooms and sauté for approx. 5 min. Season to taste with salt. Add chopped chestnuts and cook for approx. 3 min.
+Step 3: Drain pasta, transfer to frying pan, and stir to combine. Serve pasta and garnish with spring onions.
+",A person is stirring pasta in a frying pan with a spoon,1,
+13,"Step 1: Now it’s time to remove the bay leaves and ginger from the pot and discard. If you like the strong aroma and taste of ginger and bay leaves, you can always grate the ginger into the syrup and crush the bay leaves and add the essence and stir in the Desiccated Coconut.
+Step 2: The first thing we need to do is start the syrup we’ll need as the base for this. In a deep saucepan heat the Granulated Sugar, Water, Bay Leaf, and Fresh Ginger. Whisking constantly, bring up to a rolling boil over medium-high heat and allow to cook until it reduces and gets thick, about 5-7 minutes.
+Step 3: Next, add the drops of Red Food Coloring and stir constantly for about 5-7 minutes. Burn off as much liquid as you can from the pan, so you have a thick and sticky consistency. When the coconut mixture starts coming away from the sides of the pan and somewhat clump, you are near the desired consistency.
+","In the image, a person is stirring a coconut mixture in a pan with a wooden spoon. They are adding drops of red food coloring to the mixture and stirring it constantly for about 5-7 minutes. After adding the drops of red food coloring, they are burning off as much liquid as they can from the pan",1,
+80,"Step 1: Heat some vegetable oil in a frying pan over medium heat. Add shrimp and sauté for approx. 1 min. on each side until red.
+Step 2: Finely chop garlic. Cut ginger and spring onion into thin strips.
+Step 3: Add garlic, ginger, and spring onions to the pan. Deglaze with red wine. Season with salt and sugar. Then, add light and dark soy sauce.
+","A person is adding garlic, ginger, and spring onions to a pan",1,
+39,"Step 1: Mix together the Ground Turkey, Gruyère Cheese, Garlic, Scallion, Breadcrumbs, Dijon Mustard, Sea Salt and Ground Black Pepper.
+","a bowl of ground turkey, gruyere cheese, garlic, scallion, breadcrumbs, dijon mustard, sea salt, and ground black pepper",2,D
+132,"Step 1: Prep your smoker for indirect cooking.
+",a man is smoking a turkey in a smoker on a countertop,0,D
+77,"Step 1: Combine shrimp with fish spice and remaining olive oil in another sealable plastic bag, shake, and marinate for approx. 20 min.
+Step 2: Halve fennel, remove stalk, and cut into fine strips. Finely dice onion. Peel garlic. Clean zucchini and bell pepper and cut into bite-sized pieces. Combine vegetables with rosemary, thyme, and some of the olive oil in a plastic bag. Close, shake, and marinate for approx. 20 min.
+Step 3: In the meantime, combine herb vinegar, lemon juice and zest, Dijon mustard, lemon oil, salt, and pepper for the vinaigrette.
+","A woman is pouring a mixture of olive oil, lemon juice, lemon zest, herb vinegar, Dijon mustard, lemon oil, salt, and pepper into a bowl",1,D
+192,"Step 1: Peel the sweet potatoes and grate finely with a box grater. Drain the liquid out by placing the grated sweet potato in a kitchen towel and squeezing it. Finely mince the garlic. Add garlic and sweet potatoes to a bowl along with olive oil, eggs, ground coriander, ground caraway, salt, and pepper, and mix well. Add starch and mix again. Halve the avocados and remove the stones.
+","A woman is peeling sweet potatoes and grating them with a box grater. She then drains the liquid out by placing the grated sweet potatoes in a kitchen towel and squeezing them. She then finely mince the garlic and adds it to a bowl with olive oil, eggs, ground coriander, ground caraway",,
+15,"Step 1: Spread a layer of mashed avocado over toast, top with a little sea salt.
+Step 2: Slice your Onion, Tomato, and Cucumber.
+Step 3: Then top with tomato, onion, cucumber, Ground Black Pepper, Salt, and Capers.
+","A bowl of salad with tomato, onion, cucumber, ground black pepper, salt, and capers",,
+183,"Step 1: In a large pitcher or bowl, combine sugar, maple syrup, and sparkling water until sugar is dissolved.
+Step 2: Stir in gin, sweet vermouth, lemon juice, and grapefruit juice and refrigerate until chilled, approx. 1 hr. Meanwhile, slice lemon and grapefruit into wheels for garnish; set aside.
+",A person is slicing lemon and grapefruit into wheels for garnish,,
+85,"Step 1: Add Cinnamon Stick, Ground Cinnamon, and Ground Nutmeg into the pot. Mix and let simmer over medium heat for 10 minutes.
+Step 2: Then add orange slices and Apple Cider into a large pot.
+Step 3: Cover pot and let sit for 5 minutes. Strain, serve, and
+",A person is pouring a liquid into a glass from a pitcher,,
+53,"Step 1: Fill 24 oz cup about half way with Ice.
+",a person is pouring ice into a cup,,
+191,"Step 1: Add in the Almond Flour, Coconut Sugar, Xanthan Gum, Ground Cinnamon, and stir until a creamy batter forms.
+Step 2: Whisk together the Egg, Soy Milk, Vanilla Extract, and Cream of Tartar.
+Step 3: Cook your pancakes on a hot, greased pan for a few minutes on each side and serve with fresh or cooked fruit and maple syrup.
+","A woman is cooking pancakes on a hot, greased pan for a few minutes on each side and serving them with fresh or cooked fruit and maple syrup",,
+160,"Step 1: Peel and cut the watermelon into thick slices or rounds. Halve peach, remove the core, and thinly slice. Crumble the feta and set aside. Coarsely chop the pistachios, and chop most of the mint. Zest and juice the lime. Mix the baby spinach, arugula, and chopped mint together in a large bowl.
+",A woman is chopping a watermelon on a cutting board with a knife,,
+161,"Step 1: Use a spiralizer to shred zucchini into spaghetti-like noodles. Blanch zoodles in boiling water for approx. 2-3 min.
+Step 2: Add mixed herbs and carrots and mushrooms, if using. Add crushed tomatoes, stir to combine, and add salt and pepper to taste. Let simmer for a minimum of approx. 20 min. Stir in part of the parmesan at the end of the cooking time.
+Step 3: Drain zoodles and add to serving plates with Bolognese sauce the rest of the Parmesan. Stir well. Serve with fresh basil.
+",A woman is stirring a bowl of pasta with a spoon,,
+155,"Step 1: Slice onion. Dice chicken and season with salt and pepper. Heat coconut oil in large skillet over medium-high heat, then add chicken. Cook, stirring frequently, for approx. 5 – 7 min. or until browned and cooked through. Transfer to a bowl.
+Step 2: Add sliced onion to the same frying pan; sauté, stirring frequently, until golden brown.
+",A person is cooking onions in a frying pan on a stove,,
+124,"Step 1: In a large bowl, whisk together Unbleached All-Purpose Flour, Graham Cracker Crumbs, Granulated Sugar, Baking Powder, and Salt. Add the milk mixture, Vanilla Extract and Coconut Oil and whisk until smooth.
+Step 2: Coat a heated pan or griddle with additional Coconut Oil. Scoop 1/4 cup of pancake batter onto the pan, then with your fingers, press 4-5 mini Vegan Marshmallow into the middle of the batter and then carefully cover them completely with an additional tbsp of batter.
+",A person is using a spatula to scoop 1/4 cup of pancake batter onto a heated pan or griddle that has been coated with additional coconut oil. They then use their fingers to press 4-5 mini vegan marshmallows into the middle of the batter and then carefully cover them completely with an,,
+59,"Step 1: Add cooked pasta to sauté pan and toss to coat with butter.
+Step 2: Reserve some of the pasta water before straining.
+Step 3: Add grated cheese and some pasta water to loosen mixture to desired consistency and mix to combine. Season to taste with salt and pepper.
+",A person is adding grated cheese and some pasta water to a bowl of ricotta cheese and egg mixture,,
+98,"Step 1: Put the Red Lentils and water in a pot and bring to a boil. Reduce the heat to low and simmer until the lentils are softened, about 15 minutes.
+",A pot of red lentils is being cooked on a stove,,
+70,"Step 1: For the passion fruit filling, soak gelatine sheets in cold water. Heat some passion fruit nectar and sugar in a pot. Squeeze out gelatine sheets, add to the pot, and whisk to combine. Pour into a baking pan lined with plastic wrap. Allow to sit in the fridge for approx. 2 hrs., or until passion fruit filling is firm.
+",A person is pouring passion fruit filling into a baking pan lined with plastic wrap,,
+134,"Step 1: To a tall glass, add the Lime Wedge and Caster Sugar.
+Step 2: Bruise the Fresh Mint Leaves by clapping them between your palms, then rub them on the rim of the glass and drop them in. Muddle everything together with a muddler or the end of a rolling pin.
+",A person is using a rolling pin to muddle ingredients in a glass,,
+123,"Step 1: In the meantime in a blender blitz the Tomato Passata, Onion, Spring Onion, Garlic, Red Chili Pepper, and Long Green Peppers.
+Step 2: Cook the Black Beans as per packet instructions.
+Step 3: In a pot, add Salt, Roasted Cumin Powder, Dried Oregano, Worcestershire Sauce, and Ground Black Pepper. Cook for about 20 minutes.
+","a pot with salt, roasted cumin powder, dried oregano, worcestershire sauce, and ground black pepper in it",,
+99,"Step 1: Cut the ciabatta lengthwise and drizzle with olive oil. Roast in a hot pan, oiled side down, for approx. 3 - 5 minutes.
+",A person is cutting a loaf of ciabatta bread into slices and drizzling it with olive oil before roasting it in a hot pan,,
+179,"Step 1: Pour mixture into a 16-ounce mug or a heat-proof glass. Add Coffee followed by Peppermint Essence. Stir lightly.
+Step 2: In a small bowl, stir together Unsweetened Cocoa Powder and Water.
+Step 3: Fill the remainder of the container with Milk. Stir lightly. Garnish with sweetened Whipped Topping and Hard Peppermint Candy.
+",A person is pouring milk into a container with a spoon in it,,
+108,"Step 1: In a large bowl, whisk together yogurt, confectioner’s sugar, and lemon juice. Evenly distribute 1 - 2 tbsp of the yogurt mixture among popsicle molds.
+","In a large bowl, whisk together yogurt, confectioner's sugar, and lemon juice. Evenly distribute 1 - 2 tbsp of the yogurt mixture among popsicle molds",,
+115,"Step 1: Add BOMBAY SAPPHIRE and NOILLY PRAT Original French Dry Vermouth. Stir until glass is frosted or ice cold.
+Step 2: Take mixing glass from the freezer and fill to rim with Ice (add water and stir to chill/activate ice if required). Strain excess liquid.
+Step 3: Pour the liquid into a martini glass through a strainer. Garnish with Lemon Twist.
+",A person is pouring liquid into a martini glass through a strainer,,
+178,"Step 1: In a large bowl, using a potato masher or large whisk, coarsely smash most of the Chickpeas.
+","In a large bowl, using a potato masher or large whisk, coarsely smash most of the Chickpeas",,
+6,"Step 1: In a bowl season the Agouti with Green Caribbean Seasoning, Salt, and Freshly Ground Black Pepper, then add the Onion, Tomato, Garlic, and Scotch Bonnet Pepper and mix. Let it marinate overnight.
+Step 2: Once your meat has marinated, heat up a pot and add the Vegetable Oil and Brown Sugar. Cook over high heat until the sugar turns an amber color but careful that it does not turn black.
+",A pot of marinated meat is being cooked over high heat in a pot with vegetable oil and brown sugar in it,,
+64,"Step 1: Pour the liquid Beef Stock over your mix. Also pour in the Worcestershire Sauce. GIve the mix a final stir.
+Step 2: Cut the Red Potato into the slow cooker. Add in the Carrot, Yellow Onion, Celery, Garlic, Tomato Paste and Smoked Paprika. Season with black pepper, and add in the flour meat. Stir everything together.
+Step 3: Put on the lid and set the slow cooker to low setting. Allow it to cook for seven and a halt.
+",A slow cooker with a lid on top of it is sitting on a wooden table,,
+154,"Step 1: Cut the Boneless, Skinless Chicken Breast into very thin strips. Season with Himalayan Rock Salt and Ground Black Pepper. Place it in a bowl and add the juice of the Lemon. Cover and let the meat marinate for 1 hour.
+","A person is cutting a boneless, skinless chicken breast into very thin strips on a cutting board",,
+14,"Step 1: Bring a pot of water to a boil over medium-high heat. Peel and finely chop shallots and garlic cloves.
+",A person is chopping shallots and garlic in a bowl with a knife,,
+3,"Step 1: Preheat oven to 180°C/350°F. In a measuring cup, dissolve yeast and sugar in lukewarm water. Then, add to a standing mixer with flour, salt, and vegetable oil. Beat until a smooth, uniform dough forms. Cover and allow to rise in a warm place for approx. 60 min.
+Step 2: Roughly chop olives and sun-dried tomatoes.
+",a woman is chopping olives and sun-dried tomatoes on a wooden cutting board,,
+63,"Step 1: Transfer dough onto a lined baking sheet, spreading it out evenly to create a smooth surface.
+Step 2: Add part of the butter and part of the sugar to a stand mixer and beat until light and fluffy. Add eggs and beat until well incorporated. Add part of the flour and baking powder. Beat until a smooth dough has formed.
+Step 3: In a large bowl, mix remaining butter, sugar, flour, and vanilla sugar into coarse crumbles with your fingers.
+","In a large bowl, a person is mixing butter, sugar, flour, and vanilla sugar into coarse crumbles with their fingers",,
+121,"Step 1: Soak the dried porcini mushrooms in lukewarm water. Drain the mushrooms, saving the soaking water for later. Roughly chop soaked and drained porcini mushrooms. Slice brown mushrooms. Finely chop the shallots and garlic. Remove thyme leaves from sprigs.
+Step 2: Heat olive oil and butter in a pot. Fry shallots, garlic, and brown mushrooms briefly. Add porcini mushrooms and barley, fry briefly, then deglaze with sherry. Add white wine and porcini mushroom water, star anise, bay leaf, and Parmesan rind. Bring to a boil, then reduce heat and let simmer for approx. 45 min.
+","A person is cooking a dish in a pot on a stove top. They are adding ingredients to the pot, including shallots, garlic, brown mushrooms, porcini mushrooms, sherry, white wine, porcini mushroom water, star anise, bay leaf, and Parmesan rind",,
+22,"Step 1: Preheat oven to 200℃/390°F. Wash the chard and shake it dry, slice off the chard stems, trim and string the stems, then chop roughly. Chop leaves to large strips. Finely dice the onion and mince the garlic. Cut the bread into large cubes. Grate Gruyére cheese and set aside.
+Step 2: Heat a tablespoon of oil in a frying pan, add the cubed baguette, and fry on medium-high heat on all sides until golden. Season with salt and pepper. Remove the bread from the pan and leave on a plate lined with kitchen towel to soak up excess oil.
+",A person is frying a piece of baguette in a frying pan with a tablespoon of oil,,
+102,"Step 1: Cut tomatoes into halves. Pick rosemary from stem and roughly chop. Remove pit and peel avocado, cut into bite-sized cubes and set aside. Add olive oil to pan over medium-high heat. Add tomatoes, rosemary, and agave syrup and cook for approx. 15 mins. or until tomatoes thicken. Stir occasionally, then set aside.
+Step 2: Place quinoa in sieve and run under cold water. Add fresh water to a saucepan, add quinoa and stock cube, and cook according to package instructions. Set aside.
+Step 3: For the miso sauce, add white miso paste, mustard, sesame oil, neutral plant oil, lemon juice, and water to a small bowl and mix until the texture is smooth. Season to taste with salt and pepper.
+",A person is stirring a bowl of miso sauce with a spoon,,
+54,"Step 1: Slice the Avocado, shred the Green Cabbage. Slice the Lime into wedges.
+Step 2: Warm your White Corn Tortilla carefully on the stove top over an open flame to give it some charring on the edges.
+","In the image, a person is cooking a white corn tortilla on a stove top over an open flame. They are using a spatula to carefully warm the tortilla on the stove top.",2,D
+68,"Step 1: Mix vegetable stock, oil, vinegar, diced onions, and mustard in a mixing bowl and stir to combine. Transfer to a saucepan and simmer on medium heat for approx. 5 min. Pour warm mixture over potato slices, then add diced pickles, chives and toss to coat. Season with salt and pepper and let potato salad sit to marinate.
+Step 2: Add potatoes to a large saucepan and fill with cold water until covered. Salt water, then bring to boil and cook for approx. 20 min., or until potatoes are knife tender. Strain potatoes and cool slightly before peeling them. Cut into thin slices and add to large mixing bowl.
+Step 3: Add butter to a large frying pan set over medium-high heat. Fry meatloaf on both sides for approx. 3 min., or until browned. Take out of the pan and set aside.
+","A person is frying meatloaf in a large frying pan set over medium-high heat. They are using a spatula to flip the meatloaf on both sides for about 3 minutes until it is browned. After flipping the meatloaf, they take it out of the pan and set it aside.",2,
+120,"Step 1: Heat oil in a large frying pan and sauté sliced asparagus for approx. 4 – 5 min. on medium heat. Add sugar and season with salt and pepper. Deglaze with some of the orange juice. Take from heat and add sliced radishes.
+Step 2: Toast pine nuts in a small frying pan for approx. 3 – 4 min. on medium-low heat until browned.
+Step 3: Prepare vinaigrette by stirring olive oil, mustard, lemon juice, and remaining orange juice together. Season with salt and pepper.
+",A woman is stirring a bowl of vinaigrette with a spoon,3,
+182,"Step 1: Stem the swiss chard and roughly chop leaves and stem. Halve the olives and set aside. Reserve any liquid from the jar. Thinly slice the onions.
+Step 2: In a heavy-bottomed pot with a lid set over medium-high heat, add some olive oil. Season the lamb shoulder on all sides, then sear it until brown on all sides. Add onions and Swiss chard stems to the pot and sauté until soft. Add harissa and stir to combine. Deglaze with olive liquid.
+","In a heavy-bottomed pot with a lid set over medium-high heat, add some olive oil. Season the lamb shoulder on all sides, then sear it until brown on all sides. Add onions and Swiss chard stems to the pot and sauté until soft. Add harissa and stir to combine. Deglaze with olive",2,A
+45,"Step 1: Fill a highball glass with Ice. Add Dewar’s White Label.
+",a highball glass filled with ice and dewar's white label is sitting on a bar,4,
+55,"Step 1: Peel and finely dice onions. Cut chives into small rings and dice pickles. Set aside.
+",A woman is cutting onions on a cutting board with a knife,4,
+17,"Step 1: Top with more Vegan Caramel Sauce.
+Step 2: Transfer to a tall glass and top with the chilled coconut cream.
+Step 3: Serve with a straw and
+",a glass of orange juice with a straw in it sits on a table,1,
+166,"Step 1: Roll out the second half of the dough, and place on top of the pie. Fold in the edges and gently press to seal. Now take a fork to prick the top of the pie. Whisk egg yolk, then brush across the pie. Bake for approx. 40 min. at 200°C/390°F. Cool down, and
+Step 2: Roll out the first half of the dough, and place in the pie plate, leaving a 1.5-cm/0.5-in. rim. Add the strawberry mixture. Chop the remaining butter and distribute across the strawberries.
+Step 3: Want to share your recipe with our awesome community? Each week, we'll be choosing your best recipes to test cook, photograph, and publish on Kitchen Stories for the world to see! Simply email us at community@kitchenstories.io and send us your recipe.
+",Image of a person holding a bowl of soup with a spoon in it,0,
+51,"Step 1: As the shrimp cooks (remember to keep stirring) you’ll notice the color will go to a bright sort of orange color. You can place a lid on the pot for about a minute or two if you’d like. After 3 minutes you can add the Lemon Juice. The shrimp will also let out its own juices, so there’s no need for any other liquid. Try not to overcook the shrimp or you’ll risk them going rubbery.
+Step 2: Heat a pan on medium-high heat (no oil necessary as we’ll be sort of scalding the shrimp), then add the Shrimp and give it a good stir. Now add the garlic, habanero, Salt and Paprika and stir well to coat everything.
+Step 3: Within 7 minutes or so your shrimp should be done. Top with the Italian Flat-Leaf Parsley, give it a final stir, and get ready to serve.
+","In the image, a person is cooking shrimp in a pan on a stove. They are using a spoon to stir the shrimp in the pan.",1,
+172,"Step 1: Remove dosa batter from fridge and stir. Heat clarified butter in a frying pan set over medium-low heat. Add one ladle of batter to the frying pan and tilt the frying pan so that you have an even layer of batter. Fry until golden brown on both sides, and repeat the process until you have used up all the batter.
+Step 2: Peel and finely dice onions. Heat clarified butter in a frying pan set over medium-high heat and sauté onions. Add cooked potatoes, sweet potatoes, and peas and stir to combine. Add Indian tikka masala sauce and remaining lime juice and let simmer for approx. 10 – 12 min.
+Step 3: Fill dosa with potato filling and carefully roll up. Serve with the mint-yogurt sauce.
+",A person is filling a dosa with potato filling and carefully rolling it up. They then serve it with a mint-yogurt sauce.,3,
+89,"Step 1: In a bowl, mix breadcrumbs with grated Parmesan cheese. Add rosemary, thyme, sage, slivered almonds, and mix of Parmesan cheese and breadcrumbs to a blender and pulse. Add egg yolks and blend again. Transfer herb-crust blend to a bowl and set aside.
+Step 2: Trim venison saddle and cut it into 200 g portions. Add crème de cassis to a small saucepan and slowly heat on the side.
+Step 3: Heat olive oil in a frying pan and add rosemary and garlic. Add more olive oil, if desired. Season venison saddle with salt and pepper. Transfer venison saddle to the frying pan and sear for approx. 2 – 3 min. on each side, or until a crust has formed. Allow to rest for approx. 10 min.
+","A person is cooking venison saddle in a frying pan with olive oil, rosemary, and garlic",4,
+173,"Step 1: Slice the Spanish Chorizo in strips, you can also use spicy or smoked chorizo if you like.
+",A woman is cutting a block of Spanish chorizo into strips on a cutting board,4,
+44,"Step 1: Wash and dry baby spinach, halve cherry tomatoes, and cut sage leaves into fine strips.
+Step 2: Cook linguine, according to the package instructions, in salted boiling water for approx. 8 - 9 min. until al dente. Drain and set aside.
+Step 3: Melt butter in a large frying pan. Add sage, cherry tomatoes, pine nuts, and chili oil and fry. Season lightly with salt and pepper.
+","A person is cooking sage, cherry tomatoes, pine nuts, and chili oil in a large frying pan",4,
+11,"Step 1: Mix cream cheese, eggs, sugar, vanilla bean pulp, and zest of half a lemon with a whisk. Add sour cream and whisk until smooth. Then pour the mixture onto the cooled crust and bake at 180°C/ 350°F for approx. 20 – 30 min.
+Step 2: Butter baking pan if necessary and press crumb mixture into the bottom. Make sure to come approx. 2 cm up the sides of the pan. Chill the crust for approx. 15 – 20 min. and then bake in a preheated oven at 180°C/ 350°F for approx. 10 – 15 min. until golden. Then let cool for approx. 15 – 20 min.
+Step 3: Allow the cheesecake to cool on a cake rack for approx. 15 – 20 min. Now, cover and chill for at least 8 hours. Serve with a garnish of fresh berries.
+","A woman is putting a cheesecake in the oven to bake it for 30 minutes at 350 degrees Fahrenheit. She then allows the cheesecake to cool on a cake rack for about 15 to 20 minutes before covering and chilling it for at least 8 hours. Finally, she serves the ch",2,A
+65,"Step 1: Finely chop half of the cilantro and place in a large bowl. Add ground pork, half of the curry paste, and egg. Combine with your hands until thoroughly mixed—don’t worry about over-mixing here. Season with salt and pepper. Use a spoon to roll the meat into small meatballs, about the size of a gumball. Chill in the fridge for approx. 10 min.
+Step 2: Meanwhile, bring two thirds of the water and all the rice to a boil in a covered pot over medium-high heat. Once boiling, uncover, and reduce heat to medium until rice is cooked. Remove from heat, fluff with a fork, re-cover, and set aside.
+",A woman is cooking rice in a pot on a stove top. She is adding water to the pot and stirring it with a wooden spoon. She is also adding salt and pepper to the pot.,3,B
+105,"Step 1: Heat the Vegetable Oil on medium-high heat in a wok or wide pan, then add the Garlic and Fresh Ginger and give it a good stir. We’re trying to release all those wonderful flavors to use as a base for this vegetarian fried rice. That should cook for a minute or two, then add the Carrot. Give it a good stir and cook for a couple of minutes.
+Step 2: Now add the Onion, Bell Pepper, and Celery. Allow that to cook for a couple of minutes, then add the Ground Black Pepper, Dark Soy Sauce, and Sesame Oil. Everything will go dark, but have no fear, once we add the cooked rice it will balance off.
+",A person is cooking a dish on a stove top with a wooden spoon,2,
+27,"Step 1: Melt the 70% Dark Chocolate and Unsalted Butter in a bowl over boiling water. When melted set aside to cool down.
+Step 2: In a pot, add the Milk, Granulated Sugar, and Vanilla Extract and leave to warm up in medium heat until the milk starts to froth.
+","In a pot, a person is adding milk, granulated sugar, and vanilla extract to it and leaving it to warm up in medium heat until the milk starts to froth",4,
+62,"Step 1: In a heavy bottom vessel add the Milk, Water, and Tea Powder. Mix well and place it on the stove and switch on the stove .
+Step 2: Add Unsweetened Cocoa Powder.
+",a bowl of chocolate mousse with a spoon in it,0,
+193,"Step 1: In a chilled highball glass filled with Ice, add GREY GOOSE Vodka.
+Step 2: Top with Seltzer Water and add the Cranberry Juice.
+",a glass of cranberry juice sits on a table next to a bottle of seltzer water,1,
+20,"Step 1: Boil noodles according to package instructions then drain.
+Step 2: Heat a frying pan over low heat. Add vegetable oil and white scallions and fry, approx. 15 min. Add green parts of scallions and fry approx. 10 min. more. Add soy sauce mixture and simmer on low for approx. 2 min. Then remove from heat.
+Step 3: Divide noodles among serving bowls. Spoon scallion oil over noodles and toss to combine. Reserve the rest of the oil in an airtight container in the fridge for up to 1 week and
+",A person is pouring scallion oil over noodles in a bowl,3,
+31,"Step 1: Finely dice shallot. Chop parsley. Combine with ground beef, breadcrumbs, egg yolk, mustard, ketchup, salt, and pepper in a bowl.
+Step 2: Finely dice scallion. Chop dill. Combine in a bowl with cucumber tagliatelle, vegetable oil, vinegar, salt, pepper, and sugar to taste. Toss to combine.
+Step 3: Peel the eggs and evenly coat them with ground beef mixture and fry in hot vegetable oil over medium-high heat for approx. 5 min. until golden brown. Make sure to carefully turn them occasionally.
+","In the image, there are two eggs in a frying pan that are being cooked in hot vegetable oil over medium-high heat. The eggs are being coated with ground beef mixture and fried for about 5 minutes until golden brown. The eggs are then carefully turned occasionally.",2,
+7,"Step 1: Remove the chopped peach and cinnamon sticks. Place in the fridge for 2 hours to allow flavors to intensify.
+Step 2: In a large bowl add the Red Wine, Brown Sugar, Orange Juice, Peach, Cinnamon Stick, Lime, and Orange Soda. Mix well.
+Step 3: Once you've left it enough time in the fridge, remove and pour over a glass with ice.
+",A glass of coconut milk is being poured over ice in a glass,0,
+118,"Step 1: Sauté Fresh Oregano, Extra-Virgin Olive Oil, Chili Pepper, and Snails in Garlic Paste until the onions are translucent. Add Scallion, sauté for another minute then add Kosher Salt, Onion, and Crushed Red Pepper Flakes.
+Step 2: Add Red Wine and Pernod, simmer slowly until liquid has reduced by half.
+",A woman is pouring red wine and pernod into a pot on a stove,1,
+190,"Step 1: Add Water to your blender.
+",a blender with water in it,4,
+138,"Step 1: Add remaining olive oil, apple cider vinegar, mustard, honey, ground coriander, sumac, and cayenne pepper  to a small bowl and whisk to combine. Season with salt and pepper to taste.
+Step 2: In the meantime, toast sliced almonds in a frying pan until fragrant, then remove from heat.
+Step 3: Add roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stir to combine. Crumble feta cheese on top using your hands.
+","A person is adding roasted vegetables, cooked spelt, beluga lentils, vinaigrette, parsley, chives, and roasted almonds to a large bowl and stirring to combine",4,
+75,"Step 1: Deglaze with cream and cook for approx. 4 min. Juice lemon. Finely grate Parmesan. Season to taste with salt, pepper, and lemon juice. Add Parmesan and stir to combine.
+Step 2: Heat olive oil in a frying pan over medium-high heat. Add onions and garlic, and sauté until translucent. Then, add mushrooms and sauté for approx. 5 min. Season to taste with salt. Add chopped chestnuts and cook for approx. 3 min.
+Step 3: Drain pasta, transfer to frying pan, and stir to combine. Serve pasta and garnish with spring onions.
+",A person is stirring pasta in a frying pan with a spoon,2,
+13,"Step 1: Now it’s time to remove the bay leaves and ginger from the pot and discard. If you like the strong aroma and taste of ginger and bay leaves, you can always grate the ginger into the syrup and crush the bay leaves and add the essence and stir in the Desiccated Coconut.
+Step 2: The first thing we need to do is start the syrup we’ll need as the base for this. In a deep saucepan heat the Granulated Sugar, Water, Bay Leaf, and Fresh Ginger. Whisking constantly, bring up to a rolling boil over medium-high heat and allow to cook until it reduces and gets thick, about 5-7 minutes.
+Step 3: Next, add the drops of Red Food Coloring and stir constantly for about 5-7 minutes. Burn off as much liquid as you can from the pan, so you have a thick and sticky consistency. When the coconut mixture starts coming away from the sides of the pan and somewhat clump, you are near the desired consistency.
+","In the image, a person is stirring a coconut mixture in a pan with a wooden spoon. They are adding drops of red food coloring to the mixture and stirring it constantly for about 5-7 minutes. After adding the drops of red food coloring, they are burning off as much liquid as they can from the pan",1,B
+80,"Step 1: Heat some vegetable oil in a frying pan over medium heat. Add shrimp and sauté for approx. 1 min. on each side until red.
+Step 2: Finely chop garlic. Cut ginger and spring onion into thin strips.
+Step 3: Add garlic, ginger, and spring onions to the pan. Deglaze with red wine. Season with salt and sugar. Then, add light and dark soy sauce.
+","A person is adding garlic, ginger, and spring onions to a pan",1,
+39,"Step 1: Mix together the Ground Turkey, Gruyère Cheese, Garlic, Scallion, Breadcrumbs, Dijon Mustard, Sea Salt and Ground Black Pepper.
+","a bowl of ground turkey, gruyere cheese, garlic, scallion, breadcrumbs, dijon mustard, sea salt, and ground black pepper",4,
+132,"Step 1: Prep your smoker for indirect cooking.
+",a man is smoking a turkey in a smoker on a countertop,0,
+77,"Step 1: Combine shrimp with fish spice and remaining olive oil in another sealable plastic bag, shake, and marinate for approx. 20 min.
+Step 2: Halve fennel, remove stalk, and cut into fine strips. Finely dice onion. Peel garlic. Clean zucchini and bell pepper and cut into bite-sized pieces. Combine vegetables with rosemary, thyme, and some of the olive oil in a plastic bag. Close, shake, and marinate for approx. 20 min.
+Step 3: In the meantime, combine herb vinegar, lemon juice and zest, Dijon mustard, lemon oil, salt, and pepper for the vinaigrette.
+","A woman is pouring a mixture of olive oil, lemon juice, lemon zest, herb vinegar, Dijon mustard, lemon oil, salt, and pepper into a bowl",,
+192,"Step 1: Peel the sweet potatoes and grate finely with a box grater. Drain the liquid out by placing the grated sweet potato in a kitchen towel and squeezing it. Finely mince the garlic. Add garlic and sweet potatoes to a bowl along with olive oil, eggs, ground coriander, ground caraway, salt, and pepper, and mix well. Add starch and mix again. Halve the avocados and remove the stones.
+","A woman is peeling sweet potatoes and grating them with a box grater. She then drains the liquid out by placing the grated sweet potatoes in a kitchen towel and squeezing them. She then finely mince the garlic and adds it to a bowl with olive oil, eggs, ground coriander, ground caraway",,
+15,"Step 1: Spread a layer of mashed avocado over toast, top with a little sea salt.
+Step 2: Slice your Onion, Tomato, and Cucumber.
+Step 3: Then top with tomato, onion, cucumber, Ground Black Pepper, Salt, and Capers.
+","A bowl of salad with tomato, onion, cucumber, ground black pepper, salt, and capers",,
+183,"Step 1: In a large pitcher or bowl, combine sugar, maple syrup, and sparkling water until sugar is dissolved.
+Step 2: Stir in gin, sweet vermouth, lemon juice, and grapefruit juice and refrigerate until chilled, approx. 1 hr. Meanwhile, slice lemon and grapefruit into wheels for garnish; set aside.
+",A person is slicing lemon and grapefruit into wheels for garnish,,
+85,"Step 1: Add Cinnamon Stick, Ground Cinnamon, and Ground Nutmeg into the pot. Mix and let simmer over medium heat for 10 minutes.
+Step 2: Then add orange slices and Apple Cider into a large pot.
+Step 3: Cover pot and let sit for 5 minutes. Strain, serve, and
+",A person is pouring a liquid into a glass from a pitcher,,
+53,"Step 1: Fill 24 oz cup about half way with Ice.
+",a person is pouring ice into a cup,,
+191,"Step 1: Add in the Almond Flour, Coconut Sugar, Xanthan Gum, Ground Cinnamon, and stir until a creamy batter forms.
+Step 2: Whisk together the Egg, Soy Milk, Vanilla Extract, and Cream of Tartar.
+Step 3: Cook your pancakes on a hot, greased pan for a few minutes on each side and serve with fresh or cooked fruit and maple syrup.
+","A woman is cooking pancakes on a hot, greased pan for a few minutes on each side and serving them with fresh or cooked fruit and maple syrup",,
+160,"Step 1: Peel and cut the watermelon into thick slices or rounds. Halve peach, remove the core, and thinly slice. Crumble the feta and set aside. Coarsely chop the pistachios, and chop most of the mint. Zest and juice the lime. Mix the baby spinach, arugula, and chopped mint together in a large bowl.
+",A woman is chopping a watermelon on a cutting board with a knife,,
+161,"Step 1: Use a spiralizer to shred zucchini into spaghetti-like noodles. Blanch zoodles in boiling water for approx. 2-3 min.
+Step 2: Add mixed herbs and carrots and mushrooms, if using. Add crushed tomatoes, stir to combine, and add salt and pepper to taste. Let simmer for a minimum of approx. 20 min. Stir in part of the parmesan at the end of the cooking time.
+Step 3: Drain zoodles and add to serving plates with Bolognese sauce the rest of the Parmesan. Stir well. Serve with fresh basil.
+",A woman is stirring a bowl of pasta with a spoon,,
+155,"Step 1: Slice onion. Dice chicken and season with salt and pepper. Heat coconut oil in large skillet over medium-high heat, then add chicken. Cook, stirring frequently, for approx. 5 – 7 min. or until browned and cooked through. Transfer to a bowl.
+Step 2: Add sliced onion to the same frying pan; sauté, stirring frequently, until golden brown.
+",A person is cooking onions in a frying pan on a stove,,
+124,"Step 1: In a large bowl, whisk together Unbleached All-Purpose Flour, Graham Cracker Crumbs, Granulated Sugar, Baking Powder, and Salt. Add the milk mixture, Vanilla Extract and Coconut Oil and whisk until smooth.
+Step 2: Coat a heated pan or griddle with additional Coconut Oil. Scoop 1/4 cup of pancake batter onto the pan, then with your fingers, press 4-5 mini Vegan Marshmallow into the middle of the batter and then carefully cover them completely with an additional tbsp of batter.
+",A person is using a spatula to scoop 1/4 cup of pancake batter onto a heated pan or griddle that has been coated with additional coconut oil. They then use their fingers to press 4-5 mini vegan marshmallows into the middle of the batter and then carefully cover them completely with an,,
+59,"Step 1: Add cooked pasta to sauté pan and toss to coat with butter.
+Step 2: Reserve some of the pasta water before straining.
+Step 3: Add grated cheese and some pasta water to loosen mixture to desired consistency and mix to combine. Season to taste with salt and pepper.
+",A person is adding grated cheese and some pasta water to a bowl of ricotta cheese and egg mixture,,
+98,"Step 1: Put the Red Lentils and water in a pot and bring to a boil. Reduce the heat to low and simmer until the lentils are softened, about 15 minutes.
+",A pot of red lentils is being cooked on a stove,,
+70,"Step 1: For the passion fruit filling, soak gelatine sheets in cold water. Heat some passion fruit nectar and sugar in a pot. Squeeze out gelatine sheets, add to the pot, and whisk to combine. Pour into a baking pan lined with plastic wrap. Allow to sit in the fridge for approx. 2 hrs., or until passion fruit filling is firm.
+",A person is pouring passion fruit filling into a baking pan lined with plastic wrap,,
+134,"Step 1: To a tall glass, add the Lime Wedge and Caster Sugar.
+Step 2: Bruise the Fresh Mint Leaves by clapping them between your palms, then rub them on the rim of the glass and drop them in. Muddle everything together with a muddler or the end of a rolling pin.
+",A person is using a rolling pin to muddle ingredients in a glass,,
+123,"Step 1: In the meantime in a blender blitz the Tomato Passata, Onion, Spring Onion, Garlic, Red Chili Pepper, and Long Green Peppers.
+Step 2: Cook the Black Beans as per packet instructions.
+Step 3: In a pot, add Salt, Roasted Cumin Powder, Dried Oregano, Worcestershire Sauce, and Ground Black Pepper. Cook for about 20 minutes.
+","a pot with salt, roasted cumin powder, dried oregano, worcestershire sauce, and ground black pepper in it",,
+99,"Step 1: Cut the ciabatta lengthwise and drizzle with olive oil. Roast in a hot pan, oiled side down, for approx. 3 - 5 minutes.
+",A person is cutting a loaf of ciabatta bread into slices and drizzling it with olive oil before roasting it in a hot pan,,
+179,"Step 1: Pour mixture into a 16-ounce mug or a heat-proof glass. Add Coffee followed by Peppermint Essence. Stir lightly.
+Step 2: In a small bowl, stir together Unsweetened Cocoa Powder and Water.
+Step 3: Fill the remainder of the container with Milk. Stir lightly. Garnish with sweetened Whipped Topping and Hard Peppermint Candy.
+",A person is pouring milk into a container with a spoon in it,,
+108,"Step 1: In a large bowl, whisk together yogurt, confectioner’s sugar, and lemon juice. Evenly distribute 1 - 2 tbsp of the yogurt mixture among popsicle molds.
+","In a large bowl, whisk together yogurt, confectioner's sugar, and lemon juice. Evenly distribute 1 - 2 tbsp of the yogurt mixture among popsicle molds",,
+115,"Step 1: Add BOMBAY SAPPHIRE and NOILLY PRAT Original French Dry Vermouth. Stir until glass is frosted or ice cold.
+Step 2: Take mixing glass from the freezer and fill to rim with Ice (add water and stir to chill/activate ice if required). Strain excess liquid.
+Step 3: Pour the liquid into a martini glass through a strainer. Garnish with Lemon Twist.
+",A person is pouring liquid into a martini glass through a strainer,,
+178,"Step 1: In a large bowl, using a potato masher or large whisk, coarsely smash most of the Chickpeas.
+","In a large bowl, using a potato masher or large whisk, coarsely smash most of the Chickpeas",,
+6,"Step 1: In a bowl season the Agouti with Green Caribbean Seasoning, Salt, and Freshly Ground Black Pepper, then add the Onion, Tomato, Garlic, and Scotch Bonnet Pepper and mix. Let it marinate overnight.
+Step 2: Once your meat has marinated, heat up a pot and add the Vegetable Oil and Brown Sugar. Cook over high heat until the sugar turns an amber color but careful that it does not turn black.
+",A pot of marinated meat is being cooked over high heat in a pot with vegetable oil and brown sugar in it,,
+64,"Step 1: Pour the liquid Beef Stock over your mix. Also pour in the Worcestershire Sauce. GIve the mix a final stir.
+Step 2: Cut the Red Potato into the slow cooker. Add in the Carrot, Yellow Onion, Celery, Garlic, Tomato Paste and Smoked Paprika. Season with black pepper, and add in the flour meat. Stir everything together.
+Step 3: Put on the lid and set the slow cooker to low setting. Allow it to cook for seven and a halt.
+",A slow cooker with a lid on top of it is sitting on a wooden table,,
+154,"Step 1: Cut the Boneless, Skinless Chicken Breast into very thin strips. Season with Himalayan Rock Salt and Ground Black Pepper. Place it in a bowl and add the juice of the Lemon. Cover and let the meat marinate for 1 hour.
+","A person is cutting a boneless, skinless chicken breast into very thin strips on a cutting board",,
+14,"Step 1: Bring a pot of water to a boil over medium-high heat. Peel and finely chop shallots and garlic cloves.
+",A person is chopping shallots and garlic in a bowl with a knife,,
+3,"Step 1: Preheat oven to 180°C/350°F. In a measuring cup, dissolve yeast and sugar in lukewarm water. Then, add to a standing mixer with flour, salt, and vegetable oil. Beat until a smooth, uniform dough forms. Cover and allow to rise in a warm place for approx. 60 min.
+Step 2: Roughly chop olives and sun-dried tomatoes.
+",a woman is chopping olives and sun-dried tomatoes on a wooden cutting board,,
+63,"Step 1: Transfer dough onto a lined baking sheet, spreading it out evenly to create a smooth surface.
+Step 2: Add part of the butter and part of the sugar to a stand mixer and beat until light and fluffy. Add eggs and beat until well incorporated. Add part of the flour and baking powder. Beat until a smooth dough has formed.
+Step 3: In a large bowl, mix remaining butter, sugar, flour, and vanilla sugar into coarse crumbles with your fingers.
+","In a large bowl, a person is mixing butter, sugar, flour, and vanilla sugar into coarse crumbles with their fingers",,
+121,"Step 1: Soak the dried porcini mushrooms in lukewarm water. Drain the mushrooms, saving the soaking water for later. Roughly chop soaked and drained porcini mushrooms. Slice brown mushrooms. Finely chop the shallots and garlic. Remove thyme leaves from sprigs.
+Step 2: Heat olive oil and butter in a pot. Fry shallots, garlic, and brown mushrooms briefly. Add porcini mushrooms and barley, fry briefly, then deglaze with sherry. Add white wine and porcini mushroom water, star anise, bay leaf, and Parmesan rind. Bring to a boil, then reduce heat and let simmer for approx. 45 min.
+","A person is cooking a dish in a pot on a stove top. They are adding ingredients to the pot, including shallots, garlic, brown mushrooms, porcini mushrooms, sherry, white wine, porcini mushroom water, star anise, bay leaf, and Parmesan rind",,
+22,"Step 1: Preheat oven to 200℃/390°F. Wash the chard and shake it dry, slice off the chard stems, trim and string the stems, then chop roughly. Chop leaves to large strips. Finely dice the onion and mince the garlic. Cut the bread into large cubes. Grate Gruyére cheese and set aside.
+Step 2: Heat a tablespoon of oil in a frying pan, add the cubed baguette, and fry on medium-high heat on all sides until golden. Season with salt and pepper. Remove the bread from the pan and leave on a plate lined with kitchen towel to soak up excess oil.
+",A person is frying a piece of baguette in a frying pan with a tablespoon of oil,,
+102,"Step 1: Cut tomatoes into halves. Pick rosemary from stem and roughly chop. Remove pit and peel avocado, cut into bite-sized cubes and set aside. Add olive oil to pan over medium-high heat. Add tomatoes, rosemary, and agave syrup and cook for approx. 15 mins. or until tomatoes thicken. Stir occasionally, then set aside.
+Step 2: Place quinoa in sieve and run under cold water. Add fresh water to a saucepan, add quinoa and stock cube, and cook according to package instructions. Set aside.
+Step 3: For the miso sauce, add white miso paste, mustard, sesame oil, neutral plant oil, lemon juice, and water to a small bowl and mix until the texture is smooth. Season to taste with salt and pepper.
+",A person is stirring a bowl of miso sauce with a spoon,,

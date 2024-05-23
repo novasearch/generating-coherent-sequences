@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sequence Evaluation</title>
+  <style>
+    /* Add your CSS styles here */
+    /* Adjust styles as needed for alignment, spacing, etc. */
+    .sequence-row {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+  <h1>Sequence Evaluation</h1>
+
+  <!-- Title -->
+  <h2>${title}</h2>
+
+  <!-- Image Display -->
+  <img src="${image_url}" alt="Sequences" width="1000px">
+
+  <!-- Radio Buttons -->
+  <crowd-form answer-format="flatten-objects" id="sequenceForm">
+    <input type="hidden" name="recipe_id" value="${recipe_id}">
+
+    <div class="sequence-row">
+      <label for="bestSequence">Best Sequence:</label><br>
+      <input type="radio" id="bestSequenceA" name="bestSequence" value="A">
+      <label for="bestSequenceA">A</label>
+      <input type="radio" id="bestSequenceB" name="bestSequence" value="B">
+      <label for="bestSequenceB">B</label>
+      <input type="radio" id="bestSequenceC" name="bestSequence" value="C">
+      <label for="bestSequenceC">C</label>
+      <input type="radio" id="bestSequenceD" name="bestSequence" value="D">
+      <label for="bestSequenceD">D</label>
+      <input type="radio" id="bestSequenceE" name="bestSequence" value="E">
+      <label for="bestSequenceE">E</label>
+      <input type="radio" id="bestSequenceF" name="bestSequence" value="F">
+      <label for="bestSequenceF">F</label>
+    </div>
+
+    <div class="sequence-row">
+      <label for="secondBestSequence">Second Best Sequence:</label><br>
+      <input type="radio" id="secondBestSequenceA" name="secondBestSequence" value="A">
+      <label for="secondBestSequenceA">A</label>
+      <input type="radio" id="secondBestSequenceB" name="secondBestSequence" value="B">
+      <label for="secondBestSequenceB">B</label>
+      <input type="radio" id="secondBestSequenceC" name="secondBestSequence" value="C">
+      <label for="secondBestSequenceC">C</label>
+      <input type="radio" id="secondBestSequenceD" name="secondBestSequence" value="D">
+      <label for="secondBestSequenceD">D</label>
+      <input type="radio" id="secondBestSequenceE" name="secondBestSequence" value="E">
+      <label for="secondBestSequenceE">E</label>
+      <input type="radio" id="secondBestSequenceF" name="secondBestSequence" value="F">
+      <label for="secondBestSequenceF">F</label>
+    </div>
+
+    <div class="sequence-row">
+      <label for="thirdBestSequence">Third Best Sequence:</label><br>
+      <input type="radio" id="thirdBestSequenceA" name="thirdBestSequence" value="A">
+      <label for="thirdBestSequenceA">A</label>
+      <input type="radio" id="thirdBestSequenceB" name="thirdBestSequence" value="B">
+      <label for="thirdBestSequenceB">B</label>
+      <input type="radio" id="thirdBestSequenceC" name="thirdBestSequence" value="C">
+      <label for="thirdBestSequenceC">C</label>
+      <input type="radio" id="thirdBestSequenceD" name="thirdBestSequence" value="D">
+      <label for="thirdBestSequenceD">D</label>
+      <input type="radio" id="thirdBestSequenceE" name="thirdBestSequence" value="E">
+      <label for="thirdBestSequenceE">E</label>
+      <input type="radio" id="thirdBestSequenceF" name="thirdBestSequence" value="F">
+      <label for="thirdBestSequenceF">F</label>
+    </div>
+
+    <div class="sequence-row">
+      <input type="checkbox" id="noGoodSequence" name="noGoodSequence">
+      <label for="noGoodSequence">No good sequence</label>
+    </div>
+
+    <textarea name="observations" id="observations" cols="100" rows="5" placeholder="Observations"></textarea>
+    <br>
+    <button type="submit" id="submitBtn">Submit</button>
+  </crowd-form>
+
+  <script>
+    document.getElementById('sequenceForm').addEventListener('submit', function (event) {
+      var noGoodSequence = document.getElementById('noGoodSequence').checked;
+
+      if (noGoodSequence) {
+        return;
+      }
+
+      var bestSeqChecked = false;
+      var secondBestSeqChecked = false;
+      var thirdBestSeqChecked = false;
+
+      var bestSeqRadios = document.getElementsByName('bestSequence');
+      var secondBestSeqRadios = document.getElementsByName('secondBestSequence');
+      var thirdBestSeqRadios = document.getElementsByName('thirdBestSequence');
+
+      for (var i = 0; i < bestSeqRadios.length; i++) {
+        if (bestSeqRadios[i].checked) {
+          bestSeqChecked = true;
+          break;
+        }
+      }
+
+      for (var i = 0; i < secondBestSeqRadios.length; i++) {
+        if (secondBestSeqRadios[i].checked) {
+          secondBestSeqChecked = true;
+          break;
+        }
+      }
+
+      for (var i = 0; i < thirdBestSeqRadios.length; i++) {
+        if (thirdBestSeqRadios[i].checked) {
+          thirdBestSeqChecked = true;
+          break;
+        }
+      }
+
+      if (!bestSeqChecked || !secondBestSeqChecked || !thirdBestSeqChecked) {
+        event.preventDefault();
+        alert('Please select a sequence for each category.');
+      }
+    });
+  </script>
+</body>
+
+</html>
