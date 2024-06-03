@@ -6,6 +6,8 @@ This is the official repository for Generating Coherent Sequences of Visual Illu
 
 `coherence-annotations/` - code for AMT and analysis
 
+`data/` - dataset used for training and evaluating
+
 `gen-images/` - code for generating images given prompt files
 
 `generation/` - main code for generation with the latents
@@ -13,6 +15,8 @@ This is the official repository for Generating Coherent Sequences of Visual Illu
 `LAVIS/` - code for captioning, requires cloning InstructBLIP, see `LAVIS/README.md`
 
 `llm-caption-finetuning/` - files and scripts for creating the training data and code for automatic metric
+
+`models/` - model LoRA checkpoint for Sequence Context Decoder
 
 `notebooks/` - useful notebooks
 
